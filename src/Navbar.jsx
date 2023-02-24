@@ -1,6 +1,11 @@
 import React from "react";
 import {Link} from "react-router-dom";
 import "./index.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faBlog, faBurger, faCheckSquare, faCoffee, faHome, faPhone, faUtensils } from '@fortawesome/free-solid-svg-icons'
+
+library.add(faHome,faBlog,faCheckSquare,faUtensils,faPhone)
 
 function Navbar() {
   return (
@@ -11,28 +16,36 @@ function Navbar() {
             <path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path>
           </svg>
         </button>
+        
         <div className="collapse navbar-collapse flex-grow items-center" id="navbarSupportedContent">
+
           <Link className="text-xl text-black" to="/">
-            Foodies Point
+          <img src="/images/logo.jpg" className="pr-2 rounded-pill" width={60}/>
+            {/* Foodies Point */}
           </Link>
           <ul className="navbar-nav flex flex-col pl-0 list-style-none mr-auto">
           <li className="nav-item pr-2">
               <Link className="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0" to="/">
+            <FontAwesomeIcon icon={faHome} className=""/>
+            {/* Alternatively, <FontAwesomeIcon icon="fa-solid fa-home"> */}
                 Home
               </Link>
             </li>
             <li className="nav-item pr-2">
-              <Link className="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0" to="/about">
+              <Link className="nav-link disabled text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0" to="/about">
+            <FontAwesomeIcon icon="fa-solid fa-utensils" className=""/>
                 About
               </Link>
             </li>
             <li className="nav-item pr-2">
               <Link className="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0" to="/contact">
+              <FontAwesomeIcon icon="fa-solid fa-phone" className=""/>
                 Contact
               </Link>
             </li>
-            <li className="nav-item pr-2">
-              <Link className="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0" to="/blogs">
+            <li className="nav-item pr-2 ">
+              <Link className="nav-link disabled text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0" to="/blogs">
+              <FontAwesomeIcon icon="fa-solid fa-blog" className=""/>
                 Blogs
               </Link>
             </li>

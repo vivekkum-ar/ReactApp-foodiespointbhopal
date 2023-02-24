@@ -1,8 +1,12 @@
 import React from 'react';
+import "../index.css"
 
 function Home() {
     return (
-        <h1>this is the homepage</h1>
+        // <img src='/images/body.png' className='newsize'/>
+        <div className='div-body'>
+        <img src='/images/bodyhome.png' className='newsize'/>
+        </div>
     );
 }
 

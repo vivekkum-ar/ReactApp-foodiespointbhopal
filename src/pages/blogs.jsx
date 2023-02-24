@@ -1,8 +1,11 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function Blogs() {
     return (
-        <h1>this is the blogspage</h1>
+        <div className='div-body'>
+        <img src='/images/body.png' className='newsize'/>
+        </div>
     );
 }
 
