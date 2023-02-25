@@ -15,7 +15,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light shadow sticky-top bg-light  py-0 my-0">
       <div className="container-fluid">
-        <a className="font-poppins fw-bold text-prime-gradient navbar-brand" href="#">
+        <Link className="font-poppins fw-bold text-prime-gradient navbar-brand" to="/">
           <img
             src="/images/logo-navbar.png"
             alt=""
@@ -24,7 +24,7 @@ function Navbar() {
             className="d-inline-block align-text-center me-1"
           />
           FoodiesPoint
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"

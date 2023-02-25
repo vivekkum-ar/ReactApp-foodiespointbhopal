@@ -37,3 +37,29 @@ background: radial-gradient(circle farthest-corner at center center, #FA6C00 40%
 .disabled .text-prime{
   color: #FA6C0099 !important;
 }
+
+/* # Mobile */
+@media only screen and (max-width: 480px){
+  .navbar-toggler{
+    display: none;
+  }
+}
+
+/* # Tablet */
+@media only screen and (min-width: 768px){
+
+} 
+
+/* # Desktop */
+@media only screen and (min-width: 992px){
+  .navbar-toggler{
+    display: none;
+  }
+}
+
+/* # Huge */
+@media only screen and (min-width: 1280px){
+  .navbar-toggler{
+    display: none;
+  }
+}
