@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* -------------------------------------------------------------------------- */
+/*                              Button css starts                             */
+/* -------------------------------------------------------------------------- */
+.btn{
+    color: #000;
+    background: linear-gradient(135deg, #f5a878 0%, #f5a878 22%, #f79c63 22%, #f79c63 28%, #f77728 28%, #f77728 72%, #f56207 72%, #f56207 100%);
+    background-size: 200% 100%;
+    background-position: 0 0;
+    font-family:'poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 13px 20px 12px;
+    border-radius: 32px;
+    border: none;
+    position: relative;
+    z-index: 1;
+    transition: all 0.6s ease 0s;
+}
+.btn:hover{ 
+    color: #fff; 
+    background-position: 100% 0;
+}
+.btn:before{ 
+    content:"";
+    background-color: #fff;
+    border-radius: 50px;
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    right: 6px;
+    bottom: 6px;
+    transition: all 0.5s;
+    z-index: -1;
+}
+.btn:hover:before{ opacity: 0; }
+@media only screen and (max-width: 767px){
+    .btn{ margin-bottom: 30px; }
+}
+
+/* ----------------------------- Button css end ----------------------------- */
+
+.img-64{
+    width: 50px;
+    height: 50px;
+  }
+  .width-100-sm{
+    width: 50%;
+  }
+  
+  /* -------------------------------------------------------------------------- */
+  /*                             Desktop media query                            */
+  /* -------------------------------------------------------------------------- */
+  @media only screen and (max-width: 768px){
+    .button-carousel{
+      display:none;
+    }
+    .para-1{
+      /* line-height: 11px; */
+      font-size: 80%;
+    }
+    hr{
+      display:none;
+    }
+    .text-outline{
+    transform:translate(0%,-20%);
+    -webkit-text-stroke-width: 0px;
+    -webkit-text-stroke-color: black;
+    }
+    .offerbanner-toggler{
+      display: none;
+      
+    }
+    .img-change{
+      height:30vh;
+    }
+    .card-glass{
+      backdrop-filter: blur(2px) saturate(180%);
+      -webkit-backdrop-filter: blur(2px) saturate(180%);
+      background-color: rgba(255, 255, 255, 0.7);
+      border-radius: 12px;
+      border: 1px solid rgba(209, 213, 219, 0.3);
+    font-size:20px;
+    }
+    .fpb-image{
+      height:20vh;
+      background-size:cover;
+      background-repeat: no-repeat;
+      transform:translate(3%,0%);
+      /* border:5px; */
+    }
+    .width-100-sm{
+    width: 100%;
+  }
+  }
+  /* ----------------------- End of desktop media query ----------------------- */
