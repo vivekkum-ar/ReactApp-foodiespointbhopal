@@ -55,6 +55,74 @@ function Home() {
         </div>
       </div>
 {/* End of Dine with us */}
+
+
+{/* Feature grid starts here */}
+<div className="container px-4 py-5" id="icon-grid">
+      <div className="d-flex justify-content-center border-bottom">
+        <p className="text-prime-gradient fw-bolder display-5 lh-1 text-wrap font-poppins py-2">Why choose us?</p>
+        </div>
+        <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+          <div className="col d-flex align-items-start">
+          <img className="img-64" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACbUlEQVR4nO2ZO2hUQRSGv6goaHwVEYmC78aA4KMTE+yMhY1g7O2CFgZiYynauLUkVhZJYSV2gkQQtAkBBRUjKErWR5HdEMFX1sfIhFkYr5u9M3N3s2cu+8Opds7M/917ZubuDCyvTgLvAeUYRaAfgSp6QCgTMwiUCgxxyg1IMS+l1e8JMwOcaLXp3GujR9u1CNUB4I9Haf0CdiFQYwGTvYAwbQMqASDzwAYE6VKGfeQCgvQ0A8ijZhhaDewADgP7gXUOOV3Alwwgv4HuRphfCQwA94CvNVaWKWAIWG/ldAJHgQ5rjtwypkJgzmeFOAi8cBioZN4S5ulVcyYNUFW6zcMAkIksEKeAHw6DfAR6TM5u4E3id7133AZ2Wn2fBl57gHwH1oRAHAMWHAZ4C+w1OXrOfEgxc80qQW1s2CyxLjDak5d0fb9z6PglsN3kHAFmHQ19As4BK6zF4AbwMyXvcjPW/CfAFtO+F/gcUPe6j+PWuD1mQVmq/V0fiA6HT+3HwCbr0/xbAIQdd6zyrPZZa4F5hocOpQx639o7zjjOI5fQ/RSsB7QKGEyUq96L2opGncBNYK5BJbKcMQeMGoZFCBV5jGqQsgAjWaOMABONClptoA1C4o3kYY6U8rJqjVT3kZFI30zZeF/cR9qSLOUY9XKa8Zty8PGPXkUEMl0PpBARyPV6IH0RgfSmHcSVIgApm3+QdTUeAcgYDjobAciA69VYRTBIxTqgSNUDwSATeGhIMMhFH5A9DnXaqtiHp6YFmFY1zpq9dUWAcZWIqyEgm829hxIS88DWEBAtfQ6sLzF9LvkbHXrs54lT+//0F5/sJFMaV+oSAAAAAElFTkSuQmCC"/>
+            <div>
+              <h3 className="text-dark font-poppins fw-bold mb-0 fs-4">High-quality ingredients</h3>
+              <p className='text-dark'>Fresh, high-quality ingredients elevate the flavor of every dish.</p>
+            </div>
+          </div>
+          <div className="col d-flex align-items-start">
+<img className="img-64" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC0ElEQVR4nO2azUtUURjGf33QmJEYpUYtcm/QH1DLUIJKl6YtWxWluOlP6MM2WiBto0VrcyrBbR9EX6tmHF01BlFTCynULE8ceAeG4cz13vNx5xo+8IAwznPOw/ve95z3vQPb+H9xABgAxoE8UAR+AGtC/XdBPtP/0w+0kxHkgGFgFvgDqITU33kKDIlW6tgLjAGfLTbfiEvAKNCSlokzwKJHA/VcAPpCGtChnwhooJ4PJPJe0QW8SdGEEr4GOn2Z6JZwqyaxJHtwQoeUUdVkLgKHbU20NCmdVESaWZXoqQxsXtXxrk2JVRllb1wTOnzzGdiwasCFuIfmmIW4L6iYHIkTjaUtYKS82YM/HCAVfknFuVazuM7zVUfdC1FGZgPn9wfgiKw14qj1JKqfsLmKJ+V7YA+wE/jooLMOtJmMDKRgosornqJyzmTkTopGXsiaJxx1bpuM5B0EfUEl5LRJpLQFjRRNIt9TTK3nnlLrq8nIWopGLsuao446q8008tZT+VWNjFRSMPGupkFyjYYCvpmMhLrx/gReytlRe0XxkQEFk5EZB8G42CWHoOs9S0WV3/FARvYBx8VAwXO0b5kW7HcQ7BGNg8BcoBRVBp41GWl3uDQuA+dFZzcwmYKJ340ujRrPHIQ3gJvADtG6CKwENDITlc9DHhZ4BLSK3kngSyAjgyFaXVMDVZ0OHpUO0aeJshyqkfBxUCmJxCnRbJVI+TJydTMT1aj4GpPqQ++S6Opn5zrw11GzlGTi2Oc5FSalmiHVbdmhoJwmIe55NjMn54zGQ0uNCSyQC/CQ6qn6DcvvvorzgDfCoQy9VujCEd2ObbAr54FjeEJngDSLm04dBHoZupGSifuh3733Bk61ok2JtUVO+ouyRwOf5MRuyi8gcjIVz8ssNunm1+UWO+hSWn2jTWaxeoz5WLrBSs2PaioyNZmWzk43Rfu972IbZAP/AByB4k8ELWs6AAAAAElFTkSuQmCC"/>
+            <div>
+              <h3 className="text-dark font-poppins fw-bold mb-0 fs-4">Reasonable pricing</h3>
+              <p className='text-dark'>Affordable and reasonable pricing to cater to diverse customers.</p>
+            </div>
+          </div>
+          <div className="col d-flex align-items-start">
+<img className="img-64" src="data:image/png;base64,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"/>
+            <div>
+              <h3 className="text-dark font-poppins fw-bold mb-0 fs-4">Menu variety</h3>
+              <p className='text-dark'>Diverse menu with delicious options to satisfy all palates.</p>
+            </div>
+          </div>
+          <div className="col d-flex align-items-start">
+          <img className="img-64" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACxUlEQVR4nO2az0tUURTHP/2gsSAxMo2ByHXQqhYtijahBEbuNP0H2ljiooL6B8yCogha6j4IbSiX7kQqaJPj6CLUVk4tokVqeePCGRimN2/eu++8+x7hFw7MMO+dcz9z75x7zn0De/p/dQwYACaBElAGvgNbYvb1knxmr7kOdJATFYARYA74DZiYZu95CwyLL+86DIwDXx0G38w2gDGgzRfEVWBVEaDRVoC+NAHs1D9NEaDRpmXmVdUNvPcIYcQWgS4tiB6ZbpORVWQMiXRC0qjJ2FaBk64QbRktJxOyzJxS9IsMBvsNOA9cbPL5M5cU6xviJ3BB4p8Lua43KoSdvmXPENvy5VmdAtZCrl2JummOe4b4AwzWpflKhHtuR5mNDc8gtyR2O/Ah4j3rrX74I54h7ktcu4PPx7z3RhjInEeIWgY6ALxyuL8U1k+4lOIuNgXsE5t29LEjy/EfDXiCmAUOSszHCX31B4E88gAxX1fRPlDw9zAIpJQyxCdZvlY3lXzOBIFEyd9xzPbpd4CiWA1iUPYOjRjlIJCqMsjdgBhnBVArxmYQiGYAI7PQqOPKMX5lBVL0AVL1sLTuKcfYDALRrni3BKYouzfyXjPGku/0+xHYL+X3F0W/M0EgkymCGClItQvTiSxKFFt6H5H6alHJZ38QSIeHorGWAC4rdZXtNNG7lEF+SBdo9TqhrzeEaDhlkPo+5ExCP0NZt7rbctxzKYGPNeAQLTTmYVaS2mgriNqs5OGY1DSxSpwTx74cDNgE2C5whZh6noOBmwZ7goMKihuXhi1E+YE3U2eOHit0k1A9KbTBcWwZOI2SujJaZgvysCmVh6G7niBepv3svTflpVZ2SbGuKsjR/roigC07RrP6B0RBTsVLchYbd/A7UsUOJUmt2rK9wTU5xpyVfrpa96ca+/qztKcT0hQdVR/FnsiH/gIfNynorzefigAAAABJRU5ErkJggg=="/>
+            <div>
+              <h3 className="text-dark font-poppins fw-bold mb-0 fs-4">Timely service</h3>
+              <p className='text-dark'>Prompt delivery of food and attentive service to diners.</p>
+            </div>
+          </div>
+          <div className="col d-flex align-items-start">
+          <img className="img-64" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA/ElEQVR4nO2VOwrCQBRFT2GroL2NCm7ERm2EYOtixL2IEnADVqJCVqCFNmoT/IBuIDIwggn5jJOJRPDAhRDy7gnhJYE/OaYDzIG7jDhuZy0dAV5EhqYkVcAGHjGyqIiZGdDUkV41hMHcZJcytgHpK1N1rd7jjYpYQGU8w8m/uAj0gG0K2QGwZNfHlGWBjrSiKukCJzl4fPsa9TXEVkKnj2PIXQtKGuJiQqePfcxS6C5T8PyOEFpptjGCYF9L9ULT4q+9v/kXXzKUnuPEkwzF4zhxA3AzkLpAnQRqgGNQ6shOJV4/hwH6DGTH5pOhJbACCinEYnYNLFJ0/PlhnvpueMCp57OaAAAAAElFTkSuQmCC"/>
+            <div>
+              <h3 className="text-dark font-poppins fw-bold mb-0 fs-4">Comfortable seating</h3>
+              <p className='text-dark'>Ergonomic and inviting seating to ensure customers' comfort.</p>
+            </div>
+          </div>
+          <div className="col d-flex align-items-start">
+          <img className="img-64" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEdklEQVR4nO2aW6hWVRDHf2k3j9mhe1l4ScIunMCTFZllFhaKRT0UBT0k1UNEPUiIJEiaD0WQUZhakUVmaCmKntPV6H7Rih6yIsUszdLEy7GjpJ6zZWA2bBaz1l5rfxcR/MM8fN/ea2b/95qZNTPfB8dw9GIQ8AGwB3hfPzcblwAfA136LOdUUfIhkBVEFDUTLcB65xk6qyja6yiRt9JMzHbsZ+odyfjIUSI71CyMAnoMIp9VUTZYyXQrCfncDJwM/GqQEGLXchThaYNEpq7WcAwDOoADKu8CbRX0XAUcMkhs0OBvKIZqEFqBOSRBz0nAT4aeXuAGmoDlHlcQWZagZ5ZHxxyaBDdNV0nZI9Ql3fWbgAE0CbsDRHZFrD8B+NHjUuNSHmQ0sBT4U9/AIqA9Yf3bASJvRqyf7ln7cgqJycrcVXIQmJSQsbYbOv4BzitZ2wb8b6zdDLTGkhjjIZGL+OzlkbrOBV4H/ga2Aq9FFHjHA2s9tieQgJUBErksoHGY6rEpLyQJ2yKIrGsMBy4G9hv2ZDdPT1Vm+bUrvzSARF/ga4+92517B2udt1fbCLMnei+CyMIGEJnssfVWRAVu9kS3lJCQavPKOpO4CNhn2NoGnGnc3xV7wD4RIPFoDa7zlGYwKfYe1u8EZwOvGtnyLo+uqB3JMV4XdOkp3ampOXQS36tKN2m/8rNmm2uA54wXIyf3dQUdVxdS7zsBW3mM/BeKkSq4FPgtIrYs6dWTfqDq6gPcX3WgUAvaDZ+tIpKBpgAncgTQoqnY93D/Ag94WlSfyL2ScBqKNi3mvtC6xyqxiw3UFYX4eczTaIV6ltZGEOhIeAhJpdd7aq8FnkmIJUvrSeIRrXpTfH1cRA/+baQu15Xn6M5KXM6N7dmtYVhWEhPykDGQ7HSfnis+fWucNfOMe16J2YkUEhuB4aTjVOAZT/9xc+G+4/Rscu/ZXzhYzZhIcaeOKtWpg+E6Lsp1vuFcr0QkpifJNGs9rm5SL9yqVfBZxrUXjWd4yafoskgS3yV0iqmYDUw0vu8HvKDDi90a+N5gn1ZCYIuWEN7trBFSWffoZPHOWhR94iHwjZ7SMvnz4Qzg+xom9H2ctNxdy65v9BCRVBlC/0KH91VF2w8adj+tqMvsmTMtmWXy50uhq/W+3wuVbAoGqu9btm+q96hzqw6ni7gA+KEQP+5Z0qruJrsVwrKA3fmFXZc0HIUNJcH+hw7fBHcAO/T79QbJvoUaTRomH+4usdmtg7085X+uTVww7S+JSL1bnLNmFXCaoetZvS5kL/TYGxJwqaxEOkPD7EkJiuRNPeTZ7nx2K6XH2MBU8cuKJDKVFT4irQl9Q68eXnJQ5RBSM/V6T2CAIHiyRhKZym0+AzMSFa3Tlre/1kj5TtwTIDHG83NaFZEflUz0K2lhLTlQOIOkfLgxQOJ84K86kcg0ZoOTkZ0VFT8fqABatE7L6ii7KMHIQtpLlc3a05zixM/iOpPIdD5WikHG/09SZI+2pO2B38prlVkxRI6BI4DDZAKB5gNfew8AAAAASUVORK5CYII="/>
+            <div>
+              <h3 className="text-dark font-poppins fw-bold mb-0 fs-4">Clean premises</h3>
+              <p className='text-dark'>Spotless, hygienic premises enhance dining experience and ensure safety.</p>
+            </div>
+          </div>
+          <div className="col d-flex align-items-start">
+          <img className="img-64" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADLElEQVR4nO2ZX2jOURjHPzN/xjCb/JeEVi7USksau1H+7Mqf/E9R5EIikxAXRrmQSRsSLY0boUgkygUuEKFJsZlJrMjfYWbj1alz8ev0nN97fr/3nfes7VOntt85z3Oe7/ue5znnd17ooYduSx4wF6gAbgNfgQsuhreAeuAAMIb/z3hgFXAcqAP+AAmjfXBx9Dxg0AJsBXp3cvATgX3AKyFoqV12cTodaDMMrwK5nSBgCHAMaHcUkNCt3HWC9YLxPb1e00Ux8DqigIRuJVEmOiE4uAZkp0HELL1sEzHbuCiT5eqkN50cSlFEIfAzBREdQJ+ok84QqsZfYHZMEb2AO5YAVVkt1nOGCXkTc26qBGdqbQ+O4avUEpxK9jl6zNQkQtQHEYsC4KPgsDKGr6OW4FRxUYx2KADVpMBGwWGbrv9ReCD4qdV9OcBDhxxZnooQlVyNgtOzEf28M+wbgEG676SDiC/AQFJE2ltUIZgcwUeLkRfT9PMVjhVrL2mgn64YpvNTEXw0BOwOBvJCysGE0Z7oGNJCuTDBb2Cso/0ZbfM2sKSuOIhoSvcBtsCymbl+5WV6/DL9/2IHEY9jFBUnaoTJmoG+DrZZwB7994AkpbYZ2A30p5Motky8KKKfCsP+M3AR2KYPhZGPIXF4Jgg5H8FerfdW49gzkwywSxDSGuGYf9iwvUmGmKA/RVOMekVNxiihYCwlg9wVhKhSmoxKw+aHTvyMsdOypwwNscnXgQdtVIJnlCmW6rUyxGaTMH41HtAoBHY6ZHyd8LY3DA+oFoS812+CJiXCWHWH5gULLMtLbZomtcK4LXhCvl4eZoBqnwmSY7k1mYRH3BcCvG6MmSeMeYFn7BeC/Gbcfx0RxqgbRq8os+RJUWBMk9C/EM/Is+TJBt1fJPR16Hcb73gUsp/sEPpUXnlJlRDsU913Q+hTv714yRIh2HZ9G/ld6JuPp4y0JPxm4Zk6/g/HY+qFoF8Kz9QvYl5TY/lWzKbGec0aRyHr8JxCRyFRrlgzQpY+woeJ+GQ54nvHpSRCVH+XYHsSIWvpIpSGiFCXDiPoImQD54RD5K/AIbKHbsE//RA8CRWsMVkAAAAASUVORK5CYII="/>
+            <div>
+              <h3 className="text-dark font-poppins fw-bold mb-0 fs-4">Vegan options</h3>
+              <p className='text-dark'>We offer delectable vegan options to cater to diverse preferences.</p>
+            </div>
+          </div>
+          <div className="col d-flex align-items-start">
+          <img className="img-64" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAABfklEQVR4nO2Yv0oDQRCHP4Odr2CnVvYSBUmsrMS3EOyEYClYGLto7zPYmaQUKzufIKJoYxeDWglxZGGKoBv3NuTPrswH09z+7piP2bvjDgzDMAxjvGwBbaAHSGLVA1pANSRxCHwl0LAEyvVY+2sSOUjIgEzFJ9JOoDmJrKZP5DWBxiSyuj4RybR+UTg4RcREiJ+Iy3wCl8BCzhORgTrKWcSxrdlbMhdZHPGJc5OayDzQH0HkMTURx4vm3XRCnGu2kaLInebXArk54Emz5RRFmprfDeTKmntWqaIiHZ1gZ9IiF5rfD+QamjsrcE0ZqCU9tjJpkePIG309UmR5WiJ7ERLXBbaVb2u5Kd5PWmRH8+5TdFzILG72Vc0/AKWcRUr6giu6vZIVcWx4Ho9ZijhOgQ+gTtyaj5mKvOt5b5FryYnUteGTyLXkRMaJmAj51f/9QddKoDGJrCufSDWzn9h9YJMh1DKR6QMHBKjo1143gYblR3V1Ow2dhGEYhmEwAt+gscKcYrdoMwAAAABJRU5ErkJggg=="/>
+          <div>
+              <h3 className="text-dark font-poppins fw-bold mb-0 fs-4">Online ordering</h3>
+              <p className='text-dark'>Convenient and fast way to order food from anywhere.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+{/*End of Feature grid */}
+
         </>
     );
 }
