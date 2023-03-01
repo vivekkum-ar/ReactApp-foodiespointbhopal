@@ -3,6 +3,10 @@ import 'animate.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import {Link} from "react-router-dom";
+import Video from "./images/video.mp4";
+import Video2 from "./images/video2.mp4";
+import LinesEllipsis from 'react-lines-ellipsis';
+
 
 function Home() {
     return (
@@ -123,6 +127,66 @@ function Home() {
       </div>
 {/*End of Feature grid */}
 
+
+{/* Video box with shadow starts here */}
+<div className="d-flex justify-content-center border-bottom mb-5">
+        <p className="text-prime-gradient fw-bolder display-5 lh-1 text-wrap font-poppins pb-3">One minute videos</p>
+        </div>
+        <div className="d-grid gap-2 mx-4 d-sm-flex justify-content-sm-center mb-5">
+          <Link className="btn px-4 me-sm-3" to="https://www.youtube.com/@foodiespointbhopal">
+            Go to YouTube
+            </Link>
+          <Link className="nav-link btn px-4 font-poppins text-prime" to="/menu">
+            Go to menu
+            </Link>
+          </div>
+      <div className="d-flex my-4 justify-content-center rounded">
+        <div 
+          className="border-2 shadow-lg bg-body rounded-3 video-card d-inline-flex text-black p-0 m-0"
+        >
+        <video className='rounded-3 shadows-lg video' muted autoPlay loop>
+      <source src={Video} />   Your browser doesnot support video tags  
+</video>
+          <div className="w-100">
+            <div className="text-break font-poppins text-prime-gradient2 fw-bold border-bottom">
+              Special ! Soya chap
+            </div>
+            <LinesEllipsis
+              className="para-1 fs-5"
+              text="Our specialty Indian dish, Soya Chap, is a testament to our commitment to high-quality ingredients and expert culinary skills. This dish is a must-try for any food enthusiast looking to experience the authentic flavors of India. Our chef's expertise in preparing Soya Chap is unrivaled, and we take great pride in showcasing this dish on our menu. Come visit us and indulge in this delicious treat that will leave your taste buds craving for more."
+              maxLine="3"
+              ellipsis="........"
+              trimRight
+              basedOn="letters"
+            />
+          </div>
+        </div>
+      </div>
+      <div className="d-flex my-4 justify-content-center rounded">
+        <div
+          style={{}}
+          className="border-2 shadow-lg bg-body rounded-3 video-card d-inline-flex text-black p-0 m-0"
+        >
+        <video className='rounded-3 shadows-lg video' muted autoPlay loop>
+      <source src={Video2} />   Your browser doesnot support video tags  
+</video>
+          <div className="w-100">
+            <div className="text-break font-poppins text-prime-gradient2 fw-bold border-bottom ">
+              Chinese Noodles 
+            </div>
+            {/* <p className='text-wrap para-1'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, saepe aliquam ipsum exercitationem rerum voluptatibus molestias consectetur fuga quidem quasi maiores delectus odio aliquid, necessitatibus qui dolorum blanditiis accusantium maxime cupiditate obcaecati eveniet eum asperiores tempore sit. Enim nostrum et eligendi dolore laudantium, animi debitis voluptas minus itaque, laboriosam repellat.</p> */}
+            <LinesEllipsis
+              className="para-1 fs-5"
+              text="Noodles from our chinese section of the menu is a true representation of our commitment to quality ingredients and exceptional culinary skills. Prepared with our chef's expertise and passion, this dish is a must-try for anyone who loves Asian cuisine. We take pride in showcasing this specialty on our menu and invite you to visit us and savor the authentic flavors of our noodles or chowmein dish. Join us for an unforgettable culinary journey that will leave you wanting more."
+              maxLine="3"
+              ellipsis="........"
+              trimRight
+              basedOn="letters"
+            />
+          </div>
+        </div>
+      </div>
+{/* End of video box with shadow */}
         </>
     );
 }

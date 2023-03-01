@@ -63,6 +63,44 @@ body{
     width: 50%;
   }
   
+
+/* --------------------------- css for video cards -------------------------- */
+.video-card{
+    width:80vw;
+    
+  }
+  .video{
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    width:30vw;
+    height:100%;
+    padding: 0px;
+  }
+  
+  .video-right{
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+    width:30vw;
+    height:100%;
+    padding: 0px;
+  }
+  /* ---------------------------- End of video card --------------------------- */
+
+  /* -------------------------------------------------------------------------- */
+  /*                               Typography Css                               */
+  /* -------------------------------------------------------------------------- */
+  .font-poppins{
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .text-prime-gradient2{
+    background: #FA6C00;
+  background: radial-gradient(circle farthest-corner at center center, #FA6C00 40%, #CF1512 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size:210%;
+  }
+
+/* -------------------------- End of Typography css ------------------------- */
+
   /* -------------------------------------------------------------------------- */
   /*                             Desktop media query                            */
   /* -------------------------------------------------------------------------- */
