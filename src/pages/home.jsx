@@ -187,6 +187,50 @@ function Home() {
         </div>
       </div>
 {/* End of video box with shadow */}
+        
+        
+        
+              {/* Gallery Section starts here */}
+      <div>
+        <div className="my-5 py-5 container">
+          <div className="d-flex justify-content-center border-bottom mb-3">
+            <p className="text-prime-gradient fw-bolder display-5 font-poppins pb-1">
+              Gallery
+            </p>
+          </div>
+          <p className="lead text-black mb-4">
+            Step into our world of culinary delight and visual appeal. Our
+            gallery showcases the vibrant colors, tantalizing aromas, and
+            exquisite presentations that make our restaurant a feast for the
+            senses. Discover the mouth-watering dishes, inviting atmosphere, and
+            friendly staff that create an unforgettable dining experience.
+          </p>
+          <div className="gallery-wrap">
+            <div
+              className="item item-1"
+              style={{ backgroundImage: `url('./images/gal1.jpg')` }}
+            />
+            <div
+              className="item item-2"
+              style={{ backgroundImage: `url('./images/gal2.jpg')` }}
+            />
+            <div
+              className="item item-5"
+              style={{ backgroundImage: `url('./images/gal5.jpg')` }}
+            />
+            <div
+              className="item item-3"
+              style={{ backgroundImage: `url('./images/gal3.jpg')` }}
+            />
+            <div
+              className="item item-4"
+              style={{ backgroundImage: `url('./images/gal4.jpg')` }}
+            />
+          </div>
+        </div>
+      </div>
+      {/* Gallery section ends here */}
+
         </>
     );
 }
