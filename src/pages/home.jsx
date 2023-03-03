@@ -231,6 +231,51 @@ function Home() {
       </div>
       {/* Gallery section ends here */}
 
+
+            {/* Events/Catering start here */}
+            <div className="container col-xxl-8 px-4 py-1">
+        <div className="row flex-lg-row-reverse align-items-center justify-content-center g-5 py-5">
+          <div className="col-10 col-sm-8 col-lg-6">
+            <img
+              src={"./images/hero2.jpg"}
+              className="d-block mx-lg-auto img-fluid"
+              alt="Bootstrap Themes"
+              width={700}
+              height={500}
+              loading="lazy"
+            />
+          </div>
+          <div className="col-lg-6">
+            {/* <p className="display-5 text-wrap py-2 fw-bolder text-black font-poppins lh-1 mb-3">Responsive left-aligned hero with image</p> */}
+            <div className="d-flex justify-content-center">
+              <p className="text-prime-gradient fw-bolder display-5 lh-1 text-wrap font-poppins border-bottom py-2">
+                Events/Catering orders are welcome
+              </p>
+            </div>
+            <p className="lead text-black py-2 my-5">
+              We offer catering and host special events. Contact us for more
+              information. Celebrate your special occasions with the authentic
+              flavors of our cuisine, exceptional service, and personalized
+              attention to detail. Allow us to create an unforgettable culinary
+              experience that will delight your guests and exceed your
+              expectations.
+            </p>
+            <div className="d-grid gap-2 d-md-flex justify-content-md-start">
+              {/* <button type="button" className="btn btn-primary btn-lg text-black px-4 me-md-2">Primary</button> */}
+              <Link className="btn px-4 me-sm-3" to="/contact">
+                Contact us
+              </Link>
+              <Link
+                className="nav-link btn px-4 font-poppins text-prime"
+                to="/menu"
+              >
+                Go to menu
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* Events/Catering ends here */}
         </>
     );
 }
