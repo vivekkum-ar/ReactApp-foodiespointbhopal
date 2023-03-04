@@ -276,6 +276,51 @@ function Home() {
         </div>
       </div>
       {/* Events/Catering ends here */}
+
+
+            {/* Reservation/Ordering start here */}
+            <div className="container col-xxl-8 px-4 py-1">
+        <div className="row flex-lg-row-reverse align-items-center justify-content-center g-5 py-5">
+          <div className="col-lg-6">
+            {/* <p className="display-5 text-wrap py-2 fw-bolder text-black font-poppins lh-1 mb-3">Responsive left-aligned hero with image</p> */}
+            <div className="d-flex justify-content-center">
+              <p className="text-prime-gradient fw-bolder display-5 lh-1 text-wrap font-poppins border-bottom py-2">
+                Looking for Reservation/Ordering?
+              </p>
+            </div>
+            <p className="lead text-black py-2 my-5">
+              Make a reservation or place an order online for pickup or
+              delivery. We offer a hassle-free and convenient way to enjoy our
+              cuisine. With just a few clicks, you can indulge in the flavors of
+              our dishes from the comfort of your own home or office. We look
+              forward to serving you soon!
+            </p>
+            <div className="d-grid gap-2 d-md-flex justify-content-md-end">
+              {/* <button type="button" className="btn btn-primary btn-lg text-black px-4 me-md-2">Primary</button> */}
+              <Link className="btn px-4 me-sm-3" to="/contact">
+                Contact us
+              </Link>
+              <Link
+                className="nav-link btn px-4 font-poppins text-prime"
+                to="/menu"
+              >
+                Go to menu
+              </Link>
+            </div>
+          </div>
+          <div className="col-10 col-sm-8 col-lg-6">
+            <img
+              src={"./images/reservation.jpg"}
+              className="d-block mx-lg-auto img-fluid"
+              alt="Bootstrap Themes"
+              width={700}
+              height={500}
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+      {/* Reservation/Ordering ends here */}
         </>
     );
 }
