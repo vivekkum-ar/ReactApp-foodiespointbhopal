@@ -8,7 +8,9 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
- 
+}
+nav{
+  
 }
 .div-body{
     background: rgb(131,58,180);
@@ -24,14 +26,26 @@
 background: radial-gradient(circle farthest-corner at center center, #FA6C00 40%, #CF1512 100%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
+font-size:105%;
+}
+.text-prime-gradient2{
+  background: #FA6C00;
+background: radial-gradient(circle farthest-corner at center center, #FA6C00 40%, #CF1512 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size:210%;
 }
 
 .text-prime .active:focus{
+  color: #000 !important;
+}
+
+.text-prime .active{
   color: #FA6C00 !important;
 }
 
 .text-prime .active:hover{
-  color: #FA6C00 !important;
+  color: #000 !important;
 }
 
 .disabled .text-prime{
@@ -42,6 +56,9 @@ background: radial-gradient(circle farthest-corner at center center, #FA6C00 40%
 @media only screen and (max-width: 480px){
   .navbar-toggler{
     display: none;
+  }
+  .text-prime-gradient2{
+    font-size:105%;
   }
 }
 
