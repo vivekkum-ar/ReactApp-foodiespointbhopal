@@ -129,6 +129,140 @@ body{
 
 
 /* -------------------------------------------------------------------------- */
+/*                         Testimonial css starts here                        */
+/* -------------------------------------------------------------------------- */
+.testimonial{
+  border-left: 3px solid #FA6C00;
+  padding: 100px 0 100px 275px;
+  position: relative
+}
+.testimonial:before,
+.testimonial:after{
+  content: "";
+  width: 320px;
+  height: 55px;
+  border-right: 3px solid #FA6C00;
+  position: absolute;
+  left: 0;
+}
+.testimonial:before{
+  border-top: 3px solid #FA6C00;
+  top: 0;
+}
+.testimonial:after{
+  border-bottom: 3px solid #FA6C00;
+  bottom: 0;
+}
+.testimonial .pic{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+.testimonial .pic img{
+  width: 100%;
+  height: auto;
+}
+.testimonial .description{
+  font-size: 14px;
+  color: #7a7e82;
+  line-height: 27px;
+  position: relative;
+}
+.testimonial .description:before{
+  /* content: "\f10d"; */
+  /* font-family: "Font Awesome 5 Free"; */
+  /* font-weight: 900; */
+  /* position: absolute; */
+  /* top: -70px; */
+  /* left: 0; */
+  /* font-size: 20px; */
+  /* color: #7a7e82; */
+}
+.testimonial .testimonial-title{
+  font-size: 22px;
+  font-weight:800;
+  color: #22272c;
+  text-transform: capitalize;
+}
+.testimonial .post{
+  display: block;
+  font-size: 15px;
+  font-weight: 700;
+  color :#FA6C00;
+  margin-top: 10px;
+}
+.owl-theme .owl-controls{
+  text-align: right;
+  margin-top: 30px;
+}
+.owl-theme .owl-controls .owl-buttons div{
+  background: #FA6C00;
+  border-radius: 0;
+  opacity: 1;
+  padding: 5px 10px;
+}
+.owl-prev:before,
+.owl-next:before{
+ display: none;
+  content: "<";
+  /* font-family: "Font Awesome 5 Free";  */
+  font-weight: 900;
+  color: #000;
+}
+.owl-next:before{
+  content: ">";
+}
+
+.owl-dots button.owl-dot.active span, 
+.owl-dots button.owl-dot:hover span {
+   background-color: yellow;
+   border-radius: 50%;
+  background: #FA6C00 !important;
+   /* height: 16px; */
+   /* width: 16px; */
+}
+.owl-dots button.owl-dot{
+  /* border: 5px solid #FA6C00; */
+  background: white;
+  background-color: #FA6C00;
+   border-radius: 50%;
+   /* height: 19px; */
+   /* width: 19px; */
+   position: relative;
+}
+
+@media only screen and (max-width: 990px){
+  .testimonial{
+      padding: 80px 0 80px 265px;
+  }
+}
+@media only screen and (max-width: 767px){
+  .testimonial{
+      padding: 0;
+      border: none;
+  }
+  .testimonial:before,
+  .testimonial:after{
+      border: none;
+  }
+  .testimonial .pic{
+      position: relative;
+      top: 0;
+      left: 0;
+  }
+  .testimonial .description{
+      margin-top: 15px;
+  }
+  .testimonial .description:before{
+      content: "";
+  }
+}
+/* ------------------------- End of Testimonial css ------------------------- */
+
+
+/* -------------------------------------------------------------------------- */
 /*                               css for footer                               */
 /* -------------------------------------------------------------------------- */
 ul {

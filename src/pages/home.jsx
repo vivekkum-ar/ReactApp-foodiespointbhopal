@@ -8,6 +8,9 @@ import Video2 from "./images/video2.mp4";
 import LinesEllipsis from 'react-lines-ellipsis';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPaperPlane,faEnvelope, faHome, faPhone } from '@fortawesome/free-solid-svg-icons';
+import OwlCarousel from 'react-owl-carousel';
+import 'owl.carousel/dist/assets/owl.carousel.css';
+import 'owl.carousel/dist/assets/owl.theme.default.css';
 
 function Home() {
     return (
@@ -231,6 +234,118 @@ function Home() {
         </div>
       </div>
       {/* Gallery section ends here */}
+
+
+
+      {/* Testimonials starts here */}
+      <div className="container d-flex justify-content-center border-bottom mb-5">
+            <p className="text-prime-gradient fw-bolder display-5 font-poppins pb-1">
+              Testimonials
+            </p>
+          </div>
+      <OwlCarousel items={1} className="owl-theme" loop nav margin={2} autoplay={true} animateIn={"animate__backInRight"} animateOut={"animate__backOutLeft"}>
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
+              <div className="testimonial">
+                <div className="pic translate-middle-y top-50 d-flex align-items-center h-100 mx-auto">
+                  <img src="./images/logo.jpg" className='rounded-pill' alt="" />
+                </div>
+                <div className="testimonial-content">
+                  <p className="para-1 fs-5 text-dark mb-2">
+                  I recently visited FoodiesPoint and was blown away by the fantastic experience I had. The Soya Chap was the highlight of the meal, and the flavors were spot on! The ambience was cozy, and the staff was attentive, making the experience even more enjoyable. The service was prompt, and I did not have to wait long for my order. I was impressed with the cleanliness and hygiene standards, and the overall experience was delightful. I would highly recommend this restaurant to anyone looking for delicious Indian cuisine and a memorable dining experience.
+                  </p>
+                  <h3 className="testimonial-title font-poppins fs-3">
+                      Sumit K.
+                    <small className="post font-poppins">Customer</small>
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
+              <div className="testimonial">
+                <div className="pic translate-middle-y top-50 d-flex align-items-center h-100 mx-auto">
+                  <img src="./images/logo.jpg" className='rounded-pill' alt="" />
+                </div>
+                <div className="testimonial-content">
+                  <p className="para-1 fs-5 text-dark mb-2">
+                  I was in the mood for noodles and decided to visit FoodiesPoint. I was impressed with the quality of the ingredients and the excellent service. The noodles were cooked to perfection, and the flavors were spot on. The staff was friendly and attentive, and the ambience was cozy and inviting. The pricing was reasonable, and the portions were generous. The online ordering and delivery service was hassle-free and convenient. I would definitely recommend this restaurant to anyone who loves Asian cuisine and is looking for a great dining experience.
+                  </p>
+                  <h3 className="testimonial-title font-poppins fs-3">
+                    Manish K.
+                    <small className="post font-poppins">Customer</small>
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
+              <div className="testimonial">
+                <div className="pic translate-middle-y top-50 d-flex align-items-center h-100 mx-auto">
+                  <img src="./images/logo.jpg" className='rounded-pill' alt="" />
+                </div>
+                <div className="testimonial-content">
+                  <p className="para-1 fs-5 text-dark mb-2">
+                  As a chef at FoodiesPoint, I take great pride in my craft, and I must say it's a joy to work with high-quality ingredients and a passionate team. The Soya Chap dish is one of our specialties, and we take great care in preparing it with perfection. We use only the best ingredients, and our cooking techniques are designed to bring out the authentic flavors of Indian cuisine. We take hygiene and cleanliness seriously and maintain strict standards in the kitchen. It's a pleasure to see our customers enjoy their meals and leave satisfied, knowing that we've put our heart and soul into creating a memorable dining experience.
+                  </p>
+                  <h3 className="testimonial-title font-poppins fs-3">
+                    The Chef 
+                    <small className="post font-poppins">Foodies Point</small>
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
+              <div className="testimonial">
+                <div className="pic translate-middle-y top-50 d-flex align-items-center h-100 mx-auto">
+                  <img src="./images/logo.jpg" className='rounded-pill' alt="" />
+                </div>
+                <div className="testimonial-content">
+                  <p className="para-1 fs-5 text-dark mb-2">
+                  I recently ordered catering for a family gathering from FoodiesPoint, and I must say it was a hit! The food was delicious, and the staff was professional and attentive to detail. The Soya Chap and noodles were the crowd favorites, and everyone loved the authentic flavors of the dishes. The packaging was neat and hygienic, and the delivery was prompt. The pricing was reasonable, and the portions were ample. I would highly recommend FoodiesPoint for catering and special events, and I look forward to ordering from them again in the future.
+                  </p>
+                  <h3 className="testimonial-title font-poppins fs-3">
+                    Ankit K.
+                    <small className="post font-poppins">Customer</small>
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
+              <div className="testimonial">
+                <div className="pic translate-middle-y top-50 d-flex align-items-center h-100 mx-auto">
+                  <img src="./images/logo.jpg" className='rounded-pill' alt="" />
+                </div>
+                <div className="testimonial-content">
+                  <p className="para-1 fs-5 text-dark mb-2">
+                  Working as a chef at FoodiesPoint is a fulfilling experience. The team's passion for culinary excellence is contagious, and we are always experimenting with new dishes and flavors. Our noodles and chowmein dishes are a result of our chef's expertise and dedication to quality ingredients. We use traditional techniques and modern twists to create dishes that are both delicious and visually appealing. The kitchen is well-equipped, and we follow strict hygiene and safety standards to ensure that our food is safe and healthy for our customers. It's a joy to see our customers appreciate our dishes and leave with happy memories.
+                  </p>
+                  <h3 className="testimonial-title font-poppins fs-3">
+                    The Chef
+                    <small className="post font-poppins">Foodies Point</small>
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </OwlCarousel>
+      {/* Testimonials ends here */}
 
 
             {/* Events/Catering start here */}
