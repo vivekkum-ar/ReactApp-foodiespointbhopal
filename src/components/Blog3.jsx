@@ -1,5 +1,5 @@
 import React from "react";
-import "./basicCss.css";
+// import "./basicCss.css";
 import "animate.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
@@ -7,10 +7,10 @@ import { Link, Outlet } from "react-router-dom";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
-import BlogTop from "../components/BlogTop";
-import BlogRBar from "../components/BlogRBar";
+import BlogTop from "./BlogTop";
+import BlogRBar from "./BlogRBar";
 
-function Blogs() {
+function Blog3() {
   return (
     <main className="container text-dark mt-3">
       <BlogTop />
@@ -19,7 +19,7 @@ function Blogs() {
       {/* Blog begins here */}
         <div className="col-md-8">
           <h3 className="blogs-page-heading pb-4 mb-4 fs-3 fst-italic border-bottom">
-            From the Firehose
+            From the Firehose 333333
           </h3>
           <article className="blog-post">
             <h2 className="blogs-page-heading blog-post-title mb-1">
@@ -282,4 +282,4 @@ function Blogs() {
   );
 }
 
-export default Blogs;
+export default Blog3;
