@@ -10,6 +10,7 @@ import Blog2 from "./components/Blog2";
 import Blog3 from "./components/Blog3";
 import Blog4 from "./components/Blog4";
 import Blog5 from "./components/Blog5";
+import Menu from "./pages/menu";
 import Contact from "./pages/contact";
 import NoPage from "./pages/404";
 import About from "./pages/about";
@@ -31,6 +32,7 @@ root.render(
           <Route path="Blogs/Blog4" element={<Blog4 />} />
           <Route path="Blogs/Blog5" element={<Blog5 />} />
           <Route path="Contact" element={<Contact />} />
+          <Route path="Menu" element={<Menu />} />
           <Route path="About" element={<About />} />
           <Route path="*" element={<NoPage />} />
         </Route>
