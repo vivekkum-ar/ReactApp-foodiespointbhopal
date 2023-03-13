@@ -1,0 +1,39 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "Title of a longer featured blog post",
+      "description": "Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.",
+      "image": "./images/hero2.jpg",
+      "link": "/blogs/blog1"
+    },
+    {
+      "id": 2,
+      "title": "Title of a longer featured blog post",
+      "description": "Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.",
+      "image": "./images/hero2.jpg",
+      "link": "/blogs/blog2"
+    },
+    {
+      "id": 3,
+      "title": "Title of a longer featured blog post",
+      "description": "Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.",
+      "image": "./images/hero2.jpg",
+      "link": "/blogs/blog3"
+    },
+    {
+      "id": 4,
+      "title": "Title of a longer featured blog post",
+      "description": "Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.",
+      "image": "./images/hero2.jpg",
+      "link": "/blogs/blog4"
+    },
+    {
+      "id": 5,
+      "title": "Title of a longer featured blog post",
+      "description": "Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.",
+      "image": "./images/hero2.jpg",
+      "link": "/blogs/blog5"
+    }
+  ]
+}

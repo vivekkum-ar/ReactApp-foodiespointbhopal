@@ -216,6 +216,23 @@ body{
   content: ">";
 }
 
+.owl-dots{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.owl-dots::before{
+  content: "11111";
+  background-color : #fff;
+  color : #fff;
+  width: 7.5rem;
+  height: 100%;
+  transform: translate(100%, 0%);
+  border: 3px solid #FA6C00;
+  border-radius: 50px;
+} 
+
 .owl-dots button.owl-dot.active span, 
 .owl-dots button.owl-dot:hover span {
    background-color: yellow;
@@ -512,6 +529,10 @@ background-image: linear-gradient(62deg, #ff5b00ff 0%, #F7CE68ff 75%, #ffffffff 
 border: 2px solid #ff5b00;
 }
 
+/* for padding-left of image */
+.carousel-image{
+  padding-left: 150px;
+}
 
 /* ---------------------------- End of Blogs Css ---------------------------- */
 

@@ -5,6 +5,7 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 import "animate.css";
 import { Link } from "react-router-dom";
 import "../pages/basicCss.css";
+import data from "./blogslist.json";
 
 function BlogTop() {
   return (
@@ -19,83 +20,35 @@ function BlogTop() {
         animateIn={"animate__slideInRight"}
         animateOut={"animate__slideOutLeft"}
       >
-                <div className="container">
+                {data.items.map(item => (
+
+                <div key={item.id} className="position-relative container">
+                <Link to={item.link} className="text-white fw-bold">
           <div className="p-4 p-md-5 mb-4 rounded-5 blog-top-lg">
             <div className="col-md-6 px-0">
               <h1 className="text-uppercase pb-2 blogs-page-heading display-4 text-white fst-italic">
-                Title of a longer featured blog post
+                {item.id + item.title}
               </h1>
               <p className="text-white lead my-3">
-                Multiple lines of text that form the lede, informing new readers
+              {item.description}
+                {/* Multiple lines of text that form the lede, informing new readers
                 quickly and efficiently about what’s most interesting in this
-                post’s contents.
+                post’s contents. */}
               </p>
-              <p className="lead mb-0">
-                <a href="#" className="text-white fw-bold">
+              <p className="lead fw-bold mb-0">
                   Continue reading...
-                </a>
               </p>
             </div>
           </div>
-        </div>
-        <div className="container">
-          <div className="p-4 p-md-5 mb-4 rounded-5 blog-top-lg">
-            <div className="col-md-6 px-0">
-              <h1 className="text-uppercase pb-2 blogs-page-heading display-4 text-white fst-italic">
-                Title of a longer featured blog post
-              </h1>
-              <p className="text-white lead my-3">
-                Multiple lines of text that form the lede, informing new readers
-                quickly and efficiently about what’s most interesting in this
-                post’s contents.
-              </p>
-              <p className="lead mb-0">
-                <a href="#" className="text-white fw-bold">
-                  Continue reading...
-                </a>
-              </p>
+          <div className="px-0 h-100 w-100 d-flex justify-content-end position-absolute translate-middle-y top-50 pe-4">
+          <img src="../images/hero2.jpg" alt={item.title} className="carousel-image w-50 img-fluid rounded-5"/>
             </div>
-          </div>
-        </div>
-        <div className="container">
-          <div className="p-4 p-md-5 mb-4 rounded-5 blog-top-lg">
-            <div className="col-md-6 px-0">
-              <h1 className="text-uppercase pb-2 blogs-page-heading display-4 text-white fst-italic">
-                Title of a longer featured blog post
-              </h1>
-              <p className="text-white lead my-3">
-                Multiple lines of text that form the lede, informing new readers
-                quickly and efficiently about what’s most interesting in this
-                post’s contents.
-              </p>
-              <p className="lead mb-0">
-                <a href="#" className="text-white fw-bold">
-                  Continue reading...
-                </a>
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="container">
-          <div className="p-4 p-md-5 mb-4 rounded-5 blog-top-lg">
-            <div className="col-md-6 px-0">
-              <h1 className="text-uppercase pb-2 blogs-page-heading display-4 text-white fst-italic">
-                Title of a longer featured blog post
-              </h1>
-              <p className="text-white lead my-3">
-                Multiple lines of text that form the lede, informing new readers
-                quickly and efficiently about what’s most interesting in this
-                post’s contents.
-              </p>
-              <p className="lead mb-0">
-                <a href="#" className="text-white fw-bold">
-                  Continue reading...
-                </a>
-              </p>
-            </div>
-          </div>
-        </div>
-      </OwlCarousel>
+            </Link>
+</div>
+
+))}
+
+</OwlCarousel>
       <div className="row mb-2">
         <div className="col-md-6">
           <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
