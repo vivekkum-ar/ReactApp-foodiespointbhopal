@@ -8,16 +8,18 @@ import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import BlogTop from "../components/BlogTop";
+import Footer from "../components/footer";
 import BlogRBar from "../components/BlogRBar";
 
 function Blogs() {
   return (
+    <>
     <main className="container text-dark mt-3">
       <BlogTop />
 
-      <div className="row g-5">
+      <div className="row">
       {/* Blog begins here */}
-        <div className="col-md-8">
+        <div className="col-md-8 ">
           <h3 className="blogs-page-heading pb-4 mb-4 fs-3 fst-italic border-bottom">
             From the Firehose
           </h3>
@@ -279,6 +281,8 @@ function Blogs() {
         <BlogRBar />
       </div>
     </main>
+    <Footer/>
+    </>
   );
 }
 
