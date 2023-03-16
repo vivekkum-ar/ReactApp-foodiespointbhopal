@@ -9,276 +9,129 @@ import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import BlogTop from "./BlogTop";
 import BlogRBar from "./BlogRBar";
+import Footer from "../components/footer";
+
 
 function Blog2() {
   return (
-    <main className="container text-dark mt-3">
-      <BlogTop />
+    <>
+      <main className="container text-dark mt-3">
+        <BlogTop />
 
-      <div className="row g-5">
-      {/* Blog begins here */}
-        <div className="col-md-8">
-          <h3 className="blogs-page-heading pb-4 mb-4 fs-3 fst-italic border-bottom">
-            From the Firehose 222222
-          </h3>
-          <article className="blog-post">
-            <h2 className="blogs-page-heading blog-post-title mb-1">
-              Sample blog post
+        <div className="row">
+          {/* Blog begins here */}
+          <div className="col-md-8 ">
+            <div>
+        <h2 className="blogs-page-heading blog-post-title mb-1">
+        5 Easy and Delicious Recipes
             </h2>
             <p className="blog-post-meta">
-              January 1, 2021 by <a href="#">Mark</a>
+              January 1, 2023 by <a href="#">FoodiesPoint</a>
             </p>
-            <p className=" border-bottom pb-2 mb-3">
-              This blog post shows a few different types of content that’s
-              supported and styled with Bootstrap. Basic typography, lists,
-              tables, images, code, and more are all supported as expected.
-            </p>
-            {/* <hr /> */}
-            <p>
-              This is some additional paragraph placeholder content. It has been
-              written to fill the available space and show how a longer snippet
-              of text affects the surrounding content. We'll repeat it often to
-              keep the demonstration flowing, so be on the lookout for this
-              exact same string of text.
-            </p>
-            <h2 className="blogs-page-heading fs-3">Blockquotes</h2>
-            <p>This is an example blockquote in action:</p>
-            <blockquote className="blockquote">
-              <p>Quoted text goes here.</p>
-            </blockquote>
-            <p>
-              This is some additional paragraph placeholder content. It has been
-              written to fill the available space and show how a longer snippet
-              of text affects the surrounding content. We'll repeat it often to
-              keep the demonstration flowing, so be on the lookout for this
-              exact same string of text.
-            </p>
-            <h3 className="blogs-page-heading fs-3">Example lists</h3>
-            <p>
-              This is some additional paragraph placeholder content. It's a
-              slightly shorter version of the other highly repetitive body text
-              used throughout. This is an example unordered list:
-            </p>
-            <p>And this is an ordered list:</p>
-            <ol style={{ listStyleType: "decimal" }}>
-              <li>First list item</li>
-              <li>Second list item with a longer description</li>
-              <li>Third list item to close it out</li>
-            </ol>
-            <p>And this is a definition list:</p>
-            <dl>
-              <dt>HyperText Markup Language (HTML)</dt>
-              <dd>
-                The language used to describe and define the content of a Web
-                page
-              </dd>
-              <dt>Cascading Style Sheets (CSS)</dt>
-              <dd>Used to describe the appearance of Web content</dd>
-              <dt>JavaScript (JS)</dt>
-              <dd>
-                The programming language used to build advanced Web sites and
-                applications
-              </dd>
-            </dl>
-            <h2 className="blogs-page-heading ">Inline HTML elements</h2>
-            <p>
-              HTML defines a long list of available inline tags, a complete list
-              of which can be found on the{" "}
-              <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">
-                Mozilla Developer Network
-              </a>
-              .
-            </p>
-            <ul style={{ listStyleType: "disc" }}>
-              <li>
-                <strong>To bold text</strong>, use{" "}
-                <code className="language-plaintext highlighter-rouge">
-                  &lt;strong&gt;
-                </code>
-                .
-              </li>
-              <li>
-                <em>To italicize text</em>, use{" "}
-                <code className="language-plaintext highlighter-rouge">
-                  &lt;em&gt;
-                </code>
-                .
-              </li>
-              <li>
-                Abbreviations, like{" "}
-                <abbr title="HyperText Markup Language">HTML</abbr> should use{" "}
-                <code className="language-plaintext highlighter-rouge">
-                  &lt;abbr&gt;
-                </code>
-                , with an optional{" "}
-                <code className="language-plaintext highlighter-rouge">
-                  title
-                </code>{" "}
-                attribute for the full phrase.
-              </li>
-              <li>
-                Citations, like <cite>— Mark Otto</cite>, should use{" "}
-                <code className="language-plaintext highlighter-rouge">
-                  &lt;cite&gt;
-                </code>
-                .
-              </li>
-              <li>
-                <del>Deleted</del> text should use{" "}
-                <code className="language-plaintext highlighter-rouge">
-                  &lt;del&gt;
-                </code>{" "}
-                and <ins>inserted</ins> text should use{" "}
-                <code className="language-plaintext highlighter-rouge">
-                  &lt;ins&gt;
-                </code>
-                .
-              </li>
-              <li>
-                Superscript <sup>text</sup> uses{" "}
-                <code className="language-plaintext highlighter-rouge">
-                  &lt;sup&gt;
-                </code>{" "}
-                and subscript <sub>text</sub> uses{" "}
-                <code className="language-plaintext highlighter-rouge">
-                  &lt;sub&gt;
-                </code>
-                .
-              </li>
-            </ul>
-            <p>
-              Most of these elements are styled by browsers with few
-              modifications on our part.
-            </p>
-            <h2 className="blogs-page-heading ">Heading</h2>
-            <p>
-              This is some additional paragraph placeholder content. It has been
-              written to fill the available space and show how a longer snippet
-              of text affects the surrounding content. We'll repeat it often to
-              keep the demonstration flowing, so be on the lookout for this
-              exact same string of text.
-            </p>
-            <h3 className="blogs-page-heading ">Sub-heading</h3>
-            <p>
-              This is some additional paragraph placeholder content. It has been
-              written to fill the available space and show how a longer snippet
-              of text affects the surrounding content. We'll repeat it often to
-              keep the demonstration flowing, so be on the lookout for this
-              exact same string of text.
-            </p>
-            <pre>
-              <code>Example code block</code>
-            </pre>
-            <p>
-              This is some additional paragraph placeholder content. It's a
-              slightly shorter version of the other highly repetitive body text
-              used throughout.
-            </p>
-          </article>
-          <article className="blog-post">
-            <h2 className="blogs-page-heading blog-post-title mb-1">
-              Another blog post
-            </h2>
-            <p className="blog-post-meta">
-              December 23, 2020 by <a href="#">Jacob</a>
-            </p>
-            <p>
-              This is some additional paragraph placeholder content. It has been
-              written to fill the available space and show how a longer snippet
-              of text affects the surrounding content. We'll repeat it often to
-              keep the demonstration flowing, so be on the lookout for this
-              exact same string of text.
-            </p>
-            <blockquote>
-              <p>
-                Longer quote goes here, maybe with some{" "}
-                <strong>emphasized text</strong> in the middle of it.
-              </p>
-            </blockquote>
-            <p>
-              This is some additional paragraph placeholder content. It has been
-              written to fill the available space and show how a longer snippet
-              of text affects the surrounding content. We'll repeat it often to
-              keep the demonstration flowing, so be on the lookout for this
-              exact same string of text.
-            </p>
-            <h3 className="blogs-page-heading ">Example table</h3>
-            <p>And don't forget about tables in these posts:</p>
-            <table className="table">
-              <thead>
-                <tr>
-                  <th>Name</th>
-                  <th>Upvotes</th>
-                  <th>Downvotes</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Alice</td>
-                  <td>10</td>
-                  <td>11</td>
-                </tr>
-                <tr>
-                  <td>Bob</td>
-                  <td>4</td>
-                  <td>3</td>
-                </tr>
-                <tr>
-                  <td>Charlie</td>
-                  <td>7</td>
-                  <td>9</td>
-                </tr>
-              </tbody>
-              <tfoot>
-                <tr>
-                  <td>Totals</td>
-                  <td>21</td>
-                  <td>23</td>
-                </tr>
-              </tfoot>
-            </table>
-            <p>
-              This is some additional paragraph placeholder content. It's a
-              slightly shorter version of the other highly repetitive body text
-              used throughout.
-            </p>
-          </article>
-          <article className="blog-post">
-            <h2 className="blogs-page-heading blog-post-title mb-1">
-              New feature
-            </h2>
-            <p className="blog-post-meta">
-              December 14, 2020 by <a href="#">Chris</a>
-            </p>
-            <p>
-              This is some additional paragraph placeholder content. It has been
-              written to fill the available space and show how a longer snippet
-              of text affects the surrounding content. We'll repeat it often to
-              keep the demonstration flowing, so be on the lookout for this
-              exact same string of text.
-            </p>
-            <ul style={{ listStyleType: "disc" }}>
-              <li>First list item</li>
-              <li>Second list item with a longer description</li>
-              <li>Third list item to close it out</li>
-            </ul>
-            <p>
-              This is some additional paragraph placeholder content. It's a
-              slightly shorter version of the other highly repetitive body text
-              used throughout.
-            </p>
-          </article>
-          {/* <nav className="blog-pagination" aria-label="Pagination">
-              <a className="btn btn-outline-primary rounded-pill" href="#">Older</a>
-              <a className="btn btn-outline-secondary rounded-pill disabled">Newer</a>
-            </nav> */}
-        </div>
-
-        {/* Blog ends here */}
-        
-        <BlogRBar />
+        <h1>5 Easy and Delicious Indian Recipes to Make With Your Friends at Your Next Sleepover Party</h1>
+      <p>Hosting a sleepover party with your friends? Impress them with these easy-to-make, delicious Indian recipes that are perfect for a fun night in!</p>
+      <h2 className="fs-4 font-poppins">1. Vegetable Samosas</h2>
+      <ol style={{ listStyleType: "disc" }} className="ms-5">
+        <li>1 package frozen puff pastry, thawed</li>
+        <li>2 cups mixed vegetables (peas, carrots, potatoes), boiled and mashed</li>
+        <li>1/2 tsp cumin seeds</li>
+        <li>1/2 tsp coriander seeds</li>
+        <li>1/2 tsp garam masala</li>
+        <li>1/2 tsp red chili powder</li>
+        <li>1/2 tsp turmeric powder</li>
+        <li>1/2 tsp amchur (dried mango powder)</li>
+        <li>Salt to taste</li>
+        <li>Oil for frying</li>
+      </ol>
+      <div className="d-flex justify-content-center">
+      <img src="/images/gal (5).avif" alt="Aloo Tikki Burgers" className="h-50 w-50 img-fluid d-flex justify-content-center"/>
       </div>
-    </main>
+      <p>Preheat the oven to 400°F. Cut the puff pastry into 6-inch squares. In a bowl, mix together the mashed vegetables, spices, and salt. Place a spoonful of the mixture onto each square of pastry. Fold the pastry over to form a triangle and seal the edges. Bake in the preheated oven for 15-20 minutes or until golden brown. Alternatively, you can fry the samosas in hot oil until crispy.</p>
+      <br /><br />
+      <h2 className="fs-4 font-poppins">2. Tandoori Chicken Skewers</h2>
+      <ul style={{ listStyleType: "disc" }} className="ms-5">
+        <li>1 lb boneless, skinless chicken breast, cut into bite-sized pieces</li>
+        <li>1/2 cup plain yogurt</li>
+        <li>2 cloves garlic, minced</li>
+        <li>1 tsp ginger, grated</li>
+        <li>1 tsp cumin powder</li>
+        <li>1 tsp coriander powder</li>
+        <li>1 tsp garam masala</li>
+        <li>1/2 tsp turmeric powder</li>
+        <li>1/2 tsp red chili powder</li>
+        <li>1 tbsp lemon juice</li>
+        <li>Salt to taste</li>
+        <li>Skewers</li>
+      </ul>
+      <div className="d-flex justify-content-center">
+      <img src="/images/gal (5).avif" alt="Aloo Tikki Burgers" className="h-50 w-50 img-fluid d-flex justify-content-center"/>
+      </div>
+      <p>Soak the skewers in water for 30 minutes. In a bowl, mix together the yogurt, garlic, ginger, spices, lemon juice, and salt. Add the chicken pieces and coat well. Thread the chicken onto the skewers. Grill or broil the skewers for 10-12 minutes or until cooked through.</p>
+        <br /><br />
+        <h2 className="fs-4 font-poppins">3. Aloo Tikki Burgers</h2>
+      <ul style={{ listStyleType: "disc" }} className="ms-5">
+        <li>4 large potatoes, boiled and mashed</li>
+        <li>1/2 cup peas</li>
+        <li>1/2 cup bread crumbs</li>
+        <li>1/2 tsp cumin seeds</li>
+        <li>1/2 tsp coriander seeds</li>
+        <li>1/2 tsp garam masala</li>
+        <li>1/2 tsp red chili powder</li>
+        <li>1/2 tsp turmeric powder
+        </li>
+      </ul>
+      <p>Mix together mashed potatoes, peas, bread crumbs, cumin seeds, coriander seeds, garam masala, red chili powder, and turmeric powder. Form into patties and cook on a griddle until golden brown. Serve on buns with your favorite toppings like onions, tomatoes, and chutney.</p>
+      <div className="d-flex justify-content-center">
+      <img src="/images/gal (5).avif" alt="Aloo Tikki Burgers" className="h-50 w-50 img-fluid d-flex justify-content-center"/>
+      </div>
+      <p>This fusion of Indian and American cuisine is sure to be a crowd-pleaser. Aloo tikki, a popular Indian street food, is given a new twist by being served on a burger bun. It's an easy and delicious way to impress your friends with your culinary skills.</p>
+      <br /><br />
+<h2 className="fs-4 font-poppins">4. Chicken Kebabs</h2>
+      <ul style={{ listStyleType: "disc" }} className="ms-5">
+        <li>1 lb boneless, skinless chicken breast, cut into 1-inch pieces</li>
+        <li>1/2 cup plain yogurt</li>
+        <li>1 tbsp lemon juice</li>
+        <li>1 tbsp ginger-garlic paste</li>
+        <li>1/2 tsp cumin powder</li>
+        <li>1/2 tsp coriander powder</li>
+        <li>1/2 tsp garam masala</li>
+        <li>1/2 tsp red chili powder</li>
+      </ul>
+      <p>Mix together yogurt, lemon juice, ginger-garlic paste, cumin powder, coriander powder, garam masala, and red chili powder to make a marinade. Add chicken pieces and marinate for at least 1 hour. Thread chicken onto skewers and grill until cooked through. Serve with mint chutney.</p>
+      <div className="d-flex justify-content-center">
+      <img src="/images/gal (5).avif" alt="Aloo Tikki Burgers" className="h-50 w-50 img-fluid d-flex justify-content-center"/>
+      </div>
+      <p>Kebabs are a popular Indian dish and make a great addition to any sleepover party. These chicken kebabs are marinated in a flavorful blend of spices and yogurt, then grilled to perfection. Serve with mint chutney for a refreshing and zesty flavor.</p>
+      <br /><br />
+<h2 className="fs-4 font-poppins">5. Fruit Chaat</h2>
+      <ul style={{ listStyleType: "disc" }} className="ms-5">
+        <li>2 cups mixed fruit (such as apples, bananas, oranges, grapes, and pomegranate)</li>
+        <li>1/2 cup plain yogurt</li>
+        <li>1 tbsp honey</li>
+        <li>1/2 tsp chaat masala</li>
+        <li>1/2 tsp cumin powder</li>
+        <li>1/2 tsp red chili powder</li>
+      </ul>
+      <p>Mix together yogurt, honey, chaat masala, cumin powder, and red chili powder. Add mixed fruit and toss to coat. Serve in bowls or cups.</p>
+      <div className="d-flex justify-content-center">
+      <img src="/images/gal (5).avif" alt="Aloo Tikki Burgers" className="h-50 w-50 img-fluid d-flex justify-content-center"/>
+      </div>
+      <p>End your sleepover party on a sweet note with a refreshing and healthy fruit chaat. This popular Indian snack is a mix of fresh fruits and a tangy yogurt dressing that's sure to satisfy your sweet tooth. Plus, it's a guilt-free dessert option that's easy to make.</p>
+      </div>
+
+{/* <nav className="blog-pagination" aria-label="Pagination">
+  <a className="btn btn-outline-primary rounded-pill" href="#">Older</a>
+  <a className="btn btn-outline-secondary rounded-pill disabled">Newer</a>
+</nav> */}
+</div>
+
+{/* Blog ends here */}
+
+<BlogRBar />
+</div>
+</main>
+<Footer />
+</>
   );
 }
 

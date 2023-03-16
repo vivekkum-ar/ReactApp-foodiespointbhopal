@@ -213,23 +213,23 @@ function Home() {
           <div className="gallery-wrap">
             <div
               className="item item-1"
-              style={{ backgroundImage: `url('./images/gal1.jpg')` }}
+              style={{ backgroundImage: `url('./images/gal (1).avif')` }}
             />
             <div
               className="item item-2"
-              style={{ backgroundImage: `url('./images/gal2.jpg')` }}
+              style={{ backgroundImage: `url('./images/gal (2).avif')` }}
             />
             <div
               className="item item-5"
-              style={{ backgroundImage: `url('./images/gal5.jpg')` }}
+              style={{ backgroundImage: `url('./images/gal (3).avif')` }}
             />
             <div
               className="item item-3"
-              style={{ backgroundImage: `url('./images/gal3.jpg')` }}
+              style={{ backgroundImage: `url('./images/gal (4).avif')` }}
             />
             <div
               className="item item-4"
-              style={{ backgroundImage: `url('./images/gal4.jpg')` }}
+              style={{ backgroundImage: `url('./images/gal (5).avif')` }}
             />
           </div>
         </div>
@@ -354,7 +354,7 @@ function Home() {
         <div className="row flex-lg-row-reverse align-items-center justify-content-center g-5 py-5">
           <div className="col-10 col-sm-8 col-lg-6">
             <img
-              src={"./images/hero2.jpg"}
+              src={"./images/events.jpg"}
               className="d-block mx-lg-auto img-fluid"
               alt="Bootstrap Themes"
               width={700}

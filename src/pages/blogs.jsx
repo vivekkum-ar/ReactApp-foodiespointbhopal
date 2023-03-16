@@ -14,274 +14,175 @@ import BlogRBar from "../components/BlogRBar";
 function Blogs() {
   return (
     <>
-    <main className="container text-dark mt-3">
-      <BlogTop />
+      <main className="container text-dark mt-3">
+        <BlogTop />
 
-      <div className="row">
-      {/* Blog begins here */}
-        <div className="col-md-8 ">
-          <h3 className="blogs-page-heading pb-4 mb-4 fs-3 fst-italic border-bottom">
-            From the Firehose
-          </h3>
-          <article className="blog-post">
-            <h2 className="blogs-page-heading blog-post-title mb-1">
-              Sample blog post
-            </h2>
-            <p className="blog-post-meta">
-              January 1, 2021 by <a href="#">Mark</a>
-            </p>
-            <p className=" border-bottom pb-2 mb-3">
-              This blog post shows a few different types of content that’s
-              supported and styled with Bootstrap. Basic typography, lists,
-              tables, images, code, and more are all supported as expected.
-            </p>
-            {/* <hr /> */}
-            <p>
-              This is some additional paragraph placeholder content. It has been
-              written to fill the available space and show how a longer snippet
-              of text affects the surrounding content. We'll repeat it often to
-              keep the demonstration flowing, so be on the lookout for this
-              exact same string of text.
-            </p>
-            <h2 className="blogs-page-heading fs-3">Blockquotes</h2>
-            <p>This is an example blockquote in action:</p>
-            <blockquote className="blockquote">
-              <p>Quoted text goes here.</p>
-            </blockquote>
-            <p>
-              This is some additional paragraph placeholder content. It has been
-              written to fill the available space and show how a longer snippet
-              of text affects the surrounding content. We'll repeat it often to
-              keep the demonstration flowing, so be on the lookout for this
-              exact same string of text.
-            </p>
-            <h3 className="blogs-page-heading fs-3">Example lists</h3>
-            <p>
-              This is some additional paragraph placeholder content. It's a
-              slightly shorter version of the other highly repetitive body text
-              used throughout. This is an example unordered list:
-            </p>
-            <p>And this is an ordered list:</p>
-            <ol style={{ listStyleType: "decimal" }}>
-              <li>First list item</li>
-              <li>Second list item with a longer description</li>
-              <li>Third list item to close it out</li>
-            </ol>
-            <p>And this is a definition list:</p>
-            <dl>
-              <dt>HyperText Markup Language (HTML)</dt>
-              <dd>
-                The language used to describe and define the content of a Web
-                page
-              </dd>
-              <dt>Cascading Style Sheets (CSS)</dt>
-              <dd>Used to describe the appearance of Web content</dd>
-              <dt>JavaScript (JS)</dt>
-              <dd>
-                The programming language used to build advanced Web sites and
-                applications
-              </dd>
-            </dl>
-            <h2 className="blogs-page-heading ">Inline HTML elements</h2>
-            <p>
-              HTML defines a long list of available inline tags, a complete list
-              of which can be found on the{" "}
-              <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">
-                Mozilla Developer Network
-              </a>
-              .
-            </p>
-            <ul style={{ listStyleType: "disc" }}>
-              <li>
-                <strong>To bold text</strong>, use{" "}
-                <code className="language-plaintext highlighter-rouge">
-                  &lt;strong&gt;
-                </code>
-                .
-              </li>
-              <li>
-                <em>To italicize text</em>, use{" "}
-                <code className="language-plaintext highlighter-rouge">
-                  &lt;em&gt;
-                </code>
-                .
-              </li>
-              <li>
-                Abbreviations, like{" "}
-                <abbr title="HyperText Markup Language">HTML</abbr> should use{" "}
-                <code className="language-plaintext highlighter-rouge">
-                  &lt;abbr&gt;
-                </code>
-                , with an optional{" "}
-                <code className="language-plaintext highlighter-rouge">
-                  title
-                </code>{" "}
-                attribute for the full phrase.
-              </li>
-              <li>
-                Citations, like <cite>— Mark Otto</cite>, should use{" "}
-                <code className="language-plaintext highlighter-rouge">
-                  &lt;cite&gt;
-                </code>
-                .
-              </li>
-              <li>
-                <del>Deleted</del> text should use{" "}
-                <code className="language-plaintext highlighter-rouge">
-                  &lt;del&gt;
-                </code>{" "}
-                and <ins>inserted</ins> text should use{" "}
-                <code className="language-plaintext highlighter-rouge">
-                  &lt;ins&gt;
-                </code>
-                .
-              </li>
-              <li>
-                Superscript <sup>text</sup> uses{" "}
-                <code className="language-plaintext highlighter-rouge">
-                  &lt;sup&gt;
-                </code>{" "}
-                and subscript <sub>text</sub> uses{" "}
-                <code className="language-plaintext highlighter-rouge">
-                  &lt;sub&gt;
-                </code>
-                .
-              </li>
-            </ul>
-            <p>
-              Most of these elements are styled by browsers with few
-              modifications on our part.
-            </p>
-            <h2 className="blogs-page-heading ">Heading</h2>
-            <p>
-              This is some additional paragraph placeholder content. It has been
-              written to fill the available space and show how a longer snippet
-              of text affects the surrounding content. We'll repeat it often to
-              keep the demonstration flowing, so be on the lookout for this
-              exact same string of text.
-            </p>
-            <h3 className="blogs-page-heading ">Sub-heading</h3>
-            <p>
-              This is some additional paragraph placeholder content. It has been
-              written to fill the available space and show how a longer snippet
-              of text affects the surrounding content. We'll repeat it often to
-              keep the demonstration flowing, so be on the lookout for this
-              exact same string of text.
-            </p>
-            <pre>
-              <code>Example code block</code>
-            </pre>
-            <p>
-              This is some additional paragraph placeholder content. It's a
-              slightly shorter version of the other highly repetitive body text
-              used throughout.
-            </p>
-          </article>
-          <article className="blog-post">
-            <h2 className="blogs-page-heading blog-post-title mb-1">
-              Another blog post
-            </h2>
-            <p className="blog-post-meta">
-              December 23, 2020 by <a href="#">Jacob</a>
-            </p>
-            <p>
-              This is some additional paragraph placeholder content. It has been
-              written to fill the available space and show how a longer snippet
-              of text affects the surrounding content. We'll repeat it often to
-              keep the demonstration flowing, so be on the lookout for this
-              exact same string of text.
-            </p>
-            <blockquote>
+        <div className="row">
+          {/* Blog begins here */}
+          <div className="col-md-8 ">
+            <div>
+              <h2
+                style={{ fontWeight: "bold", marginBottom: "1rem" }}
+                className="font-poppins fs-4 d-flex justify-content-center mb-0 pb-0 text-uppercase"
+              >
+                "You are what you eat"
+              </h2>{" "}
+              <span className="d-flex justify-content-center pt-0 mt-0 text-capitalize fst-italic mb-3">
+                - Ludwig Feuerbach
+              </span>
               <p>
-                Longer quote goes here, maybe with some{" "}
-                <strong>emphasized text</strong> in the middle of it.
+                At our restaurant, we believe that what you put into your body
+                is just as important as how it tastes. That's why we're
+                committed to using fresh, high-quality ingredients in all of our
+                dishes. But did you know that many of these ingredients also
+                have incredible health benefits? In this blog post, we'll take a
+                closer look at some of the ingredients we use and how they can
+                support your overall health and well-being.
               </p>
-            </blockquote>
-            <p>
-              This is some additional paragraph placeholder content. It has been
-              written to fill the available space and show how a longer snippet
-              of text affects the surrounding content. We'll repeat it often to
-              keep the demonstration flowing, so be on the lookout for this
-              exact same string of text.
-            </p>
-            <h3 className="blogs-page-heading ">Example table</h3>
-            <p>And don't forget about tables in these posts:</p>
-            <table className="table">
-              <thead>
-                <tr>
-                  <th>Name</th>
-                  <th>Upvotes</th>
-                  <th>Downvotes</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Alice</td>
-                  <td>10</td>
-                  <td>11</td>
-                </tr>
-                <tr>
-                  <td>Bob</td>
-                  <td>4</td>
-                  <td>3</td>
-                </tr>
-                <tr>
-                  <td>Charlie</td>
-                  <td>7</td>
-                  <td>9</td>
-                </tr>
-              </tbody>
-              <tfoot>
-                <tr>
-                  <td>Totals</td>
-                  <td>21</td>
-                  <td>23</td>
-                </tr>
-              </tfoot>
-            </table>
-            <p>
-              This is some additional paragraph placeholder content. It's a
-              slightly shorter version of the other highly repetitive body text
-              used throughout.
-            </p>
-          </article>
-          <article className="blog-post">
-            <h2 className="blogs-page-heading blog-post-title mb-1">
-              New feature
-            </h2>
-            <p className="blog-post-meta">
-              December 14, 2020 by <a href="#">Chris</a>
-            </p>
-            <p>
-              This is some additional paragraph placeholder content. It has been
-              written to fill the available space and show how a longer snippet
-              of text affects the surrounding content. We'll repeat it often to
-              keep the demonstration flowing, so be on the lookout for this
-              exact same string of text.
-            </p>
-            <ul style={{ listStyleType: "disc" }}>
-              <li>First list item</li>
-              <li>Second list item with a longer description</li>
-              <li>Third list item to close it out</li>
-            </ul>
-            <p>
-              This is some additional paragraph placeholder content. It's a
-              slightly shorter version of the other highly repetitive body text
-              used throughout.
-            </p>
-          </article>
-          {/* <nav className="blog-pagination" aria-label="Pagination">
+              <br />
+              <ul style={{ listStyleType: "disc" }}>
+                <li>
+                  <span className="fw-bold">Turmeric:</span> This vibrant yellow
+                  spice is a staple in many Indian and Southeast Asian dishes.
+                  It contains a compound called curcumin, which has been shown
+                  to have anti-inflammatory and antioxidant properties. Some
+                  studies suggest that turmeric may help to reduce the risk of
+                  heart disease, cancer, and Alzheimer's disease. We use
+                  turmeric in our curries and rice dishes for both its flavor
+                  and its health benefits.
+                </li>
+                <div className="d-flex justify-content-center">
+                  <img
+                    className="img-fluid h-50 w-50 mt-2"
+                    src="/images/gal (1).avif"
+                    title="A salad bowl filled with quinoa, kale, carrots, beets, tomatoes, and grilled chicken."
+                  />
+                </div>
+                <br />
+
+                <li>
+                  <span className="fw-bold">Quinoa:</span> This ancient grain
+                  has gained popularity in recent years for its high protein and
+                  fiber content. Quinoa is also a good source of minerals like
+                  iron, magnesium, and phosphorus. Its complex carbohydrates
+                  provide sustained energy without spiking blood sugar levels.
+                  We use quinoa in our salads and bowls for a nutritious and
+                  filling meal.
+                </li>
+                <div className="d-flex justify-content-center">
+                  <img
+                    className="img-fluid h-50 w-50 mt-2"
+                    src="/images/gal (2).avif"
+                    title="A plate of grilled salmon with lemon slices and a side of steamed broccoli, carrots, and zucchini."
+                  />
+                </div>
+                <br />
+
+                <li>
+                  <span className="fw-bold">Salmon:</span> This fatty fish is
+                  rich in omega-3 fatty acids, which are essential for brain and
+                  heart health. Omega-3s can also help to reduce inflammation in
+                  the body and may lower the risk of chronic diseases like
+                  arthritis and depression. We source our salmon from
+                  sustainable fisheries and serve it grilled, baked, or smoked.
+                </li>
+                <div className="d-flex justify-content-center">
+                  <img
+                    className="img-fluid h-50 w-50 mt-2"
+                    src="/images/gal (3).avif"
+                    alt="A bowl of creamy yellow curry with chunks of chicken and vegetables, served with a mound of steamed rice and pieces of naan bread."
+                  />
+                </div>
+
+                <br />
+
+                <li>
+                  <span className="fw-bold">Kale:</span> This leafy green has
+                  been hailed as a superfood for its high nutrient density. Kale
+                  is rich in vitamins A, C, and K, as well as calcium and iron.
+                  It also contains antioxidants and anti-inflammatory compounds.
+                  We use kale in our salads and smoothies for a boost of
+                  nutrition and flavor.
+                </li>
+                <div className="d-flex justify-content-center">
+                  <img
+                    className="img-fluid h-50 w-50 mt-2"
+                    src="/images/gal (4).avif"
+                    alt="title close-up of a pile of fresh turmeric roots, with their distinctive yellow-orange color and knobby shape."
+                  />
+                </div>
+
+                <br />
+
+                <li>
+                  <span className="fw-bold">Ginger:</span> This spicy root is a
+                  popular ingredient in Asian cuisine and has been used for
+                  medicinal purposes for centuries. Ginger has anti-inflammatory
+                  and antioxidant properties and may help to reduce nausea and
+                  alleviate pain. We use ginger in our stir-fries and teas for
+                  its warming and soothing effects.
+                </li>
+                <div className="d-flex justify-content-center">
+                  <img
+                    className="img-fluid h-50 w-50 mt-2"
+                    src="/images/gal (5).avif"
+                    title="A white mug filled with a creamy ginger tea latte, topped with frothy milk and a sprinkle of cinnamon."
+                  />
+                </div>
+                <br />
+                <li>
+                  <span className="fw-bold">Garlic:</span> It is an essential
+                  ingredient in many dishes at our restaurant, is not only
+                  flavorful but also has a host of health benefits. It has been
+                  shown to have anti-inflammatory and immune-boosting
+                  properties, and can even help lower blood pressure and
+                  cholesterol levels. In addition, garlic has been used for
+                  centuries as a natural remedy for fighting off colds and other
+                  illnesses. So next time you enjoy our garlic naan or
+                  garlic-infused dal, you can feel good about not only the taste
+                  but also the potential health benefits.
+                </li>
+                <div className="d-flex justify-content-center">
+                  <img
+                    className="img-fluid h-50 w-50 mt-2"
+                    src="/images/gal (5).avif"
+                    title="A white mug filled with a creamy ginger tea latte, topped with frothy milk and a sprinkle of cinnamon."
+                  />
+                </div>
+                <br />
+              </ul>
+              By incorporating these and other nutrient-dense ingredients into
+              our menu, we aim to provide our customers with not only delicious
+              but also healthful meals. So next time you dine with us, know that
+              you're not only satisfying your taste buds but also nourishing
+              your body.
+              <br />
+              <br />
+              Incorporating healthy ingredients into your meals doesn't have to
+              mean sacrificing flavor or enjoyment. At our restaurant, we
+              believe that food should be both delicious and nourishing. By
+              using high-quality ingredients like turmeric, quinoa, salmon,
+              kale, and ginger, we're able to create dishes that not only taste
+              great but also support your overall health and well-being. We hope
+              this blog post has inspired you to think more about the foods you
+              eat and how they can benefit your body. So next time you're dining
+              with us, know that you're not only treating your taste buds but
+              also giving your body a boost of essential nutrients.
+              <br />
+            </div>
+
+            {/* <nav className="blog-pagination" aria-label="Pagination">
               <a className="btn btn-outline-primary rounded-pill" href="#">Older</a>
               <a className="btn btn-outline-secondary rounded-pill disabled">Newer</a>
             </nav> */}
-        </div>
+          </div>
 
-        {/* Blog ends here */}
-        
-        <BlogRBar />
-      </div>
-    </main>
-    <Footer/>
+          {/* Blog ends here */}
+
+          <BlogRBar />
+        </div>
+      </main>
+      <Footer />
     </>
   );
 }

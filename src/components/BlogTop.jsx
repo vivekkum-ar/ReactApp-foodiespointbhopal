@@ -27,7 +27,7 @@ function BlogTop() {
           <div className="p-4 p-md-5 mb-4 rounded-5 blog-top-lg">
             <div className="col-md-6 px-0">
               <h1 className="text-uppercase pb-2 blogs-page-heading display-4 text-white fst-italic">
-                {item.id + item.title}
+                {item.title}
               </h1>
               <p className="text-white lead my-3">
               {item.description}

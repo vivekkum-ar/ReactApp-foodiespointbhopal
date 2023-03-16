@@ -10,9 +10,7 @@ function BlogRBar() {
         <div className="p-4 mb-3 bg-light rounded">
           <h4 className="blogs-page-heading fst-italic fs-3 mt-3">About</h4>
           <p className="mb-0">
-            Customize this section to tell your visitors a little bit about your
-            publication, writers, content, or something else entirely. Totally
-            up to you.
+          Welcome to our publication! We're a team of passionate writers dedicated to bringing you quality content. From food to fashion, we cover it all. Stay tuned for our latest articles.
           </p>
         </div>
         <div className="p-4">
@@ -22,40 +20,40 @@ function BlogRBar() {
             className="list-unstyled mb-0"
           >
             <li>
-              <a href="#">March 2021</a>
+              <Link to="#">March 2021</Link>
             </li>
             <li>
-              <a href="#">February 2021</a>
+              <Link to="#">February 2021</Link>
             </li>
             <li>
-              <a href="#">January 2021</a>
+              <Link to="#">January 2021</Link>
             </li>
             <li>
-              <a href="#">December 2020</a>
+              <Link to="#">December 2020</Link>
             </li>
             <li>
-              <a href="#">November 2020</a>
+              <Link to="#">November 2020</Link>
             </li>
             <li>
-              <a href="#">October 2020</a>
+              <Link to="#">October 2020</Link>
             </li>
             <li>
-              <a href="#">September 2020</a>
+              <Link to="#">September 2020</Link>
             </li>
             <li>
-              <a href="#">August 2020</a>
+              <Link to="#">August 2020</Link>
             </li>
             <li>
-              <a href="#">July 2020</a>
+              <Link to="#">July 2020</Link>
             </li>
             <li>
-              <a href="#">June 2020</a>
+              <Link to="#">June 2020</Link>
             </li>
             <li>
-              <a href="#">May 2020</a>
+              <Link to="#">May 2020</Link>
             </li>
             <li>
-              <a href="#">April 2020</a>
+              <Link to="#">April 2020</Link>
             </li>
           </ol>
         </div>
@@ -63,13 +61,13 @@ function BlogRBar() {
           <h4 className="blogs-page-heading fst-italic">Elsewhere</h4>
           <ol style={{ listStyleType: "decimal" }} className="list-unstyled">
             <li>
-              <a href="#">GitHub</a>
+              <Link to="#">GitHub</Link>
             </li>
             <li>
-              <a href="#">Twitter</a>
+              <Link to="#">Twitter</Link>
             </li>
             <li>
-              <a href="#">Facebook</a>
+              <Link to="#">Facebook</Link>
             </li>
           </ol>
         </div>

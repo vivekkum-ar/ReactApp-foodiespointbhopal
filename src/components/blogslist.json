@@ -2,36 +2,36 @@
   "items": [
     {
       "id": 1,
-      "title": "Title of a longer featured blog post",
-      "description": "Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.",
+      "title": "Health Benefits of Our Ingredients",
+      "description": "Discover the surprising health benefits of ingredients used in our dishes, from anti-inflammatory garlic to nutrient-rich mixed vegetables, in this informative blog post.",
       "image": "./images/hero2.jpg",
       "link": "/blogs/blog1"
     },
     {
       "id": 2,
-      "title": "Title of a longer featured blog post",
-      "description": "Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.",
+      "title": "5 Easy and Delicious Recipes",
+      "description": "Have fun with your friends and impress them with easy-to-make recipes that are delicious and perfect for a sleepover party.So, Gather your friends and try these 5 delicious and easy-to-make recipes at your next sleepover party.",
       "image": "./images/hero2.jpg",
       "link": "/blogs/blog2"
     },
     {
       "id": 3,
-      "title": "Title of a longer featured blog post",
-      "description": "Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.",
+      "title": "Pizza Toppings: From Classic to Crazy",
+      "description": "Take your taste buds on a journey and discover new and unique pizza topping combinations that will satisfy any craving, from savory to sweet.",
       "image": "./images/hero2.jpg",
       "link": "/blogs/blog3"
     },
     {
       "id": 4,
-      "title": "Title of a longer featured blog post",
-      "description": "Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.",
+      "title": "5 Healthy Snacks for School",
+      "description": "Stay energized and focused throughout the school day with healthy snack options that are both delicious and easy to pack.",
       "image": "./images/hero2.jpg",
       "link": "/blogs/blog4"
     },
     {
       "id": 5,
-      "title": "Title of a longer featured blog post",
-      "description": "Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.",
+      "title": "Foodie's Guide to Best Street Food",
+      "description": "Discover the hidden gems in your city and experience the authentic flavors of street food that are a must-try for any foodie.",
       "image": "./images/hero2.jpg",
       "link": "/blogs/blog5"
     }
