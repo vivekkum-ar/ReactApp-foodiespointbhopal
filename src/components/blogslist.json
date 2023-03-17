@@ -24,14 +24,14 @@
     {
       "id": 4,
       "title": "5 Healthy Snacks for School",
-      "description": "Stay energized and focused throughout the school day with healthy snack options that are both delicious and easy to pack.",
+      "description": "Stay energized and focused throughout the school day with healthy snack options that are both delicious and easy to pack. These snacks will provide the sustenance you need to power through classes, homework, and extracurricular activities, without sacrificing taste or convenience.",
       "image": "./images/hero2.jpg",
       "link": "/blogs/blog4"
     },
     {
       "id": 5,
       "title": "Foodie's Guide to Best Street Food",
-      "description": "Discover the hidden gems in your city and experience the authentic flavors of street food that are a must-try for any foodie.",
+      "description": "Discover the hidden gems in your city and experience the authentic flavors of street food that are a must-try for any foodie. From the best street food in the heart of Bhopal to the most popular street food in India, this blog post will help you find the best street food in your city.",
       "image": "./images/hero2.jpg",
       "link": "/blogs/blog5"
     }

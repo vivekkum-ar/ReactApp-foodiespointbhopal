@@ -6,6 +6,7 @@ import "animate.css";
 import { Link } from "react-router-dom";
 import "../pages/basicCss.css";
 import data from "./blogslist.json";
+import LinesEllipsis from "react-lines-ellipsis";
 
 function BlogTop() {
   return (
@@ -24,18 +25,25 @@ function BlogTop() {
 
                 <div key={item.id} className="position-relative container">
                 <Link to={item.link} className="text-white fw-bold">
-          <div className="p-4 p-md-5 mb-4 rounded-5 blog-top-lg">
-            <div className="col-md-6 px-0">
+          <div className="p-4 rounded-5 blog-top-lg">
+            <div className="col-md-6 ps-3">
               <h1 className="text-uppercase pb-2 blogs-page-heading display-4 text-white fst-italic">
                 {item.title}
               </h1>
-              <p className="text-white lead my-3">
-              {item.description}
+              {/* <p className="text-white lead my-3"> */}
+              <LinesEllipsis
+              className="text-white lead mt-3"
+              text={item.description}
+              maxLine="3"
+              ellipsis="..."
+              trimRight
+              basedOn="letters"
+            />
                 {/* Multiple lines of text that form the lede, informing new readers
                 quickly and efficiently about what’s most interesting in this
                 post’s contents. */}
-              </p>
-              <p className="lead fw-bold mb-0">
+              {/* </p> */}
+              <p className="lead fw-bold mt-3">
                   Continue reading...
               </p>
             </div>

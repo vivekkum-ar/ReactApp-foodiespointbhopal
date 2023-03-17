@@ -212,6 +212,9 @@ body{
   font-weight: 900;
   color: #000;
 }
+.owl-nav{
+  display:none;
+}
 .owl-next:before{
   content: ">";
 }
@@ -220,7 +223,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .owl-dots::before{
   content: "11111";
