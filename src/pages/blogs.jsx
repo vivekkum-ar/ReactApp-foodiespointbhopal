@@ -19,7 +19,7 @@ function Blogs() {
 
         <div className="row">
           {/* Blog begins here */}
-          <div className="col-md-8 ">
+          <div className="col-md-8 ps-5">
             <div>
               <h2
                 style={{ fontWeight: "bold", marginBottom: "1rem" }}
@@ -51,12 +51,19 @@ function Blogs() {
                   turmeric in our curries and rice dishes for both its flavor
                   and its health benefits.
                 </li>
-                <div className="d-flex justify-content-center">
-                  <img
-                    className="img-fluid h-50 w-50 mt-2"
-                    src="/images/gal (1).avif"
-                    title="A salad bowl filled with quinoa, kale, carrots, beets, tomatoes, and grilled chicken."
-                  />
+                <div className="position-relative">
+                  <div className="d-flex justify-content-center">
+                    <img
+                      className="img-fluid h-50 w-50  mt-2"
+                      src="/images/blog1/blog1 (4).png"
+                      title="Anti-inflammatory spice with many benefits"
+                    />
+                    <div style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }} className="position-absolute bottom-0 w-50 py-1 d-flex flex-column justify-content-end text-white overlay">
+                      <h2 className="text-center mb-0 fw-bolder">Turmeric</h2>
+                      <p className="text-center">Anti-inflammatory spice with many benefits</p>
+                    </div>
+                  </div>
+
                 </div>
                 <br />
 
@@ -69,12 +76,19 @@ function Blogs() {
                   We use quinoa in our salads and bowls for a nutritious and
                   filling meal.
                 </li>
-                <div className="d-flex justify-content-center">
-                  <img
-                    className="img-fluid h-50 w-50 mt-2"
-                    src="/images/gal (2).avif"
-                    title="A plate of grilled salmon with lemon slices and a side of steamed broccoli, carrots, and zucchini."
-                  />
+                <div className="position-relative">
+                  <div className="d-flex justify-content-center">
+                    <img
+                      className="img-fluid h-50 w-50  mt-2"
+                      src="/images/blog1/blog1 (6).png"
+                      title="Protein-rich grain for balanced nutrition"
+                    />
+                    <div style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }} className="position-absolute bottom-0 w-50 py-1 d-flex flex-column justify-content-end text-white overlay">
+                      <h2 className="text-center mb-0 fw-bolder">Quinoa</h2>
+                      <p className="text-center">Protein-rich grain for balanced nutrition</p>
+                    </div>
+                  </div>
+
                 </div>
                 <br />
 
@@ -86,14 +100,20 @@ function Blogs() {
                   arthritis and depression. We source our salmon from
                   sustainable fisheries and serve it grilled, baked, or smoked.
                 </li>
-                <div className="d-flex justify-content-center">
-                  <img
-                    className="img-fluid h-50 w-50 mt-2"
-                    src="/images/gal (3).avif"
-                    alt="A bowl of creamy yellow curry with chunks of chicken and vegetables, served with a mound of steamed rice and pieces of naan bread."
-                  />
-                </div>
+                <div className="position-relative">
+                  <div className="d-flex justify-content-center">
+                    <img
+                      className="img-fluid h-50 w-50  mt-2"
+                      src="/images/blog1/blog1 (2).png"
+                      alt="Omega-3 fatty acids promote heart health"
+                    />
+                    <div style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }} className="position-absolute bottom-0 w-50 py-1 d-flex flex-column justify-content-end text-white overlay">
+                      <h2 className="text-center mb-0 fw-bolder">Salmon</h2>
+                      <p className="text-center">Omega-3 fatty acids promote heart health</p>
+                    </div>
+                  </div>
 
+                </div>
                 <br />
 
                 <li>
@@ -104,14 +124,20 @@ function Blogs() {
                   We use kale in our salads and smoothies for a boost of
                   nutrition and flavor.
                 </li>
-                <div className="d-flex justify-content-center">
-                  <img
-                    className="img-fluid h-50 w-50 mt-2"
-                    src="/images/gal (4).avif"
-                    alt="title close-up of a pile of fresh turmeric roots, with their distinctive yellow-orange color and knobby shape."
-                  />
-                </div>
+                <div className="position-relative">
+                  <div className="d-flex justify-content-center">
+                    <img
+                      className="img-fluid h-50 w-50  mt-2"
+                      src="/images/blog1/blog1 (3).png"
+                      alt="Nutrient-dense leafy green vegetable choice"
+                    />
+                    <div style={{ backgroundColor: "rgba(255, 0, 0, 0.5)" }} className="bg-dark position-absolute bottom-0 w-50 py-1 d-flex flex-column justify-content-end text-white overlay">
+                      <h2 className="text-center mb-0">Kale</h2>
+                      <p className="text-center">Nutrient-dense leafy green vegetable choice</p>
+                    </div>
+                  </div>
 
+                </div>
                 <br />
 
                 <li>
@@ -122,12 +148,19 @@ function Blogs() {
                   alleviate pain. We use ginger in our stir-fries and teas for
                   its warming and soothing effects.
                 </li>
-                <div className="d-flex justify-content-center">
-                  <img
-                    className="img-fluid h-50 w-50 mt-2"
-                    src="/images/gal (5).avif"
-                    title="A white mug filled with a creamy ginger tea latte, topped with frothy milk and a sprinkle of cinnamon."
-                  />
+                <div className="position-relative">
+                  <div className="d-flex justify-content-center">
+                    <img
+                      className="img-fluid h-50 w-50  mt-2"
+                      src="/images/blog1/blog1 (5).png"
+                      title="May aid digestion and reduce inflammation"
+                    />
+                    <div style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }} className="position-absolute bottom-0 w-50 py-1 d-flex flex-column justify-content-end text-white overlay">
+                      <h2 className="text-center mb-0 fw-bolder">Ginger</h2>
+                      <p className="text-center">May aid digestion and reduce inflammation</p>
+                    </div>
+                  </div>
+
                 </div>
                 <br />
                 <li>
@@ -142,12 +175,19 @@ function Blogs() {
                   garlic-infused dal, you can feel good about not only the taste
                   but also the potential health benefits.
                 </li>
-                <div className="d-flex justify-content-center">
-                  <img
-                    className="img-fluid h-50 w-50 mt-2"
-                    src="/images/gal (5).avif"
-                    title="A white mug filled with a creamy ginger tea latte, topped with frothy milk and a sprinkle of cinnamon."
-                  />
+                <div className="position-relative">
+                  <div className="d-flex justify-content-center">
+                    <img
+                      className="img-fluid h-50 w-50  mt-2"
+                      src="/images/blog1/blog1 (1).png"
+                      alt="Contains antioxidants and boosts immunity"
+                    />
+                    <div style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }} className="position-absolute bottom-0 w-50 py-1 d-flex flex-column justify-content-end text-white overlay">
+                      <h2 className="text-center mb-0 fw-bolder">Garlic</h2>
+                      <p className="text-center">Contains antioxidants and boosts immunity</p>
+                    </div>
+                  </div>
+
                 </div>
                 <br />
               </ul>
