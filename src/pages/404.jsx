@@ -5,24 +5,16 @@ function NoPage() {
     return (
         <div className="px-4 text-dark py-5 my-1 text-center">
             <div className="container">
-              <div className="row justify-content-center">
-    <div style={{fontSize:"70px"}} className="col fw-bolder d-flex justify-content-end align-self-center">
-      4
-    </div>
-    <img style={{maxWidth: "79px",maxHeight: "79px"}} className="col align-self-center d-block m-0 p-0 border border-dark border-5 rounded-circle" src="/images/logo-navbar.png" alt=""/>
-    <div style={{fontSize:"70px"}} className="col fw-bolder align-self-center d-flex justify-content-start">
-      4
-    </div>
-  </div>
-  </div>
-            {/* <img
-            src="/images/logo-navbar.png"
-            alt=""
-            width="60"
-            height="28" 
-            // onClick={() => startLoading(progress + 50)} 
-            className="d-inline-block  align-text-center me-1"
-          /> */}
+                <div className="row justify-content-center">
+                    <div style={{ fontSize: "70px" }} className="col fw-bolder d-flex justify-content-end align-self-center">
+                        4
+                    </div>
+                    <img style={{ maxWidth: "79px", maxHeight: "79px" }} className="col align-self-center d-block m-0 p-0 border border-dark border-5 rounded-circle" src="/images/logo-navbar.png" alt="" />
+                    <div style={{ fontSize: "70px" }} className="col fw-bolder align-self-center d-flex justify-content-start">
+                        4
+                    </div>
+                </div>
+            </div>
             <Link className="font-poppins fw-bold fs-1 text-prime-gradient navbar-brand" to="/">
                 FoodiesPoint
             </Link>

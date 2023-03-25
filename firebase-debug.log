@@ -1,0 +1,26 @@
+[debug] [2023-04-04T18:22:10.894Z] ----------------------------------------------------------------------
+[debug] [2023-04-04T18:22:10.895Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\LENOVO\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-04-04T18:22:10.896Z] CLI Version:   11.25.2
+[debug] [2023-04-04T18:22:10.896Z] Platform:      win32
+[debug] [2023-04-04T18:22:10.896Z] Node Version:  v18.15.0
+[debug] [2023-04-04T18:22:10.897Z] Time:          Tue Apr 04 2023 23:52:10 GMT+0530 (India Standard Time)
+[debug] [2023-04-04T18:22:10.897Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-04-04T18:22:10.972Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-04-04T18:22:10.973Z] > authorizing via signed-in user (vivekkr9119@gmail.com)
+[debug] [2023-04-04T18:22:10.973Z] [iam] checking project foodiespoint-de8e4 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-04-04T18:22:10.976Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/foodiespoint-de8e4:testIamPermissions [none]
+[debug] [2023-04-04T18:22:10.976Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/foodiespoint-de8e4:testIamPermissions x-goog-quota-user=projects/foodiespoint-de8e4
+[debug] [2023-04-04T18:22:10.976Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/foodiespoint-de8e4:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-04-04T18:22:12.683Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/foodiespoint-de8e4:testIamPermissions 200
+[debug] [2023-04-04T18:22:12.684Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/foodiespoint-de8e4:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-04-04T18:22:12.687Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/foodiespoint-de8e4 [none]
+[debug] [2023-04-04T18:22:13.594Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/foodiespoint-de8e4 200
+[debug] [2023-04-04T18:22:13.594Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/foodiespoint-de8e4 {"projectId":"foodiespoint-de8e4","projectNumber":"560692441227","displayName":"foodiespoint","name":"projects/foodiespoint-de8e4","resources":{"hostingSite":"foodiespoint-de8e4"},"state":"ACTIVE","etag":"1_a7623f0d-70f0-4b68-b2fa-6c3970c6101d"}
+[info] 
+[info] === Deploying to 'foodiespoint-de8e4'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2023-04-04T18:22:13.600Z] Specified "public" directory "build" does not exist; Deploy to Hosting site "foodiespoint-de8e4" may fail or be empty.
+[debug] [2023-04-04T18:22:13.601Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/foodiespoint-de8e4/versions [none]
+[debug] [2023-04-04T18:22:13.601Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/foodiespoint-de8e4/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase"}}

@@ -17,257 +17,34 @@ function Blog3() {
 
       <div className="row g-5">
       {/* Blog begins here */}
-        <div className="col-md-8">
-          <h3 className="blogs-page-heading pb-4 mb-4 fs-3 fst-italic border-bottom">
-            From the Firehose 333333
-          </h3>
-          <article className="blog-post">
-            <h2 className="blogs-page-heading blog-post-title mb-1">
-              Sample blog post
-            </h2>
-            <p className="blog-post-meta">
-              January 1, 2021 by <a href="#">Mark</a>
-            </p>
-            <p className=" border-bottom pb-2 mb-3">
-              This blog post shows a few different types of content that’s
-              supported and styled with Bootstrap. Basic typography, lists,
-              tables, images, code, and more are all supported as expected.
-            </p>
-            {/* <hr /> */}
-            <p>
-              This is some additional paragraph placeholder content. It has been
-              written to fill the available space and show how a longer snippet
-              of text affects the surrounding content. We'll repeat it often to
-              keep the demonstration flowing, so be on the lookout for this
-              exact same string of text.
-            </p>
-            <h2 className="blogs-page-heading fs-3">Blockquotes</h2>
-            <p>This is an example blockquote in action:</p>
-            <blockquote className="blockquote">
-              <p>Quoted text goes here.</p>
-            </blockquote>
-            <p>
-              This is some additional paragraph placeholder content. It has been
-              written to fill the available space and show how a longer snippet
-              of text affects the surrounding content. We'll repeat it often to
-              keep the demonstration flowing, so be on the lookout for this
-              exact same string of text.
-            </p>
-            <h3 className="blogs-page-heading fs-3">Example lists</h3>
-            <p>
-              This is some additional paragraph placeholder content. It's a
-              slightly shorter version of the other highly repetitive body text
-              used throughout. This is an example unordered list:
-            </p>
-            <p>And this is an ordered list:</p>
-            <ol style={{ listStyleType: "decimal" }}>
-              <li>First list item</li>
-              <li>Second list item with a longer description</li>
-              <li>Third list item to close it out</li>
-            </ol>
-            <p>And this is a definition list:</p>
-            <dl>
-              <dt>HyperText Markup Language (HTML)</dt>
-              <dd>
-                The language used to describe and define the content of a Web
-                page
-              </dd>
-              <dt>Cascading Style Sheets (CSS)</dt>
-              <dd>Used to describe the appearance of Web content</dd>
-              <dt>JavaScript (JS)</dt>
-              <dd>
-                The programming language used to build advanced Web sites and
-                applications
-              </dd>
-            </dl>
-            <h2 className="blogs-page-heading ">Inline HTML elements</h2>
-            <p>
-              HTML defines a long list of available inline tags, a complete list
-              of which can be found on the{" "}
-              <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">
-                Mozilla Developer Network
-              </a>
-              .
-            </p>
-            <ul style={{ listStyleType: "disc" }}>
-              <li>
-                <strong>To bold text</strong>, use{" "}
-                <code className="language-plaintext highlighter-rouge">
-                  &lt;strong&gt;
-                </code>
-                .
-              </li>
-              <li>
-                <em>To italicize text</em>, use{" "}
-                <code className="language-plaintext highlighter-rouge">
-                  &lt;em&gt;
-                </code>
-                .
-              </li>
-              <li>
-                Abbreviations, like{" "}
-                <abbr title="HyperText Markup Language">HTML</abbr> should use{" "}
-                <code className="language-plaintext highlighter-rouge">
-                  &lt;abbr&gt;
-                </code>
-                , with an optional{" "}
-                <code className="language-plaintext highlighter-rouge">
-                  title
-                </code>{" "}
-                attribute for the full phrase.
-              </li>
-              <li>
-                Citations, like <cite>— Mark Otto</cite>, should use{" "}
-                <code className="language-plaintext highlighter-rouge">
-                  &lt;cite&gt;
-                </code>
-                .
-              </li>
-              <li>
-                <del>Deleted</del> text should use{" "}
-                <code className="language-plaintext highlighter-rouge">
-                  &lt;del&gt;
-                </code>{" "}
-                and <ins>inserted</ins> text should use{" "}
-                <code className="language-plaintext highlighter-rouge">
-                  &lt;ins&gt;
-                </code>
-                .
-              </li>
-              <li>
-                Superscript <sup>text</sup> uses{" "}
-                <code className="language-plaintext highlighter-rouge">
-                  &lt;sup&gt;
-                </code>{" "}
-                and subscript <sub>text</sub> uses{" "}
-                <code className="language-plaintext highlighter-rouge">
-                  &lt;sub&gt;
-                </code>
-                .
-              </li>
-            </ul>
-            <p>
-              Most of these elements are styled by browsers with few
-              modifications on our part.
-            </p>
-            <h2 className="blogs-page-heading ">Heading</h2>
-            <p>
-              This is some additional paragraph placeholder content. It has been
-              written to fill the available space and show how a longer snippet
-              of text affects the surrounding content. We'll repeat it often to
-              keep the demonstration flowing, so be on the lookout for this
-              exact same string of text.
-            </p>
-            <h3 className="blogs-page-heading ">Sub-heading</h3>
-            <p>
-              This is some additional paragraph placeholder content. It has been
-              written to fill the available space and show how a longer snippet
-              of text affects the surrounding content. We'll repeat it often to
-              keep the demonstration flowing, so be on the lookout for this
-              exact same string of text.
-            </p>
-            <pre>
-              <code>Example code block</code>
-            </pre>
-            <p>
-              This is some additional paragraph placeholder content. It's a
-              slightly shorter version of the other highly repetitive body text
-              used throughout.
-            </p>
-          </article>
-          <article className="blog-post">
-            <h2 className="blogs-page-heading blog-post-title mb-1">
-              Another blog post
-            </h2>
-            <p className="blog-post-meta">
-              December 23, 2020 by <a href="#">Jacob</a>
-            </p>
-            <p>
-              This is some additional paragraph placeholder content. It has been
-              written to fill the available space and show how a longer snippet
-              of text affects the surrounding content. We'll repeat it often to
-              keep the demonstration flowing, so be on the lookout for this
-              exact same string of text.
-            </p>
-            <blockquote>
-              <p>
-                Longer quote goes here, maybe with some{" "}
-                <strong>emphasized text</strong> in the middle of it.
+        <div className="col-md-8 ps-5">
+        <h2 className="blogs-page-heading blog-post-title mb-1">
+        Pizza Toppings: From Classic to Crazy
+              </h2>
+              <p className="blog-post-meta">
+                January 1, 2023 by <a href="#">FoodiesPoint</a>
               </p>
-            </blockquote>
-            <p>
-              This is some additional paragraph placeholder content. It has been
-              written to fill the available space and show how a longer snippet
-              of text affects the surrounding content. We'll repeat it often to
-              keep the demonstration flowing, so be on the lookout for this
-              exact same string of text.
-            </p>
-            <h3 className="blogs-page-heading ">Example table</h3>
-            <p>And don't forget about tables in these posts:</p>
-            <table className="table">
-              <thead>
-                <tr>
-                  <th>Name</th>
-                  <th>Upvotes</th>
-                  <th>Downvotes</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Alice</td>
-                  <td>10</td>
-                  <td>11</td>
-                </tr>
-                <tr>
-                  <td>Bob</td>
-                  <td>4</td>
-                  <td>3</td>
-                </tr>
-                <tr>
-                  <td>Charlie</td>
-                  <td>7</td>
-                  <td>9</td>
-                </tr>
-              </tbody>
-              <tfoot>
-                <tr>
-                  <td>Totals</td>
-                  <td>21</td>
-                  <td>23</td>
-                </tr>
-              </tfoot>
-            </table>
-            <p>
-              This is some additional paragraph placeholder content. It's a
-              slightly shorter version of the other highly repetitive body text
-              used throughout.
-            </p>
-          </article>
-          <article className="blog-post">
-            <h2 className="blogs-page-heading blog-post-title mb-1">
-              New feature
-            </h2>
-            <p className="blog-post-meta">
-              December 14, 2020 by <a href="#">Chris</a>
-            </p>
-            <p>
-              This is some additional paragraph placeholder content. It has been
-              written to fill the available space and show how a longer snippet
-              of text affects the surrounding content. We'll repeat it often to
-              keep the demonstration flowing, so be on the lookout for this
-              exact same string of text.
-            </p>
-            <ul style={{ listStyleType: "disc" }}>
-              <li>First list item</li>
-              <li>Second list item with a longer description</li>
-              <li>Third list item to close it out</li>
-            </ul>
-            <p>
-              This is some additional paragraph placeholder content. It's a
-              slightly shorter version of the other highly repetitive body text
-              used throughout.
-            </p>
-          </article>
+    <div>
+      <p className="fw-bolder fs-5">Who doesn't love a good pizza? </p>
+      Whether it's a classic margherita or a crazy combination of toppings, there's something about the crispy crust, gooey cheese, and flavorful toppings that just hits the spot. And if you're a pizza lover, you know that the toppings can make or break the pie. So why not take your taste buds on a journey and discover new and unique pizza topping combinations that will satisfy any craving, from savory to sweet? Let's explore some delicious pizza toppings that are popular in India:
+      <h2 className="fs-4 font-poppins">1. Butter Chicken Pizza</h2>
+      <p className="ms-3">If you're a fan of butter chicken, you'll love this pizza. Top a classic pizza crust with a layer of butter chicken sauce, followed by shredded chicken, sliced onions, bell peppers, and plenty of mozzarella cheese. Bake until the crust is crispy and the cheese is melted and bubbly. Garnish with fresh cilantro and enjoy!</p>
+
+      <h2 className="fs-4 font-poppins">2. Paneer Tikka Pizza</h2>
+      <p className="ms-3">Paneer tikka is a popular Indian dish made with marinated and grilled cubes of paneer (Indian cottage cheese). Why not add it to a pizza? Top a pizza crust with a layer of tomato sauce, followed by sliced onions, bell peppers, paneer tikka, and mozzarella cheese. Bake until the crust is crispy and the cheese is melted and bubbly. Garnish with fresh cilantro and enjoy!</p>
+
+      <h2 className="fs-4 font-poppins">3. Aloo Gobi Pizza</h2>
+      <p className="ms-3">Aloo gobi is a popular Indian dish made with potatoes and cauliflower. It's delicious as a pizza topping too! Top a pizza crust with a layer of tomato sauce, followed by sliced potatoes, cauliflower florets, sliced onions, and plenty of mozzarella cheese. Bake until the crust is crispy and the cheese is melted and bubbly. Garnish with fresh cilantro and enjoy!</p>
+
+      <h2 className="fs-4 font-poppins">4. Chicken Tikka Masala Pizza</h2>
+      <p className="ms-3">Chicken tikka masala is a classic Indian dish that's beloved around the world. Why not turn it into a pizza topping? Top a pizza crust with a layer of tomato sauce, followed by sliced onions, bell peppers, chicken tikka masala, and mozzarella cheese. Bake until the crust is crispy and the cheese is melted and bubbly. Garnish with fresh cilantro and enjoy!</p>
+
+      <h2 className="fs-4 font-poppins">5. Chocolate Pizza</h2>
+      <p className="ms-3">Who doesn't love a sweet pizza for dessert? This chocolate pizza is the perfect end to any meal. Top a pizza crust with a layer of Nutella or chocolate sauce, followed by sliced bananas, strawberries, and marshmallows. Sprinkle some chocolate chips over the top and bake until the crust is crispy and the toppings are melted and gooey. Slice and serve with a dollop of whipped cream on top for a truly decadent treat.</p>
+<p>These are just a few examples of the many delicious pizza toppings you can try. Don't be afraid to get creative and experiment with your own combinations. And remember, the key to a great pizza is a crispy crust, quality cheese, and fresh ingredients. Happy pizza making!</p>
+</div>
+
+
           {/* <nav className="blog-pagination" aria-label="Pagination">
               <a className="btn btn-outline-primary rounded-pill" href="#">Older</a>
               <a className="btn btn-outline-secondary rounded-pill disabled">Newer</a>

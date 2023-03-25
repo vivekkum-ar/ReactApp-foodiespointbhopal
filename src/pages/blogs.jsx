@@ -131,8 +131,8 @@ function Blogs() {
                       src="/images/blog1/blog1 (3).png"
                       alt="Nutrient-dense leafy green vegetable choice"
                     />
-                    <div style={{ backgroundColor: "rgba(255, 0, 0, 0.5)" }} className="bg-dark position-absolute bottom-0 w-50 py-1 d-flex flex-column justify-content-end text-white overlay">
-                      <h2 className="text-center mb-0">Kale</h2>
+                    <div style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }} className="position-absolute bottom-0 w-50 py-1 d-flex flex-column justify-content-end text-white overlay">
+                      <h2 className="text-center fw-bolder mb-0">Kale</h2>
                       <p className="text-center">Nutrient-dense leafy green vegetable choice</p>
                     </div>
                   </div>
