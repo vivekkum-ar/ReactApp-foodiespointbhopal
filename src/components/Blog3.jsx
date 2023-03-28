@@ -17,7 +17,7 @@ function Blog3() {
     <main className="container text-dark mt-3">
       <BlogTop />
 
-      <div className="row g-5">
+      <div className="row">
         {/* Blog begins here */}
         <div className="col-md-8 ps-5">
           <h2 className="blogs-page-heading blog-post-title mb-1">
@@ -35,8 +35,8 @@ function Blog3() {
 
               <div className="d-flex justify-content-center"><img className="h-50 w-50 img-fluid d-flex justify-content-center" src="/images/blog1/blog3 (1).jpg" alt="A picture of a butter chicken pizza topped with shredded chicken, sliced onions, bell peppers, and plenty of mozzarella cheese" />
                 <div style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }} className="position-absolute bottom-0 w-50 py-1 d-flex flex-column justify-content-end text-white overlay">
-                  <h2 className="text-center mb-0 fw-bolder">Lorem, ipsum.</h2>
-                  <p className="text-center">Lorem ipsum dolor sit amet.</p>
+                  <h2 className="text-center mb-0 fw-bolder">Butter Chicken Pizza</h2>
+                  <p className="text-center">Indian-inspired, cheesy, and saucy.</p>
                 </div></div></div>
 
             <h2 className="fs-4 py-2 font-poppins">2. Paneer Tikka Pizza</h2>
@@ -45,8 +45,8 @@ function Blog3() {
 
               <div className="d-flex justify-content-center"><img className="h-50 w-50 img-fluid d-flex justify-content-center" src="/images/blog1/blog3 (5).jpg" alt="A picture of a paneer tikka pizza topped with sliced onions, bell peppers, paneer tikka, and mozzarella cheese" />
                 <div style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }} className="position-absolute bottom-0 w-50 py-1 d-flex flex-column justify-content-end text-white overlay">
-                  <h2 className="text-center mb-0 fw-bolder">Lorem, ipsum.</h2>
-                  <p className="text-center">Lorem ipsum dolor sit amet.</p>
+                  <h2 className="text-center mb-0 fw-bolder">Paneer Tikka Pizza</h2>
+                  <p className="text-center">Spicy, vegetarian, and flavorful.</p>
                 </div></div></div>
 
             <h2 className="fs-4 py-2 font-poppins">3. Aloo Gobi Pizza</h2>
@@ -55,8 +55,8 @@ function Blog3() {
 
               <div className="d-flex justify-content-center"><img className="h-50 w-50 img-fluid d-flex justify-content-center" src="/images/blog1/blog3 (4).jpg" alt="A picture of an aloo gobi pizza topped with sliced potatoes, cauliflower florets, sliced onions, and plenty of mozzarella cheese" />
                 <div style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }} className="position-absolute bottom-0 w-50 py-1 d-flex flex-column justify-content-end text-white overlay">
-                  <h2 className="text-center mb-0 fw-bolder">Lorem, ipsum.</h2>
-                  <p className="text-center">Lorem ipsum dolor sit amet.</p>
+                  <h2 className="text-center mb-0 fw-bolder">Aloo Gobi Pizza</h2>
+                  <p className="text-center">Hearty, veggie-packed, and delicious.</p>
                 </div></div></div>
 
             <h2 className="fs-4 py-2 font-poppins">4. Chicken Tikka Masala Pizza</h2>
@@ -65,8 +65,8 @@ function Blog3() {
 
               <div className="d-flex justify-content-center"><img className="h-50 w-50 img-fluid d-flex justify-content-center" src="/images/blog1/blog3 (3).jpg" alt="A picture of a chicken tikka masala pizza topped with sliced onions, bell peppers, chicken tikka masala, and mozzarella cheese" />
                 <div style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }} className="position-absolute bottom-0 w-50 py-1 d-flex flex-column justify-content-end text-white overlay">
-                  <h2 className="text-center mb-0 fw-bolder">Lorem, ipsum.</h2>
-                  <p className="text-center">Lorem ipsum dolor sit amet.</p>
+                  <h2 className="text-center mb-0 fw-bolder">Chicken Tikka Masala Pizza</h2>
+                  <p className="text-center">Savory, aromatic, and exotic.</p>
                 </div></div></div>
 
             <h2 className="fs-4 py-2 font-poppins">5. Chocolate Pizza</h2>
@@ -75,8 +75,8 @@ function Blog3() {
 
               <div className="d-flex justify-content-center"><img className="h-50 w-50 img-fluid d-flex justify-content-center" src="/images/blog1/blog3 (5).jpg" alt="A picture of a chocolate pizza topped with sliced bananas, strawberries, marshmallows, and chocolate chips" />
                 <div style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }} className="position-absolute bottom-0 w-50 py-1 d-flex flex-column justify-content-end text-white overlay">
-                  <h2 className="text-center mb-0 fw-bolder">Lorem, ipsum.</h2>
-                  <p className="text-center">Lorem ipsum dolor sit amet.</p>
+                  <h2 className="text-center mb-0 fw-bolder">Chocolate Pizza</h2>
+                  <p className="text-center">Sweet, indulgent, and fruity.</p>
                 </div></div></div>
             <p>These are just a few examples of the many delicious pizza toppings you can try. Don't be afraid to get creative and experiment with your own combinations. And remember, the key to a great pizza is a crispy crust, quality cheese, and fresh ingredients. Happy pizza making!</p>
           </div>
