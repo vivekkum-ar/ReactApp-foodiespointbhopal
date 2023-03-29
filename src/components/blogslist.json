@@ -4,35 +4,35 @@
       "id": 1,
       "title": "Health Benefits of Our Ingredients",
       "description": "Discover the surprising health benefits of ingredients used in our dishes, from anti-inflammatory garlic to nutrient-rich mixed vegetables, in this informative blog post.",
-      "image": "./images/hero2.jpg",
+      "image": "../images/blog1/blog1 (1).png",
       "link": "/blogs/blog1"
     },
     {
       "id": 2,
       "title": "5 Easy and Delicious Recipes",
       "description": "Have fun with your friends and impress them with easy-to-make recipes that are delicious and perfect for a sleepover party.So, Gather your friends and try these 5 delicious and easy-to-make recipes at your next sleepover party.",
-      "image": "./images/hero2.jpg",
+      "image": "../images/blog1/blog2 (1).png",
       "link": "/blogs/blog2"
     },
     {
       "id": 3,
       "title": "Pizza Toppings: From Classic to Crazy",
       "description": "Take your taste buds on a journey and discover new and unique pizza topping combinations that will satisfy any craving, from savory to sweet.",
-      "image": "./images/hero2.jpg",
+      "image": "../images/blog1/blog3 (1).jpg",
       "link": "/blogs/blog3"
     },
     {
       "id": 4,
       "title": "5 Healthy Snacks for School",
       "description": "Stay energized and focused throughout the school day with healthy snack options that are both delicious and easy to pack. These snacks will provide the sustenance you need to power through classes, homework, and extracurricular activities, without sacrificing taste or convenience.",
-      "image": "./images/hero2.jpg",
+      "image": "../images/blog1/blog4 (1).jpg",
       "link": "/blogs/blog4"
     },
     {
       "id": 5,
       "title": "Foodie's Guide to Best Street Food",
       "description": "Discover the hidden gems in your city and experience the authentic flavors of street food that are a must-try for any foodie. From the best street food in the heart of Bhopal to the most popular street food in India, this blog post will help you find the best street food in your city.",
-      "image": "./images/hero2.jpg",
+      "image": "../images/blog1/blog5 (1).jpg",
       "link": "/blogs/blog5"
     }
   ]

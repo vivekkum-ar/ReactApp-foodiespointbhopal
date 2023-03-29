@@ -49,7 +49,7 @@ function BlogTop() {
             </div>
           </div>
           <div className="px-0 h-100 w-100 d-flex justify-content-end position-absolute translate-middle-y top-50 pe-4">
-          <img src="../images/hero2.jpg" alt={item.title} className="carousel-image w-50 img-fluid rounded-5"/>
+          <img src={item.image} alt={item.title} className="carousel-image w-50 img-fluid rounded-5"/>
             </div>
             </Link>
 </div>
