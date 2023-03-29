@@ -8,266 +8,82 @@ import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import BlogTop from "./BlogTop";
+import Footer from "./footer";
 import BlogRBar from "./BlogRBar";
 
 function Blog4() {
   return (
-    <main className="container text-dark mt-3">
+    <>
+<main className="container text-dark mt-3">
       <BlogTop />
 
-      <div className="row g-5">
-      {/* Blog begins here */}
-        <div className="col-md-8">
-          <h3 className="blogs-page-heading pb-4 mb-4 fs-3 fst-italic border-bottom">
-            From the Firehose 444444
-          </h3>
-          <article className="blog-post">
-            <h2 className="blogs-page-heading blog-post-title mb-1">
-              Sample blog post
-            </h2>
-            <p className="blog-post-meta">
-              January 1, 2021 by <a href="#">Mark</a>
-            </p>
-            <p className=" border-bottom pb-2 mb-3">
-              This blog post shows a few different types of content that’s
-              supported and styled with Bootstrap. Basic typography, lists,
-              tables, images, code, and more are all supported as expected.
-            </p>
-            {/* <hr /> */}
-            <p>
-              This is some additional paragraph placeholder content. It has been
-              written to fill the available space and show how a longer snippet
-              of text affects the surrounding content. We'll repeat it often to
-              keep the demonstration flowing, so be on the lookout for this
-              exact same string of text.
-            </p>
-            <h2 className="blogs-page-heading fs-3">Blockquotes</h2>
-            <p>This is an example blockquote in action:</p>
-            <blockquote className="blockquote">
-              <p>Quoted text goes here.</p>
-            </blockquote>
-            <p>
-              This is some additional paragraph placeholder content. It has been
-              written to fill the available space and show how a longer snippet
-              of text affects the surrounding content. We'll repeat it often to
-              keep the demonstration flowing, so be on the lookout for this
-              exact same string of text.
-            </p>
-            <h3 className="blogs-page-heading fs-3">Example lists</h3>
-            <p>
-              This is some additional paragraph placeholder content. It's a
-              slightly shorter version of the other highly repetitive body text
-              used throughout. This is an example unordered list:
-            </p>
-            <p>And this is an ordered list:</p>
-            <ol style={{ listStyleType: "decimal" }}>
-              <li>First list item</li>
-              <li>Second list item with a longer description</li>
-              <li>Third list item to close it out</li>
-            </ol>
-            <p>And this is a definition list:</p>
-            <dl>
-              <dt>HyperText Markup Language (HTML)</dt>
-              <dd>
-                The language used to describe and define the content of a Web
-                page
-              </dd>
-              <dt>Cascading Style Sheets (CSS)</dt>
-              <dd>Used to describe the appearance of Web content</dd>
-              <dt>JavaScript (JS)</dt>
-              <dd>
-                The programming language used to build advanced Web sites and
-                applications
-              </dd>
-            </dl>
-            <h2 className="blogs-page-heading ">Inline HTML elements</h2>
-            <p>
-              HTML defines a long list of available inline tags, a complete list
-              of which can be found on the{" "}
-              <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">
-                Mozilla Developer Network
-              </a>
-              .
-            </p>
-            <ul style={{ listStyleType: "disc" }}>
-              <li>
-                <strong>To bold text</strong>, use{" "}
-                <code className="language-plaintext highlighter-rouge">
-                  &lt;strong&gt;
-                </code>
-                .
-              </li>
-              <li>
-                <em>To italicize text</em>, use{" "}
-                <code className="language-plaintext highlighter-rouge">
-                  &lt;em&gt;
-                </code>
-                .
-              </li>
-              <li>
-                Abbreviations, like{" "}
-                <abbr title="HyperText Markup Language">HTML</abbr> should use{" "}
-                <code className="language-plaintext highlighter-rouge">
-                  &lt;abbr&gt;
-                </code>
-                , with an optional{" "}
-                <code className="language-plaintext highlighter-rouge">
-                  title
-                </code>{" "}
-                attribute for the full phrase.
-              </li>
-              <li>
-                Citations, like <cite>— Mark Otto</cite>, should use{" "}
-                <code className="language-plaintext highlighter-rouge">
-                  &lt;cite&gt;
-                </code>
-                .
-              </li>
-              <li>
-                <del>Deleted</del> text should use{" "}
-                <code className="language-plaintext highlighter-rouge">
-                  &lt;del&gt;
-                </code>{" "}
-                and <ins>inserted</ins> text should use{" "}
-                <code className="language-plaintext highlighter-rouge">
-                  &lt;ins&gt;
-                </code>
-                .
-              </li>
-              <li>
-                Superscript <sup>text</sup> uses{" "}
-                <code className="language-plaintext highlighter-rouge">
-                  &lt;sup&gt;
-                </code>{" "}
-                and subscript <sub>text</sub> uses{" "}
-                <code className="language-plaintext highlighter-rouge">
-                  &lt;sub&gt;
-                </code>
-                .
-              </li>
-            </ul>
-            <p>
-              Most of these elements are styled by browsers with few
-              modifications on our part.
-            </p>
-            <h2 className="blogs-page-heading ">Heading</h2>
-            <p>
-              This is some additional paragraph placeholder content. It has been
-              written to fill the available space and show how a longer snippet
-              of text affects the surrounding content. We'll repeat it often to
-              keep the demonstration flowing, so be on the lookout for this
-              exact same string of text.
-            </p>
-            <h3 className="blogs-page-heading ">Sub-heading</h3>
-            <p>
-              This is some additional paragraph placeholder content. It has been
-              written to fill the available space and show how a longer snippet
-              of text affects the surrounding content. We'll repeat it often to
-              keep the demonstration flowing, so be on the lookout for this
-              exact same string of text.
-            </p>
-            <pre>
-              <code>Example code block</code>
-            </pre>
-            <p>
-              This is some additional paragraph placeholder content. It's a
-              slightly shorter version of the other highly repetitive body text
-              used throughout.
-            </p>
-          </article>
-          <article className="blog-post">
-            <h2 className="blogs-page-heading blog-post-title mb-1">
-              Another blog post
-            </h2>
-            <p className="blog-post-meta">
-              December 23, 2020 by <a href="#">Jacob</a>
-            </p>
-            <p>
-              This is some additional paragraph placeholder content. It has been
-              written to fill the available space and show how a longer snippet
-              of text affects the surrounding content. We'll repeat it often to
-              keep the demonstration flowing, so be on the lookout for this
-              exact same string of text.
-            </p>
-            <blockquote>
+      <div className="row">
+        {/* Blog begins here */}
+        <div className="col-md-8 ps-5">
+          <h2 className="blogs-page-heading blog-post-title mb-1">
+          5 Healthy Snacks for School
+          </h2>
+          <p className="blog-post-meta">
+            January 29, 2023 by <a href="#">FoodiesPoint</a>
+          </p>
+          <p className="my-3">
+          As a chef, I know how important it is to provide nutritious and tasty snacks for kids, especially when they're at school. With the rise of unhealthy snack options, it's crucial to find healthy alternatives that can keep them fueled and energized throughout the day.
+          </p>
+          <p className="my-3">
+          That's why I've put together a list of 5 healthy snacks that are perfect for school. These snacks are easy to prepare, packed with nutrients, and most importantly, delicious. As a parent, I understand the importance of providing healthy options for my child, and I hope that these snack ideas can inspire you to do the same for your little ones.
+          </p>
+          <h2 className="fs-4 py-2 font-poppins">1. Roasted Chana (Spicy Chickpeas)</h2>
+          <p className="ms-3 pb-2">Roasted chana is a classic Indian snack that is both spicy and crunchy. Chickpeas are a great source of protein and fiber, making them a filling snack that will keep you going until your next meal. To make roasted chana, simply rinse a can of chickpeas and dry them with a paper towel. Toss them in a mixture of spices such as chili powder, cumin, coriander, and salt. Then, roast them in the oven at 350°F for about 30 minutes, or until crispy. Pack them in a small container or Ziploc bag for a tasty and healthy snack.</p>
+          <div className="position-relative">
+
+            <div className="d-flex justify-content-center"><img className="h-50 w-50 img-fluid d-flex justify-content-center" src="/images/blog1/blog3 (1).jpg" alt="A picture of a butter chicken pizza topped with shredded chicken, sliced onions, bell peppers, and plenty of mozzarella cheese" />
+              <div style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }} className="position-absolute bottom-0 w-50 py-1 d-flex flex-column justify-content-end text-white overlay">
+                <h2 className="text-center mb-0 fw-bolder">Butter Chicken Pizza</h2>
+                <p className="text-center">Spicy roasted chickpeas snack.</p>
+              </div></div></div>
+
+          <h2 className="fs-4 py-2 font-poppins">2. Masala Dosa Bites</h2>
+          <p className="ms-3 pb-2">Dosa is a popular Indian breakfast food, but it can also make a great snack. To make dosa bites, prepare a regular dosa batter by soaking rice and urad dal for a few hours and blending them into a smooth paste. Add salt to taste and let the batter ferment overnight. Then, heat a non-stick pan and pour a small ladleful of batter onto it. Cook it on medium heat until the edges start to turn brown. Add a spoonful of potato masala in the center and fold the dosa in half. Cut it into bite-sized pieces and pack them in a small container for a nutritious and delicious snack.</p>
+          <div className="position-relative">
+
+            <div className="d-flex justify-content-center"><img className="h-50 w-50 img-fluid d-flex justify-content-center" src="/images/blog1/blog3 (5).jpg" alt="A picture of a Masala Dosa Bites topped with sliced onions, bell peppers, paneer tikka, and mozzarella cheese" />
+              <div style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }} className="position-absolute bottom-0 w-50 py-1 d-flex flex-column justify-content-end text-white overlay">
+                <h2 className="text-center mb-0 fw-bolder">Masala Dosa Bites</h2>
+                <p className="text-center">Miniature South Indian crepes.</p>
+              </div></div></div>
+
+          <h2 className="fs-4 py-2 font-poppins">3. Fruit Chaat (Fruit Salad)</h2>
+          <p className="ms-3 pb-2">Fruit chaat is a refreshing and healthy snack that is perfect for school. Cut up your favorite fruits such as apples, bananas, oranges, and pomegranates into bite-sized pieces. Toss them with a sprinkle of chaat masala and a squeeze of lemon juice. Chaat masala is a tangy spice blend that can be found at most Indian grocery stores. Pack the fruit chaat in a small container for a sweet and healthy snack that will keep you energized throughout the day.</p>
+          <div className="position-relative">
+
+            <div className="d-flex justify-content-center"><img className="h-50 w-50 img-fluid d-flex justify-content-center" src="/images/blog1/blog3 (4).jpg" alt="A picture of an Fruit Chaat (Fruit Salad) topped with sliced potatoes, cauliflower florets, sliced onions, and plenty of mozzarella cheese" />
+              <div style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }} className="position-absolute bottom-0 w-50 py-1 d-flex flex-column justify-content-end text-white overlay">
+                <h2 className="text-center mb-0 fw-bolder">Fruit Chaat (Fruit Salad)</h2>
+                <p className="text-center">Colorful mixed fruit salad.</p>
+              </div></div></div>
+
+          <h2 className="fs-4 py-2 font-poppins">4. Poha (Flattened Rice)</h2>
+          <p className="ms-3 pb-2">Poha is a light and nutritious snack that can be made in minutes. Rinse 1 cup of flattened rice (poha) in a colander and set it aside. Heat oil in a pan and add mustard seeds, cumin seeds, curry leaves, and chopped green chilies. Add diced onions and sauté until they turn translucent. Add the rinsed poha, salt, and turmeric powder. Mix everything together and cook for a few minutes. Poha is a great source of carbohydrates and can keep you full for a long time. Pack it in a small container for a tasty and healthy snack.</p>
+          <div className="position-relative">
+
+            <div className="d-flex justify-content-center"><img className="h-50 w-50 img-fluid d-flex justify-content-center" src="/images/blog1/blog3 (3).jpg" alt="A picture of a Poha (Flattened Rice) topped with sliced onions, bell peppers, chicken tikka masala, and mozzarella cheese" />
+              <div style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }} className="position-absolute bottom-0 w-50 py-1 d-flex flex-column justify-content-end text-white overlay">
+                <h2 className="text-center mb-0 fw-bolder">Poha (Flattened Rice)</h2>
+                <p className="text-center">Flattened rice breakfast dish.</p>
+              </div></div></div>
+
+          <h2 className="fs-4 py-2 font-poppins">5. Paneer Roll with Soya Chaap Roll</h2>
+          <p className="ms-3 pb-2">Paneer is a popular Indian cheese that is often used in vegetarian dishes. For a healthier and equally tasty alternative, try a soya chaap roll instead. Soya chaap is a protein-rich vegetarian food made from soybeans, and it can be marinated and cooked in a similar way to paneer. To make a soya chaap roll, marinate the soya chaap in a mixture of spices such as ginger, garlic, cumin, coriander, and garam masala. Then, grill or bake the soya chaap until golden brown. Place it on a roti or paratha along with some sliced onions, tomatoes, and chutney. Roll it up and pack it in a small container for a delicious and healthy snack.</p>
+          <div className="position-relative">
+
+            <div className="d-flex justify-content-center"><img className="h-50 w-50 img-fluid d-flex justify-content-center" src="/images/blog1/blog3 (5).jpg" alt="A picture of a Paneer Roll with Soya Chaap Roll topped with sliced bananas, strawberries, marshmallows, and chocolate chips" />
+              <div style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }} className="position-absolute bottom-0 w-50 py-1 d-flex flex-column justify-content-end text-white overlay">
+                <h2 className="text-center mb-0 fw-bolder">Paneer Roll with Soya Chaap Roll</h2>
+                <p className="text-center">Vegetarian protein-packed rolls. </p>
+              </div></div></div>
               <p>
-                Longer quote goes here, maybe with some{" "}
-                <strong>emphasized text</strong> in the middle of it.
+              In conclusion, whether you're a chef or a parent, providing healthy snacks is essential for the growth and development of children. With these 5 snack ideas, you can ensure that your child is getting the right nutrients they need to stay focused and energized in school. So, get creative in the kitchen and try out these snacks for a fun and healthy twist on snack time.
               </p>
-            </blockquote>
-            <p>
-              This is some additional paragraph placeholder content. It has been
-              written to fill the available space and show how a longer snippet
-              of text affects the surrounding content. We'll repeat it often to
-              keep the demonstration flowing, so be on the lookout for this
-              exact same string of text.
-            </p>
-            <h3 className="blogs-page-heading ">Example table</h3>
-            <p>And don't forget about tables in these posts:</p>
-            <table className="table">
-              <thead>
-                <tr>
-                  <th>Name</th>
-                  <th>Upvotes</th>
-                  <th>Downvotes</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Alice</td>
-                  <td>10</td>
-                  <td>11</td>
-                </tr>
-                <tr>
-                  <td>Bob</td>
-                  <td>4</td>
-                  <td>3</td>
-                </tr>
-                <tr>
-                  <td>Charlie</td>
-                  <td>7</td>
-                  <td>9</td>
-                </tr>
-              </tbody>
-              <tfoot>
-                <tr>
-                  <td>Totals</td>
-                  <td>21</td>
-                  <td>23</td>
-                </tr>
-              </tfoot>
-            </table>
-            <p>
-              This is some additional paragraph placeholder content. It's a
-              slightly shorter version of the other highly repetitive body text
-              used throughout.
-            </p>
-          </article>
-          <article className="blog-post">
-            <h2 className="blogs-page-heading blog-post-title mb-1">
-              New feature
-            </h2>
-            <p className="blog-post-meta">
-              December 14, 2020 by <a href="#">Chris</a>
-            </p>
-            <p>
-              This is some additional paragraph placeholder content. It has been
-              written to fill the available space and show how a longer snippet
-              of text affects the surrounding content. We'll repeat it often to
-              keep the demonstration flowing, so be on the lookout for this
-              exact same string of text.
-            </p>
-            <ul style={{ listStyleType: "disc" }}>
-              <li>First list item</li>
-              <li>Second list item with a longer description</li>
-              <li>Third list item to close it out</li>
-            </ul>
-            <p>
-              This is some additional paragraph placeholder content. It's a
-              slightly shorter version of the other highly repetitive body text
-              used throughout.
-            </p>
-          </article>
           {/* <nav className="blog-pagination" aria-label="Pagination">
               <a className="btn btn-outline-primary rounded-pill" href="#">Older</a>
               <a className="btn btn-outline-secondary rounded-pill disabled">Newer</a>
@@ -275,10 +91,12 @@ function Blog4() {
         </div>
 
         {/* Blog ends here */}
-        
+
         <BlogRBar />
       </div>
     </main>
+    <Footer></Footer>
+    </>
   );
 }
 

@@ -24,7 +24,7 @@ function Blog3() {
             Pizza Toppings: From Classic to Crazy
           </h2>
           <p className="blog-post-meta">
-            January 1, 2023 by <a href="#">FoodiesPoint</a>
+            January 11, 2023 by <a href="#">FoodiesPoint</a>
           </p>
           <div>
             <p className="fw-bolder fs-5">Who doesn't love a good pizza? </p>
