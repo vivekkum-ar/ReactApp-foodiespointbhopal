@@ -74,7 +74,7 @@ function BlogTop() {
               </Link>
             </div>
             <div className="col-auto d-none d-lg-block">
-            <img src="/images/gal (1).avif" alt="" aria-label="Placeholder: Thumbnail" style={{height:"100%"}} width={200} className="bd-placeholder-img"/>
+            <img src="/images/blog1/blog1 (1).png" alt="" aria-label="Placeholder: Thumbnail" style={{height:"100%"}} width={200} className="bd-placeholder-img"/>
             </div>
           </div>
         </div>
@@ -94,7 +94,7 @@ function BlogTop() {
               </Link>
             </div>
             <div className="col-auto d-none d-lg-block">
-              <img src="/images/gal (1).avif" alt="" aria-label="Placeholder: Thumbnail" style={{height:"100%"}} width={200} className="bd-placeholder-img"/>
+              <img src="/images/blog1/blog3 (1).jpg" alt="" aria-label="Placeholder: Thumbnail" style={{height:"100%"}} width={200} className="bd-placeholder-img"/>
             </div>
           </div>
         </div>
