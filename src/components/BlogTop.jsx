@@ -89,7 +89,7 @@ function BlogTop() {
               <p className="mb-auto">
               Take your taste buds on a journey and discover new and unique pizza topping combinations that will satisfy any craving.
               </p>
-              <Link to={"/blogs/blog5"} className="stretched-link fw-bold" style={{color:"#FA6c00"}}>
+              <Link to={"/blogs/blog3"} className="stretched-link fw-bold" style={{color:"#FA6c00"}}>
                 Continue reading...
               </Link>
             </div>

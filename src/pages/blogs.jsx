@@ -21,6 +21,12 @@ function Blogs() {
           {/* Blog begins here */}
           <div className="col-md-8 ps-5">
             <div>
+            <h2 className="blogs-page-heading blog-post-title mb-1">
+                Health Benefits of Our Ingredients
+              </h2>
+              <p className="blog-post-meta">
+                January 1, 2023 by <a href="#">FoodiesPoint</a>
+              </p>
               <h2
                 style={{ fontWeight: "bold", marginBottom: "1rem" }}
                 className="font-poppins fs-4 d-flex justify-content-center mb-0 pb-0 text-uppercase"
