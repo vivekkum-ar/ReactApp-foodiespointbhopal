@@ -38,7 +38,7 @@ function Blog4() {
 
             <div className="d-flex justify-content-center"><img className="h-50 w-50 img-fluid d-flex justify-content-center" src="/images/blog1/blog4 (1).jpg" alt="A picture of a butter chicken pizza topped with shredded chicken, sliced onions, bell peppers, and plenty of mozzarella cheese" />
               <div style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }} className="position-absolute bottom-0 w-50 py-1 d-flex flex-column justify-content-end text-white overlay">
-                <h2 className="text-center mb-0 fw-bolder">1. Roasted Chana (Spicy Chickpeas)</h2>
+                <h2 className="text-center mb-0 fw-bolder">Roasted Chana (Spicy Chickpeas)</h2>
                 <p className="text-center">Spicy roasted chickpeas snack.</p>
               </div></div></div>
 
