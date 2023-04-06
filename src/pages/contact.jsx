@@ -6,7 +6,9 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 import {Link} from "react-router-dom";
 import LinesEllipsis from 'react-lines-ellipsis';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Footer from "../components/footer";
 import { faPaperPlane,faEnvelope, faHome, faPhone } from '@fortawesome/free-solid-svg-icons';
+import "./basicCss.css";
 
 
 function Contact() {
@@ -59,9 +61,10 @@ function Contact() {
       
 {/* Hero section ends here */}
 
-
-<div className="col-md-7 col-lg-8 text-dark">
-        <h4 className="mb-3">Billing address</h4>
+{/* Form starts here */}
+<div style={{zIndex:"99"}} className="animate__animated animate__slideInRight container d-flex justify-content-end align-items-center position-absolute top-0 end-0 mt-5">
+<div className="col-md-7 p-5 me-2 col-lg-6 text-dark fw-bolder contact-fp-div my-5">
+        <h4 className="mb-3 fw-bolder display-6 font-poppins">Contact Form</h4>
         <form className="needs-validation" noValidate>
           <div className="row g-3">
             <div className="col-sm-6">
@@ -78,7 +81,7 @@ function Contact() {
                 Valid last name is required.
               </div>
             </div>
-            <div className="col-12">
+            <div className="col-md-6">
               <label htmlFor="contact" className="form-label">Contact Number</label>
               <div className="input-group has-validation">
                 <span className="input-group-text">+91</span>
@@ -88,112 +91,60 @@ function Contact() {
                 </div>
               </div>
             </div>
+            <div className="col-md-6">
+              <label htmlFor="country" className="form-label">Query type</label>
+              <select className="form-select" id="country" required>
+                <option value>Feedback</option>
+                <option>Enquiry</option>
+                <option>Booking</option>
+                <option>Reservation</option>
+                <option>Events</option>
+                <option>Others</option>
+              </select>
+              <small className="text-muted">Allow us to serve you better, provide a type.</small>
+              <div className="invalid-feedback">
+                Please select a valid country.
+              </div>
+            </div>
             <div className="col-12">
               <label htmlFor="email" className="form-label">Email <span className="text-muted">(Optional)</span></label>
               <input type="email" className="form-control" id="email" placeholder="you@example.com" required/>
               <div className="invalid-feedback">
-                Please enter a valid email address for shipping updates.
-              </div>
-            </div>
-            <div className="col-12">
-              <label htmlFor="message" className="form-label">Message</label>
-              <input type="text" className="form-control" id="message" placeholder="1234 Main St" required />
-              <div className="invalid-feedback">
-                Please enter your shipping message.
+                Please enter a valid email address for updates.
               </div>
             </div>
             <div className="col-12">
               <label htmlFor="address2" className="form-label">Address 2 <span className="text-muted">(Optional)</span></label>
               <input type="text" className="form-control" id="address2" placeholder="Apartment or suite" />
             </div>
-            <div className="col-md-5">
-              <label htmlFor="country" className="form-label">Country</label>
-              <select className="form-select" id="country" required>
-                <option value>Choose...</option>
-                <option>United States</option>
-              </select>
+            <div className="col-12">
+              <label htmlFor="message" className="form-label">Message</label>
+              <textarea class="form-control" id="message" placeholder="Your enquiry, message, feedback goes here" required rows="3"></textarea>
               <div className="invalid-feedback">
-                Please select a valid country.
+                Please enter your enquiry, message, feedback.
               </div>
             </div>
-            <div className="col-md-4">
-              <label htmlFor="state" className="form-label">State</label>
-              <select className="form-select" id="state" required>
-                <option value>Choose...</option>
-                <option>California</option>
-              </select>
-              <div className="invalid-feedback">
-                Please provide a valid state.
-              </div>
             </div>
-            <div className="col-md-3">
-              <label htmlFor="zip" className="form-label">Zip</label>
-              <input type="text" className="form-control" id="zip" placeholder required />
-              <div className="invalid-feedback">
-                Zip code required.
-              </div>
-            </div>
-          </div>
           <hr className="my-4" />
           <div className="form-check">
-            <input type="checkbox" className="form-check-input" id="same-address" />
-            <label className="form-check-label" htmlFor="same-address">Shipping address is the same as my billing address</label>
-          </div>
+            <input type="checkbox" className="form-check-input" id="same-address" required/>
+            <label className="form-check-label" htmlFor="same-address">I can be contacted if need be.</label>
+          </div> 
           <div className="form-check">
-            <input type="checkbox" className="form-check-input" id="save-info" />
-            <label className="form-check-label" htmlFor="save-info">Save this information for next time</label>
+            <input type="checkbox" className="form-check-input" id="save-info" required/>
+            <label className="form-check-label" htmlFor="save-info">I agree with the terms and conditions as provided <Link to="" className='fw-bolder text-primary'>here</Link></label>
           </div>
           <hr className="my-4" />
-          <h4 className="mb-3">Payment</h4>
-          <div className="my-3">
-            <div className="form-check">
-              <input id="credit" name="paymentMethod" type="radio" className="form-check-input" defaultChecked required />
-              <label className="form-check-label" htmlFor="credit">Credit card</label>
-            </div>
-            <div className="form-check">
-              <input id="debit" name="paymentMethod" type="radio" className="form-check-input" required />
-              <label className="form-check-label" htmlFor="debit">Debit card</label>
-            </div>
-            <div className="form-check">
-              <input id="paypal" name="paymentMethod" type="radio" className="form-check-input" required />
-              <label className="form-check-label" htmlFor="paypal">PayPal</label>
-            </div>
+          <div className="d-flex justify-content-center align-items-center">
+          <button className="w-50 btn btn-primary btn-lg" type="submit">Submit</button>
           </div>
-          <div className="row gy-3">
-            <div className="col-md-6">
-              <label htmlFor="cc-name" className="form-label">Name on card</label>
-              <input type="text" className="form-control" id="cc-name" placeholder required />
-              <small className="text-muted">Full name as displayed on card</small>
-              <div className="invalid-feedback">
-                Name on card is required
-              </div>
-            </div>
-            <div className="col-md-6">
-              <label htmlFor="cc-number" className="form-label">Credit card number</label>
-              <input type="text" className="form-control" id="cc-number" placeholder required />
-              <div className="invalid-feedback">
-                Credit card number is required
-              </div>
-            </div>
-            <div className="col-md-3">
-              <label htmlFor="cc-expiration" className="form-label">Expiration</label>
-              <input type="text" className="form-control" id="cc-expiration" placeholder required />
-              <div className="invalid-feedback">
-                Expiration date required
-              </div>
-            </div>
-            <div className="col-md-3">
-              <label htmlFor="cc-cvv" className="form-label">CVV</label>
-              <input type="text" className="form-control" id="cc-cvv" placeholder required />
-              <div className="invalid-feedback">
-                Security code required
-              </div>
-            </div>
-          </div>
-          <hr className="my-4" />
-          <button className="w-100 btn btn-primary btn-lg" type="submit">Continue to checkout</button>
         </form>
       </div>
+</div>
+{/* Form ends here */}
+
+<div class="p-3 m-5"></div>
+      <Footer></Footer>
         </>
 
     );
