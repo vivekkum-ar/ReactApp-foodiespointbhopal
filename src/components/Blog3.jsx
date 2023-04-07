@@ -19,7 +19,7 @@ function Blog3() {
 
       <div className="row">
         {/* Blog begins here */}
-        <div className="col-md-8 ps-5">
+        <div className="col-md-8">
           <h2 className="blogs-page-heading blog-post-title mb-1">
             Pizza Toppings: From Classic to Crazy
           </h2>

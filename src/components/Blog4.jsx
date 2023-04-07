@@ -19,7 +19,7 @@ function Blog4() {
 
       <div className="row">
         {/* Blog begins here */}
-        <div className="col-md-8 ps-5">
+        <div className="col-md-8">
           <h2 className="blogs-page-heading blog-post-title mb-1">
           5 Healthy Snacks for School
           </h2>
@@ -36,7 +36,8 @@ function Blog4() {
           <p className="ms-3 pb-2">Roasted chana is a classic Indian snack that is both spicy and crunchy. Chickpeas are a great source of protein and fiber, making them a filling snack that will keep you going until your next meal. To make roasted chana, simply rinse a can of chickpeas and dry them with a paper towel. Toss them in a mixture of spices such as chili powder, cumin, coriander, and salt. Then, roast them in the oven at 350°F for about 30 minutes, or until crispy. Pack them in a small container or Ziploc bag for a tasty and healthy snack.</p>
           <div className="position-relative">
 
-            <div className="d-flex justify-content-center"><img className="h-50 w-50 img-fluid d-flex justify-content-center" src="/images/blog1/blog4 (1).jpg" alt="A picture of a butter chicken pizza topped with shredded chicken, sliced onions, bell peppers, and plenty of mozzarella cheese" />
+            <div className="d-flex justify-content-center">
+              <img className="h-50 w-50 img-fluid d-flex justify-content-center" src="/images/blog1/blog4 (1).jpg" alt="A picture of a butter chicken pizza topped with shredded chicken, sliced onions, bell peppers, and plenty of mozzarella cheese" />
               <div style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }} className="position-absolute bottom-0 w-50 py-1 d-flex flex-column justify-content-end text-white overlay">
                 <h2 className="text-center mb-0 fw-bolder">Roasted Chana (Spicy Chickpeas)</h2>
                 <p className="text-center">Spicy roasted chickpeas snack.</p>

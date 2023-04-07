@@ -19,7 +19,7 @@ function Blogs() {
 
         <div className="row">
           {/* Blog begins here */}
-          <div className="col-md-8 ps-5">
+          <div className="col-md-8">
             <div>
             <h2 className="blogs-page-heading blog-post-title mb-1">
                 Health Benefits of Our Ingredients

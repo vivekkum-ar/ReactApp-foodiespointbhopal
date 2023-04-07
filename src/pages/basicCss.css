@@ -599,3 +599,17 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   }
   }
   /* ----------------------- End of desktop media query ----------------------- */
+
+  @media only screen and (max-width: 480px){
+    .carousel-image{
+      display: none !important;
+    }
+    /* --------------------- blog images sizing for mobiles --------------------- */
+    img.h-50.w-50.img-fluid{
+      height: 75% !important;
+      width: 75% !important;
+    }
+    img.h-50.w-50.img-fluid + div{
+      width: 75% !important;
+    }
+  }
