@@ -57,6 +57,12 @@ font-size:210%;
   .navbar-toggler{
     display: none;
   }
+  div.blank-fix{
+    height:55rem;
+  }
+  main.contact{
+    display: none;
+  }
   .text-prime-gradient2{
     font-size:105%;
   }

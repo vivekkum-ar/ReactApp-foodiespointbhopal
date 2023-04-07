@@ -20,7 +20,7 @@ function Footer() {
           <div className="container">
             <div className="footer-cta pt-5 pb-5">
               <div className="row">
-                <div className="col-xl-4 col-md-4 mb-30 d-flex justify-content-center">
+                <div className="col-xl-4 col-md-4 mb-30 d-flex ms-xs-1 pb-xs-2 justify-content-lg-center">
                   <div
                     className="single-cta d-flex align-content-top"
                     style={{ width: "max-content" }}
@@ -35,7 +35,7 @@ function Footer() {
                     </div>
                   </div>
                 </div>
-                <div className="col-xl-4 col-md-4 mb-30 d-flex justify-content-center">
+                <div className="col-xl-4 col-md-4 mb-30 d-flex ms-xs-1 pb-xs-2 justify-content-lg-center">
                   <div className="single-cta">
                     <FontAwesomeIcon icon={faPhone} className="fs-1 pb-1" />
                     <div className="cta-text">
@@ -44,7 +44,7 @@ function Footer() {
                     </div>
                   </div>
                 </div>
-                <div className="col-xl-4 col-md-4 mb-30 d-flex justify-content-center">
+                <div className="col-xl-4 col-md-4 mb-30 d-flex ms-xs-1 pb-xs-2 justify-content-lg-center">
                   <div className="single-cta">
                     <FontAwesomeIcon icon={faEnvelope} className="fs-1 pb-1" />
                     <div className="cta-text">
@@ -58,7 +58,7 @@ function Footer() {
             <div className="footer-content pt-5 pb-5">
               <div className="row">
                 <div className="col-xl-4 col-lg-4 mb-50">
-                  <div className="footer-widget ps-3">
+                  <div className="footer-widget ps-md-3">
                     <div className="footer-logo">
                       <a href="index.html">
                         <Link
