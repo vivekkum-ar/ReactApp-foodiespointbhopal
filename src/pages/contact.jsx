@@ -191,8 +191,8 @@ function Contact() {
                 </div>
               </div>
               <div className="col-12">
-                <label htmlFor="address2" className="form-label">
-                  Address 2 <span className="text-muted">(Optional)</span>
+                <label htmlFor="address" className="form-label">
+                  Address <span className="text-muted">(Optional)</span>
                 </label>
                 <input
                   type="text"
