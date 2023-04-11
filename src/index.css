@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
 .newsize{
     max-width: 100%;
   height: auto;
@@ -12,10 +13,10 @@
 nav{
   
 }
-.div-body{
+/* .div-body{
     background: rgb(131,58,180);
     background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-}
+} */
 
 .font-poppins{
   font-family: 'Poppins', sans-serif; 
@@ -52,7 +53,9 @@ font-size:210%;
   color: #FA6C0099 !important;
 }
 
-/* ------------------------ CSS for menu product grid ----------------------- */
+/* -------------------------------------------------------------------------- */
+/*                          CSS for menu product grid                         */
+/* -------------------------------------------------------------------------- */
 
 .product-grid{
   font-family:'Lato', sans-serif;
@@ -178,7 +181,6 @@ font-size:210%;
 @media screen and (max-width: 990px){
   .product-grid{ margin-bottom: 30px; }
 }
-
 /* --------------------- CSS for product grid ends here --------------------- */
 
 /* # Mobile */
