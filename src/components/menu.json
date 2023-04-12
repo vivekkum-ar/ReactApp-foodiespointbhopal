@@ -1,0 +1,622 @@
+{
+    "items": [
+    {
+        "name": "Kadhai Paneer",
+        "cat": "Recommended",
+        "price": "229",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/b46/88b857e53bf1686f043e97f320489b46.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Hariyali Chaap",
+        "cat": "Recommended",
+        "price": "179",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/3b3/a3349f1323d86199c14d409581df23b3.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Chinese Platter",
+        "cat": "Recommended",
+        "price": "279",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/f83/228623d2a13b93d4e4d411dc3ecf0f83.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Paneer Tandoori Tikka",
+        "cat": "Recommended",
+        "price": "259",
+        "img-src": ""
+    },
+    {
+        "name": "Veg Cheese Paneer White Pasta",
+        "cat": "Recommended",
+        "price": "259",
+        "img-src": ""
+    },
+    {
+        "name": "Haryali Paneer Tikka",
+        "cat": "Recommended",
+        "price": "259",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/44e/e31cfd930fc1da94605cda673c5f144e.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Paneer Chilli",
+        "cat": "Recommended",
+        "price": "249",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/d40/2d0cd84b39479996414c0bb4e0cf3d40.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Veg Afghani Momos [6 Pieces]",
+        "cat": "Recommended",
+        "price": "219",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/775/a6402ecb6fe709eaf59fa9f1c98a9775.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Veg Tandoori Momos [6 Pieces]",
+        "cat": "Recommended",
+        "price": "209",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/3c2/682fb366cc4306119723b6e871d493c2.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Chole Bhature [2 Bhature]",
+        "cat": "Recommended",
+        "price": "189",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/445/a01796f9c93c8821e032c3e3a7dc3445.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Veg Fried Momos [6 Pieces]",
+        "cat": "Recommended",
+        "price": "179",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/ff7/7cd63ced25e288cd50be151f041c9ff7.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Malai Chaap",
+        "cat": "Recommended",
+        "price": "179",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/8f5/5ed184caefdb0d65805d301a17f1f8f5.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Veg Steamed Momos [6 Pieces]",
+        "cat": "Recommended",
+        "price": "169",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/f6a/4c0be0ea5ea5947299a6194b8cdaef6a.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Veg Singapuri Noodles",
+        "cat": "Recommended",
+        "price": "169",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/fd1/e50e863a9f4b8db5ccb30bdc82a56fd1.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Cheese Corn Sandwich",
+        "cat": "Recommended",
+        "price": "159",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/906/861e0ee8bd724c4f096f3c063d6fe906.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Rajma Meal",
+        "cat": "Recommended",
+        "price": "150",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/a75/845c95f84c14845164bda677867c0a75.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Veg Cheese Sandwich",
+        "cat": "Recommended",
+        "price": "149",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/c26/c8f16f7c2196eaaea56292a54b19ec26.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Veg Pulao",
+        "cat": "Recommended",
+        "price": "130",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/772/cf7c8431a098bb74c2738953d08e0772.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Aloo Kulcha",
+        "cat": "Recommended",
+        "price": "40",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/fdb/2404833c1407f6faf279b279a034bfdb.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Tawa Roti",
+        "cat": "Recommended",
+        "price": "10",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/e86/4e75cca8745b1819b81ae52b7a261e86.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Butter Naan",
+        "cat": "Recommended",
+        "price": "30",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/c35/100b12fbf18cdd5abde0477ce29fcc35.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Butter Roti",
+        "cat": "Recommended",
+        "price": "15",
+        "img-src": ""
+    },
+    {
+        "name": "Missi Roti",
+        "cat": "Recommended",
+        "price": "20",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/d4f/88905e740657acc1e64f7dbe8502cd4f.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Butter Tandoori Roti",
+        "cat": "Recommended",
+        "price": "15",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/3c9/ccdd9db1f5e9f599ea69fa49e8dd03c9.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Butter Paneer With 2 Kulcha/Naan",
+        "cat": "Indian Combo",
+        "price": "219",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/fcd/446d6091911540d525525f0b22fd2fcd.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Chole With 2 Kulcha/Naan",
+        "cat": "Indian Combo",
+        "price": "219",
+        "img-src": ""
+    },
+    {
+        "name": "Matar Chaap Keema With 2 Kulcha/Naan",
+        "cat": "Indian Combo",
+        "price": "219",
+        "img-src": ""
+    },
+    {
+        "name": "Chole Meal",
+        "cat": "Meals",
+        "price": "150",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/098/1de22a7a1bd89521b3924b4e8e7d8098.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Dal Meal",
+        "cat": "Meals",
+        "price": "150",
+        "img-src": ""
+    },
+    {
+        "name": "Salted French Fries",
+        "cat": "Snacks Starter",
+        "price": "169",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/764/b84737bee97e649d9ccf0735fa784764.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Honey Potato",
+        "cat": "Snacks Starter",
+        "price": "199",
+        "img-src": ""
+    },
+    {
+        "name": "Malai Paneer Tikka",
+        "cat": "Snacks Starter",
+        "price": "269",
+        "img-src": ""
+    },
+    {
+        "name": "Paneer 65",
+        "cat": "Snacks Starter",
+        "price": "259",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/dad/f9cf086fd00034ffa67a35e17203fdad.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Achari Chaap",
+        "cat": "Soya Chap Tandoori",
+        "price": "179",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/4c2/a76d258941fb80bab15be227767404c2.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Afghani Chaap",
+        "cat": "Soya Chap Tandoori",
+        "price": "179",
+        "img-src": ""
+    },
+    {
+        "name": "Lemon Chaap",
+        "cat": "Soya Chap Tandoori",
+        "price": "179",
+        "img-src": ""
+    },
+    {
+        "name": "Pudina Chaap",
+        "cat": "Soya Chap Tandoori",
+        "price": "179",
+        "img-src": ""
+    },
+    {
+        "name": "Tandoori Soya Chaap Tikka",
+        "cat": "Soya Chap Tandoori",
+        "price": "229",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/095/f002a4aa7f9439a00b075e118e8ad095.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Chaap Lehsuniya",
+        "cat": "Food Point Special",
+        "price": "179",
+        "img-src": ""
+    },
+    {
+        "name": "Butter Paneer Masala",
+        "cat": "Paneer",
+        "price": "229",
+        "img-src": ""
+    },
+    {
+        "name": "Handi Paneer",
+        "cat": "Paneer",
+        "price": "249",
+        "img-src": ""
+    },
+    {
+        "name": "Kaju Paneer",
+        "cat": "Paneer",
+        "price": "239",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/374/4e5352d0fe0f30bc0aeecc0989ef7374.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Malai Paneer",
+        "cat": "Paneer",
+        "price": "239",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/996/86b18e07f3d4531f3611dd1aff23f996.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Matar Paneer",
+        "cat": "Paneer",
+        "price": "229",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/ff9/33564dc9a2b113e8aa8cbf3c8b0c3ff9.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Palak Paneer",
+        "cat": "Paneer",
+        "price": "229",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/771/ff8a1ce0050d528cf1cd5bdf882ae771.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Paneer Masala",
+        "cat": "Paneer",
+        "price": "239",
+        "img-src": ""
+    },
+    {
+        "name": "Paneer Tikka Masala",
+        "cat": "Paneer",
+        "price": "229",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/325/e542bc83a86929cee513ef4f3d7e5325.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Shahi Paneer",
+        "cat": "Paneer",
+        "price": "239",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/c10/d01ae648a3675253089511859f884c10.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Sev Paneer",
+        "cat": "Paneer",
+        "price": "239",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/893/8758e72de2f3da97a054dd0040db2893.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Soya Chaap Masala",
+        "cat": "Paneer",
+        "price": "219",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/b92/1eded7cc38857cb001994556d4f0fb92.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Soya Matar Masala",
+        "cat": "Paneer",
+        "price": "219",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/c54/795463c10ae7108487ba3412639eac54.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Dal Butter",
+        "cat": "Dal",
+        "price": "209",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/8c6/d6a4e4e7174e2396aeb468118164a8c6.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Dal Fried",
+        "cat": "Dal",
+        "price": "179",
+        "img-src": ""
+    },
+    {
+        "name": "Dal Palak",
+        "cat": "Dal",
+        "price": "199",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/c20/a063e0f632e9ef121b35d033078d3c20.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Dal Tadka",
+        "cat": "Dal",
+        "price": "199",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/598/a114c92a3a7d0c15a7927965cbf8a598.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Veg Fried Rice",
+        "cat": "Chinese",
+        "price": "139",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/304/f4fa65ab1187e2321671070ebebd5304.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Veg Hakka Noodles",
+        "cat": "Chinese",
+        "price": "139",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/3c9/322b2de5920198f5c6feebbf5147e3c9.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Veg Manchurian Dry",
+        "cat": "Chinese",
+        "price": "159",
+        "img-src": ""
+    },
+    {
+        "name": "Veg Manchurian Gravy",
+        "cat": "Chinese",
+        "price": "159",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/fbc/ebfc57d5c91169b204471e4a0d9a3fbc.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Veg Noodles",
+        "cat": "Chinese",
+        "price": "139",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/a72/520e2be8496f06d13cf25daaebd3ba72.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Veg Paneer Rice",
+        "cat": "Chinese",
+        "price": "169",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/536/522a72ff3680837bf1861dca79829536.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Veg Schezwan Fried Rice",
+        "cat": "Chinese",
+        "price": "149",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/dc8/9839f10f4c39861780b8e1e590e75dc8.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Veg Schezwan Noodles",
+        "cat": "Chinese",
+        "price": "149",
+        "img-src": ""
+    },
+    {
+        "name": "Onion Tadka Maggi",
+        "cat": "Maggi",
+        "price": "159",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/7dc/d70fd73413beff177179a686c92637dc.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Onion Vegatables Maggi",
+        "cat": "Maggi",
+        "price": "169",
+        "img-src": ""
+    },
+    {
+        "name": "Plain Maggi",
+        "cat": "Maggi",
+        "price": "149",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/bcd/d8d4e62e3b8554bec08ef785c9220bcd.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Veg Butter Maggi",
+        "cat": "Maggi",
+        "price": "169",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/a94/d498952d968ef34e1120d7445d0e1a94.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Veg Cheese Maggi",
+        "cat": "Maggi",
+        "price": "179",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/917/a33ebe54ca7498ff41f671f8ef4ad917.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Garlic Naan",
+        "cat": "Main Course",
+        "price": "35",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/19d/231011c18c84fde47f50b258ae87019d.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Kashmiri Naan",
+        "cat": "Main Course",
+        "price": "60",
+        "img-src": ""
+    },
+    {
+        "name": "Lachha Paratha",
+        "cat": "Main Course",
+        "price": "25",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/cf1/21553530f4207f95a85ed92a7c36ccf1.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Onion Paratha",
+        "cat": "Main Course",
+        "price": "40",
+        "img-src": ""
+    },
+    {
+        "name": "Paneer Kulcha",
+        "cat": "Main Course",
+        "price": "45",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/917/489beda31dd9a7e285e77b4f7deea917.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Veg Kulcha",
+        "cat": "Main Course",
+        "price": "35",
+        "img-src": ""
+    },
+    {
+        "name": "Veg Hariyali Momos [6 Pieces]",
+        "cat": "Momos",
+        "price": "219",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/6ba/f5e3936d310a4a66e0a7f1995954a6ba.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Veg Paneer Fried Momos [6 Pieces]",
+        "cat": "Momos",
+        "price": "199",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/bcc/9164c270e8316b51809615f404e88bcc.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Veg Paneer Steamed Momos [6 Pieces]",
+        "cat": "Momos",
+        "price": "189",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/03b/10ccb538fa1e8ba4495686f33f54a03b.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Veg Cheese Alfredo White Pasta",
+        "cat": "Pasta",
+        "price": "249",
+        "img-src": ""
+    },
+    {
+        "name": "Veg Cheese Arrabiata Red Pasta",
+        "cat": "Pasta",
+        "price": "239",
+        "img-src": ""
+    },
+    {
+        "name": "Veg Paneer Pasta",
+        "cat": "Pasta",
+        "price": "259",
+        "img-src": ""
+    },
+    {
+        "name": "Veg Cheese Pasta",
+        "cat": "Pasta",
+        "price": "219",
+        "img-src": ""
+    },
+    {
+        "name": "Butter Khichdi",
+        "cat": "Rice",
+        "price": "150",
+        "img-src": ""
+    },
+    {
+        "name": "Jeera Rice",
+        "cat": "Rice",
+        "price": "120",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/029/5472b929639fd6bfd0c52bf52b6e1029.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Masala Rice",
+        "cat": "Rice",
+        "price": "130",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/396/d0790720ddbb0db3c6eed681c6d27396.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Matar Pulao",
+        "cat": "Rice",
+        "price": "130",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/b1b/34fe6e5be3ad8e6ba647d0902cda2b1b.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Plain Rice",
+        "cat": "Rice",
+        "price": "110",
+        "img-src": ""
+    },
+    {
+        "name": "Veg Biryani",
+        "cat": "Rice",
+        "price": "229",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/d39/fc3189a2af2735464fe93fd6de57bd39.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Cheese Cary Slow Roll",
+        "cat": "Roll",
+        "price": "189",
+        "img-src": ""
+    },
+    {
+        "name": "Spring Roll",
+        "cat": "Roll",
+        "price": "199",
+        "img-src": ""
+    },
+    {
+        "name": "Veg Paneer Tikka Roll",
+        "cat": "Roll",
+        "price": "209",
+        "img-src": ""
+    },
+    {
+        "name": "Veg Soya Chaap Roll",
+        "cat": "Roll",
+        "price": "199",
+        "img-src": ""
+    },
+    {
+        "name": "Green Salad",
+        "cat": "Salad",
+        "price": "149",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/01b/5ddc1fccf15d9e1ecf1da631334e401b.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Kachumbar Salad",
+        "cat": "Salad",
+        "price": "149",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/700/e85e974c352d94f14c8a4b358ea51700.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Papad Masala",
+        "cat": "Salad",
+        "price": "139",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/74f/69c1d499fca32518be30466664d5974f.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Raita Boondi",
+        "cat": "Salad",
+        "price": "149",
+        "img-src": ""
+    },
+    {
+        "name": "89 Paneer Masala Sandwich",
+        "cat": "Sandwich",
+        "price": "169",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/d42/eead7b9abac6884d54c0b1cbde15cd42.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Jain Sandwich",
+        "cat": "Sandwich",
+        "price": "139",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/14f/b58a2eeead1f9da657e3d4f00dba514f.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Veg Chocolate Sandwich",
+        "cat": "Sandwich",
+        "price": "169",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/c81/aa0c9fe00ed7e3f282e4acc85fb07c81.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Veg Sandwich",
+        "cat": "Sandwich",
+        "price": "139",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/01a/af022b16a8f4515a1275a7afa5b6101a.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Mushroom Soup",
+        "cat": "Soup",
+        "price": "179",
+        "img-src": ""
+    },
+    {
+        "name": "Veg Hot And Sour Soup",
+        "cat": "Soup",
+        "price": "149",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/c17/6e6f9de74ebcfb96ab725b33f6a1ac17.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Veg Manchow Soup",
+        "cat": "Soup",
+        "price": "149",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/0aa/4536fbb195cc8c1168579f728bbd70aa.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    },
+    {
+        "name": "Veg Sweet Corn Soup",
+        "cat": "Soup",
+        "price": "169",
+        "img-src": "https://b.zmtcdn.com/data/dish_photos/ffd/fbc6f6ee16a5d4260ef0c509ae22bffd.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+    }
+]
+}
