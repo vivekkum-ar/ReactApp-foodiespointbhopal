@@ -146,19 +146,19 @@
     },
     {
         "name": "Butter Paneer With 2 Kulcha/Naan",
-        "cat": "Indian Combo",
+        "cat": " Indian-Combo",
         "price": "219",
         "img-src": "https://b.zmtcdn.com/data/dish_photos/fcd/446d6091911540d525525f0b22fd2fcd.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
     },
     {
         "name": "Chole With 2 Kulcha/Naan",
-        "cat": "Indian Combo",
+        "cat": " Indian-Combo",
         "price": "219",
         "img-src": ""
     },
     {
         "name": "Matar Chaap Keema With 2 Kulcha/Naan",
-        "cat": "Indian Combo",
+        "cat": " Indian-Combo",
         "price": "219",
         "img-src": ""
     },
@@ -176,61 +176,61 @@
     },
     {
         "name": "Salted French Fries",
-        "cat": "Snacks Starter",
+        "cat": "Snacks-Starter",
         "price": "169",
         "img-src": "https://b.zmtcdn.com/data/dish_photos/764/b84737bee97e649d9ccf0735fa784764.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
     },
     {
         "name": "Honey Potato",
-        "cat": "Snacks Starter",
+        "cat": "Snacks-Starter",
         "price": "199",
         "img-src": ""
     },
     {
         "name": "Malai Paneer Tikka",
-        "cat": "Snacks Starter",
+        "cat": "Snacks-Starter",
         "price": "269",
         "img-src": ""
     },
     {
         "name": "Paneer 65",
-        "cat": "Snacks Starter",
+        "cat": "Snacks-Starter",
         "price": "259",
         "img-src": "https://b.zmtcdn.com/data/dish_photos/dad/f9cf086fd00034ffa67a35e17203fdad.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
     },
     {
         "name": "Achari Chaap",
-        "cat": "Soya Chap Tandoori",
+        "cat": "Soya-Chap-Tandoori",
         "price": "179",
         "img-src": "https://b.zmtcdn.com/data/dish_photos/4c2/a76d258941fb80bab15be227767404c2.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
     },
     {
         "name": "Afghani Chaap",
-        "cat": "Soya Chap Tandoori",
+        "cat": "Soya-Chap-Tandoori",
         "price": "179",
         "img-src": ""
     },
     {
         "name": "Lemon Chaap",
-        "cat": "Soya Chap Tandoori",
+        "cat": "Soya-Chap-Tandoori",
         "price": "179",
         "img-src": ""
     },
     {
         "name": "Pudina Chaap",
-        "cat": "Soya Chap Tandoori",
+        "cat": "Soya-Chap-Tandoori",
         "price": "179",
         "img-src": ""
     },
     {
         "name": "Tandoori Soya Chaap Tikka",
-        "cat": "Soya Chap Tandoori",
+        "cat": "Soya-Chap-Tandoori",
         "price": "229",
         "img-src": "https://b.zmtcdn.com/data/dish_photos/095/f002a4aa7f9439a00b075e118e8ad095.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
     },
     {
         "name": "Chaap Lehsuniya",
-        "cat": "Food Point Special",
+        "cat": "Food-Point-Special",
         "price": "179",
         "img-src": ""
     },
@@ -410,37 +410,37 @@
     },
     {
         "name": "Garlic Naan",
-        "cat": "Main Course",
+        "cat": "Main-Course",
         "price": "35",
         "img-src": "https://b.zmtcdn.com/data/dish_photos/19d/231011c18c84fde47f50b258ae87019d.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
     },
     {
         "name": "Kashmiri Naan",
-        "cat": "Main Course",
+        "cat": "Main-Course",
         "price": "60",
         "img-src": ""
     },
     {
         "name": "Lachha Paratha",
-        "cat": "Main Course",
+        "cat": "Main-Course",
         "price": "25",
         "img-src": "https://b.zmtcdn.com/data/dish_photos/cf1/21553530f4207f95a85ed92a7c36ccf1.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
     },
     {
         "name": "Onion Paratha",
-        "cat": "Main Course",
+        "cat": "Main-Course",
         "price": "40",
         "img-src": ""
     },
     {
         "name": "Paneer Kulcha",
-        "cat": "Main Course",
+        "cat": "Main-Course",
         "price": "45",
         "img-src": "https://b.zmtcdn.com/data/dish_photos/917/489beda31dd9a7e285e77b4f7deea917.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
     },
     {
         "name": "Veg Kulcha",
-        "cat": "Main Course",
+        "cat": "Main-Course",
         "price": "35",
         "img-src": ""
     },
