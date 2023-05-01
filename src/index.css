@@ -178,6 +178,22 @@ font-size:210%;
   display: inline-block;
   vertical-align: top;
 }
+span.product-category.list-group-item > a{
+  font-size: 8px;
+}
+button[id^="v-pills"] {
+  color: #8b8a8a;
+}
+button[id^="v-pills"]:hover {
+  color: #FA6C00;
+}
+button[id^="v-pills"].active{
+  border-right: 0.3rem solid #FA6C00;
+  border-bottom: 0.05rem solid #FA6C00;
+  border-top: 0.05rem solid #FA6C00;
+  text-decoration: none;
+  color: #FA6C00;
+}
 @media screen and (max-width: 990px){
   .product-grid{ margin-bottom: 30px; }
 }

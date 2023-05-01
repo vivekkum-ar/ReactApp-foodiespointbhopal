@@ -146,19 +146,19 @@
     },
     {
         "name": "Butter Paneer With 2 Kulcha/Naan",
-        "cat": " Indian-Combo",
+        "cat": "Indian-Combo",
         "price": "219",
         "img-src": "https://b.zmtcdn.com/data/dish_photos/fcd/446d6091911540d525525f0b22fd2fcd.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
     },
     {
         "name": "Chole With 2 Kulcha/Naan",
-        "cat": " Indian-Combo",
+        "cat": "Indian-Combo",
         "price": "219",
         "img-src": ""
     },
     {
         "name": "Matar Chaap Keema With 2 Kulcha/Naan",
-        "cat": " Indian-Combo",
+        "cat": "Indian-Combo",
         "price": "219",
         "img-src": ""
     },
