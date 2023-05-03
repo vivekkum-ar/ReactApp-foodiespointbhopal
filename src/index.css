@@ -194,6 +194,10 @@ button[id^="v-pills"].active{
   text-decoration: none;
   color: #FA6C00;
 }
+div.nav.flex-column{
+  position: sticky;
+  top: 13%;
+}
 @media screen and (max-width: 990px){
   .product-grid{ margin-bottom: 30px; }
 }

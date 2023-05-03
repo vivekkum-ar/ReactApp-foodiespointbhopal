@@ -30,32 +30,30 @@ function Menu() {
   return (
     // <h1>this is the Menupage</h1>
     <div className="div-body">
-      {/* <div className="row container text-black">
-        <div className="col-md-4">
-
+      {/* Hero Section starts here */}
+      <div style={{backgroundImage: `url("./images/hero2.png")`,backgroundRepeat: "no-repeat",backgroundSize:"cover"}} className="animate__animated animate__fadeInDown cover-container d-flex w-100 h-100 mx-auto flex-column">
+        
+        <main className="px-3 py-lg-2 pt-sm-2">
+        <div className="d-flex ps-3 fw-bolder justify-content-start">
+        <p className="text-prime-gradient fw-bolder display-5 lh-1 text-wrap fw-bolder font-poppins py-1 py-lg-2">OUR MENU</p>
         </div>
-        <div className="col-md-8">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi molestias quam laboriosam eum fugiat soluta autem laborum dicta labore, et dolor consectetur perferendis alias cupiditate ad dolore, cum consequatur dignissimos obcaecati, suscipit iusto! Error incidunt, eum nulla ratione officiis minima deserunt id eius numquam ex soluta dolor modi, vero cupiditate vel esse atque obcaecati. Unde porro magnam obcaecati perferendis quas qui voluptatum autem laboriosam aliquam error blanditiis at asperiores consequatur, aspernatur commodi! Tempore optio, harum obcaecati vitae ratione soluta maiores unde est provident necessitatibus fugit? Magnam officia similique eum explicabo, mollitia cumque, molestias voluptatem consequatur sed, alias reprehenderit fugit sequi. Dolore minus architecto sapiente voluptas? Voluptatem inventore ipsam quod iure nam quasi impedit cumque asperiores adipisci laudantium modi officia quis in, commodi deleniti delectus tempore distinctio fuga eaque consequuntur odio non tempora. Ipsum tempora, laborum libero nostrum modi expedita quasi nam earum aperiam, sunt odit voluptatem cum, ad corrupti illum molestiae? Perferendis unde beatae libero incidunt deserunt, excepturi quas mollitia in optio repellat. Omnis eos, sint dolor id quia eum qui dolore consequuntur provident repudiandae aut numquam autem maxime voluptatum minus. Quod beatae odit facilis saepe deleniti ipsum impedit dignissimos tempora, eligendi a ratione iusto in tenetur exercitationem voluptatibus dolor?
-        </div>
-        {categories.map((category) => (
-          <div className={`row p-1 ${category}`}>
-            {data.items.map((item) => {
-              if (item.cat === category) {
-                return (
-                  <MenuCard
-                    name={item.name}
-                    category={item.cat}
-                    price={item.price}
-                    image={item["img-src"]}
-                  />
-                );
-              } else {
-                return null;
-              }
-            })}
+          <p className="lead px-3 width-100-sm">Looking for a delicious dining experience? Look no further than FoodiesPoint Bhopal! Our diverse menu and cozy atmosphere make us the perfect destination for foodies. Come visit us today!</p>
+          <div className="d-lg-inline-flex">
+          <p className="lead px-3 pt-3">
+          {/* <Link className="nav-link font-poppins text-prime" to="/about">
+            <a className="btn btn-lg btn-light fw-bold border-white bg-white">About us</a>
+            </Link> */}
+          </p>
+          <p className="lead px-3 pt-3">
+          {/* <Link className="nav-link font-poppins text-prime" to="/menu"> 
+            <a href="#" className="btn btn-lg btn-light fw-bold border-white bg-white">go to MENU</a>
+            </Link> */}
+          </p>
           </div>
-        ))}
-      </div> */}
+        </main>
+<svg xmlns="http://www.w3.org/2000/svg" className='svg-wave p-0 m-0' viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,160L40,176C80,192,160,224,240,202.7C320,181,400,107,480,112C560,117,640,203,720,240C800,277,880,267,960,229.3C1040,192,1120,128,1200,117.3C1280,107,1360,149,1400,170.7L1440,192L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+      </div>
+{/* Hero section ends here */}
       <div className="d-flex container-flex align-items-start">
         <div className="nav flex-column col-md-2 border-end me-1" id="v-pills-tab" role="tablist" aria-orientation="vertical">
           {categories.map((category) => (
