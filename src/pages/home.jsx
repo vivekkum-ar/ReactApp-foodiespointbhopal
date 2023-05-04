@@ -69,7 +69,7 @@ function Home() {
 {/* Feature grid starts here */}
 <div className="container px-4 py-5" id="icon-grid">
       <div className="d-flex justify-content-center border-bottom">
-        <p className="text-prime-gradient fw-bolder display-5 lh-1 text-wrap font-poppins py-2">Why choose us?</p>
+        <p className="text-prime-gradient fw-bolder display-5 lh-1 text-wrap font-poppins py-2" id="services-offered">Why choose us?</p>
         </div>
         <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
           <div className="col d-flex align-items-start">

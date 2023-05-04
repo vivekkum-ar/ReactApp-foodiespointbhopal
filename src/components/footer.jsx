@@ -245,10 +245,10 @@ function Footer() {
                         </Link>
                       </li>
                       <li>
-                        <a href="#">services</a>
+                        <a href="#services-offered">services</a>
                       </li>
                       <li>
-                        <a href="#">portfolio</a>
+                        <a href="#">Reviews</a>
                       </li>
                       <li>
                         <Link
@@ -263,14 +263,14 @@ function Footer() {
                           className="nav-link font-poppins text-prime"
                           to="/about"
                         >
-                          <a>About us</a>
+                          <a>Instagram</a>
                         </Link>
                       </li>
                       <li>
-                        <a href="#">Our Services</a>
+                        <a href="#">Facebook</a>
                       </li>
                       <li>
-                        <a href="#">Expert Team</a>
+                        <a href="#">Our Team</a>
                       </li>
                       <li>
                         <Link
@@ -310,7 +310,7 @@ function Footer() {
                 <div className="footer-menu">
                   <ul>
                     <li>
-                      <a href="#">Home</a>
+                      <Link to="/home">Home</Link>
                     </li>
                     <li>
                       <a href="#">Terms</a>
@@ -319,7 +319,7 @@ function Footer() {
                       <a href="#">Privacy</a>
                     </li>
                     <li>
-                      <a href="#">Contact</a>
+                      <Link to="/contact">Contact</Link>
                     </li>
                   </ul>
                 </div>

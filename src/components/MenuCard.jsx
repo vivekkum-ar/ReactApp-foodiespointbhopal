@@ -6,8 +6,8 @@ function MenuCard({name, category, price, image}) {
           <div className="product-grid">
             <div className="product-image">
               <a href="#" className="image">
-                <img className="pic-1 shadow-sm rounded-1" src={image} />
-                <img className="pic-2 rounded-1" src={image} />
+                <img className="pic-1 shadow-sm rounded-1" src={image !== "" ? image:'./images/logo.jpg'} />
+                <img className="pic-2 rounded-1" src={image !== "" ? image:'./images/logo.jpg'} />
               </a>
               <span className="product-sale-label">sale</span>
               <ul className="product-links">
@@ -32,7 +32,7 @@ function MenuCard({name, category, price, image}) {
               </ul>
             </div>
             <div className="product-content">
-              <div className="price"><span>₹{price}</span> ₹{price - 10}</div>
+              <div className="price"><span>₹{price}</span> ₹{(price * 0.9).toFixed(0)}</div>
               <h3 className="title"><a href="#">{name}</a></h3>
               <div class="w-100 rating d-flex flex-row align-items-center pb-1">
               <span className="product-category list-group-item"><a href>{category}</a></span>
