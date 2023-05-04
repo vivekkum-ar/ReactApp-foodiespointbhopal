@@ -17,7 +17,7 @@ function Home() {
     return (
         <>
         {/* Hero Section starts here */}
-        <div style={{backgroundImage: `url("./images/hero2.png")`,backgroundRepeat: "no-repeat",backgroundSize:"cover"}} className="animate__animated animate__fadeInDown cover-container d-flex w-100 h-100 mx-auto flex-column">
+        <div style={{backgroundImage: `url("./images/hero2.png")`,Repeat: "no-backgroundrepeat",backgroundSize:"cover"}} className="animate__animated animate__fadeInDown cover-container d-flex w-100 h-100 mx-auto flex-column">
         
                 <main className="px-3 py-lg-5 pt-sm-2">
                 <div className="d-flex ps-3 fw-bolder justify-content-start">

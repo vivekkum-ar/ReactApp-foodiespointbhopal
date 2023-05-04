@@ -203,6 +203,16 @@ div.nav.flex-column{
 }
 /* --------------------- CSS for product grid ends here --------------------- */
 
+/* -------------------------------------------------------------------------- */
+/*                            About CSS starts here                           */
+/* -------------------------------------------------------------------------- */
+
+.text-about{
+  text-shadow: 5px 5px #FA6C00;
+}
+
+/* --------------------------- About CSS ends here -------------------------- */
+
 /* # Mobile */
 @media only screen and (max-width: 480px){
   .navbar-toggler{
@@ -238,3 +248,8 @@ div.nav.flex-column{
     display: none;
   }
 }
+
+
+
+
+

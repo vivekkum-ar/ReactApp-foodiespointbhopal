@@ -54,13 +54,17 @@ function Menu() {
 <svg xmlns="http://www.w3.org/2000/svg" className='svg-wave p-0 m-0' viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,160L40,176C80,192,160,224,240,202.7C320,181,400,107,480,112C560,117,640,203,720,240C800,277,880,267,960,229.3C1040,192,1120,128,1200,117.3C1280,107,1360,149,1400,170.7L1440,192L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
       </div>
 {/* Hero section ends here */}
+
+{/* Menu categories start here */}
       <div className="d-flex container-flex align-items-start">
         <div className="nav flex-column col-md-2 border-end me-1" id="v-pills-tab" role="tablist" aria-orientation="vertical">
           {categories.map((category) => (
           <button className={`nav-link ${category === "Recommended" ? 'active' : ''}`}  id={`v-pills-${category}-tab`} data-bs-toggle="pill" data-bs-target={`#v-pills-${category}`} type="button" role="tab" aria-controls={`v-pills-${category}`} aria-selected={`${category === category[0] ? 'true' : 'false'}`}>{`${category}`}</button>
           ))}
         </div>
+{/* Menu categories end here */}
 
+{/* Menu item grids start here */}
             <div className="container-flex d-flex w-100 justify-content-center">
         <div className="tab-content col-md-11" id="v-pills-tabContent">
           {categories.map((category) => (
@@ -87,6 +91,9 @@ function Menu() {
 
         </div>
         </div>
+{/* Menu item grids ends here */}
+
+
       </div>
       <Footer></Footer>
     </div>
