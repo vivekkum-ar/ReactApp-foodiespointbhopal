@@ -3,53 +3,55 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
-.newsize{
+
+.newsize {
   max-width: 100%;
   height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-nav{
-  
-}
+
+nav {}
+
 /* .div-body{
     background: rgb(131,58,180);
     background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
 } */
 
-.font-poppins{
-  font-family: 'Poppins', sans-serif; 
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
 }
 
-.text-prime-gradient{
+.text-prime-gradient {
   background: #FA6C00;
-background: radial-gradient(circle farthest-corner at center center, #FA6C00 40%, #CF1512 100%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-font-size:105%;
-}
-.text-prime-gradient2{
-  background: #FA6C00;
-background: radial-gradient(circle farthest-corner at center center, #FA6C00 40%, #CF1512 100%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-font-size:210%;
+  background: radial-gradient(circle farthest-corner at center center, #FA6C00 40%, #CF1512 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 105%;
 }
 
-.text-prime .active:focus{
+.text-prime-gradient2 {
+  background: #FA6C00;
+  background: radial-gradient(circle farthest-corner at center center, #FA6C00 40%, #CF1512 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 210%;
+}
+
+.text-prime .active:focus {
   color: #000 !important;
 }
 
-.text-prime .active{
+.text-prime .active {
   color: #FA6C00 !important;
 }
 
-.text-prime .active:hover{
+.text-prime .active:hover {
   color: #000 !important;
 }
 
-.disabled .text-prime{
+.disabled .text-prime {
   color: #FA6C0099 !important;
 }
 
@@ -57,26 +59,36 @@ font-size:210%;
 /*                          CSS for menu product grid                         */
 /* -------------------------------------------------------------------------- */
 
-.product-grid{
-  font-family:'Lato', sans-serif;
+.product-grid {
+  font-family: 'Lato', sans-serif;
   text-align: center;
   overflow: hidden;
 }
-.product-grid .product-image{
+
+.product-grid .product-image {
   overflow: hidden;
   position: relative;
 }
-.product-grid .product-image a.image{ display: block; }
-.product-grid .product-image img{
+
+.product-grid .product-image a.image {
+  display: block;
+}
+
+.product-grid .product-image img {
   width: 100%;
   height: auto;
 }
-.product-image .pic-1{
+
+.product-image .pic-1 {
   backface-visibility: hidden;
   transition: all 0.5s ease-in-out;
 }
-.product-grid:hover .product-image .pic-1{  opacity: 0; }
-.product-image .pic-2{
+
+.product-grid:hover .product-image .pic-1 {
+  opacity: 0;
+}
+
+.product-image .pic-2 {
   width: 100%;
   height: 100%;
   opacity: 0;
@@ -85,8 +97,12 @@ font-size:210%;
   left: 0;
   transition: all 0.5s ease;
 }
-.product-grid:hover .product-image .pic-2{ opacity: 1; }
-.product-grid .product-sale-label{
+
+.product-grid:hover .product-image .pic-2 {
+  opacity: 1;
+}
+
+.product-grid .product-sale-label {
   color: #fff;
   background: #f55f1e;
   font-size: 11px;
@@ -98,7 +114,8 @@ font-size:210%;
   top: 15px;
   left: 15px;
 }
-.product-grid .product-links{
+
+.product-grid .product-links {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -107,12 +124,17 @@ font-size:210%;
   right: -50px;
   transition: all .5s ease 0s;
 }
-.product-grid:hover .product-links{ right: 15px; }
-.product-grid .product-links li{
+
+.product-grid:hover .product-links {
+  right: 15px;
+}
+
+.product-grid .product-links li {
   margin: 4px 0;
   transition: all 0.3s ease 0s;
 }
-.product-grid .product-links li a{
+
+.product-grid .product-links li a {
   color: #191919;
   background: #fff;
   font-size: 16px;
@@ -124,37 +146,44 @@ font-size:210%;
   display: block;
   transition: all 0.3s;
 }
-.product-grid .product-links li a:hover{
+
+.product-grid .product-links li a:hover {
   color: #fff;
   background: #f55f1e;
   border-color: #f55f1e;
 }
-.product-grid .product-content{
+
+.product-grid .product-content {
   padding: 12px 0 0;
   text-align: left;
 }
-.product-grid .price{
+
+.product-grid .price {
   color: #f55f1e;
   font-size: 16px;
   font-weight: 400;
   margin: 0 0 5px;
 }
-.product-grid .price span{
+
+.product-grid .price span {
   color: #707070;
   font-size: 15px;
   text-decoration: line-through;
 }
-.product-grid .title{
+
+.product-grid .title {
   font-size: 17px;
   font-weight: 500;
   text-transform: capitalize;
   margin: 0 0 5px;
 }
-.product-grid .title a{
+
+.product-grid .title a {
   color: #191919;
   transition: all 0.3s ease 0s;
 }
-.product-grid .product-category{
+
+.product-grid .product-category {
   color: #939393;
   font-size: 15px;
   font-weight: 500;
@@ -162,13 +191,18 @@ font-size:210%;
   width: calc(100% - 85px);
   display: inline-block;
 }
-.product-grid .product-category a{
+
+.product-grid .product-category a {
   color: #939393;
   transition: all 0.3s ease 0s;
 }
+
 .product-grid .title a:hover,
-.product-grid .product-category a:hover{ color: #f55f1e; }
-.product-grid .rating{
+.product-grid .product-category a:hover {
+  color: #f55f1e;
+}
+
+.product-grid .rating {
   color: #eac407;
   font-size: 12px;
   width: 80px;
@@ -178,93 +212,102 @@ font-size:210%;
   display: inline-block;
   vertical-align: top;
 }
-span.product-category.list-group-item > a{
+
+span.product-category.list-group-item>a {
   font-size: 8px;
 }
+
 button[id^="v-pills"] {
   color: #8b8a8a;
 }
+
 button[id^="v-pills"]:hover {
   color: #FA6C00;
 }
-button[id^="v-pills"].active{
+
+button[id^="v-pills"].active {
   border-right: 0.3rem solid #FA6C00;
   border-bottom: 0.05rem solid #FA6C00;
   border-top: 0.05rem solid #FA6C00;
   text-decoration: none;
   color: #FA6C00;
 }
-div.nav.flex-column{
+
+div.nav.flex-column {
   position: sticky;
   top: 13%;
 }
-@media screen and (max-width: 990px){
-  .product-grid{ margin-bottom: 30px; }
+
+@media screen and (max-width: 990px) {
+  .product-grid {
+    margin-bottom: 30px;
+  }
 }
+
 /* --------------------- CSS for product grid ends here --------------------- */
 
 /* -------------------------------------------------------------------------- */
 /*                            About CSS starts here                           */
 /* -------------------------------------------------------------------------- */
 
-.text-about{
+.text-about {
   text-shadow: 5px 5px #FA6C00;
 }
+
 button[id^="ex3-tab-"] {
   color: #8b8a8a;
   border-bottom: 0.05rem solid #8b8a8a;
 }
+
 button[id^="ex3-tab-"]:hover {
   color: #FA6C00;
 }
-button[id^="ex3-tab-"].active{
+
+button[id^="ex3-tab-"].active {
   border-bottom: 0.3rem solid #FA6C00;
   text-decoration: none;
   color: #FA6C00;
 }
-.justify-center-text{
+
+.justify-center-text {
   margin: 0;
   text-align: justify;
 }
+
 /* --------------------------- About CSS ends here -------------------------- */
 
 /* # Mobile */
-@media only screen and (max-width: 480px){
-  .navbar-toggler{
+@media only screen and (max-width: 480px) {
+  .navbar-toggler {
     display: none;
   }
-  div.blank-fix{
-    height:55rem;
+
+  div.blank-fix {
+    height: 55rem;
   }
-  
-  main.contact{
+
+  main.contact {
     display: none;
   }
-  .text-prime-gradient2{
-    font-size:105%;
+
+  .text-prime-gradient2 {
+    font-size: 105%;
   }
 }
 
 /* # Tablet */
-@media only screen and (min-width: 768px){
-
-} 
+@media only screen and (min-width: 768px) {}
 
 /* # Desktop */
-@media only screen and (min-width: 992px){
-  .navbar-toggler{
+@media only screen and (min-width: 992px) {
+  .navbar-toggler {
     display: none;
   }
 }
 
 /* # Huge */
-@media only screen and (min-width: 1280px){
-  .navbar-toggler{
+@media only screen and (min-width: 1280px) {
+  .navbar-toggler {
     display: none;
   }
 }
-
-
-
-
-
