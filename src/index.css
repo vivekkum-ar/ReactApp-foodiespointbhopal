@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
 .newsize{
-    max-width: 100%;
+  max-width: 100%;
   height: auto;
   display: block;
   margin-left: auto;
@@ -210,7 +210,22 @@ div.nav.flex-column{
 .text-about{
   text-shadow: 5px 5px #FA6C00;
 }
-
+button[id^="ex3-tab-"] {
+  color: #8b8a8a;
+  border-bottom: 0.05rem solid #8b8a8a;
+}
+button[id^="ex3-tab-"]:hover {
+  color: #FA6C00;
+}
+button[id^="ex3-tab-"].active{
+  border-bottom: 0.3rem solid #FA6C00;
+  text-decoration: none;
+  color: #FA6C00;
+}
+.justify-center-text{
+  margin: 0;
+  text-align: justify;
+}
 /* --------------------------- About CSS ends here -------------------------- */
 
 /* # Mobile */
