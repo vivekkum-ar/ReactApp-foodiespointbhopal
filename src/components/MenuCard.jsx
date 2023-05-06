@@ -15,7 +15,7 @@ function MenuCard({ name, category, price, image }) {
               src={image !== "" ? image : "./images/logo.jpg"}
             />
           </a>
-          <span className="product-sale-label">sale</span>
+          <span className="product-sale-label d-none">sale</span>
           <ul className="product-links">
             <li>
               <a href="#">

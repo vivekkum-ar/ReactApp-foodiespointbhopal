@@ -2,6 +2,7 @@ import {React,useEffect} from "react";
 import {Outlet,useLocation} from "react-router-dom";
 import Navbar from "../Navbar";
 import Navbarbottom from "../Navbarbottom";
+
 function ScrollToTopOnMount() {
   const { pathname } = useLocation();
 
@@ -11,6 +12,7 @@ function ScrollToTopOnMount() {
 
   return null;
 }
+
 const Layout = () => {
   return (
     <>
