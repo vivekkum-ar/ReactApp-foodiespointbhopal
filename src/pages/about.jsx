@@ -13,16 +13,15 @@ function About() {
           <div className="d-flex justify-content-center">
             <div
               style={{
-                fontSize: "13rem",
                 Repeat: "no-backgroundrepeat",
                 backgroundSize: "cover",
-                backgroundImage: `url('./images/gal (1).avif')`,
+                backgroundImage: `url('./images/gal (1).avif')`
               }}
               className="col mb-5"
             >
               <h1
-                className="text-white text-about fw-bold font-poppins"
-                style={{ fontSize: "13rem" }}
+                className="text-white about-us-lg text-about fw-bold font-poppins"
+                style={{}}
               >
                 ABOUT US
               </h1>
@@ -35,11 +34,11 @@ function About() {
         >
           FoodiesPoint
         </Link>
-        <div className="mt-5">
+        <div className="container mt-5 mx-auto">
           {/* Tabs navs starts here */}
           <div className="d-flex justify-content-center">
             <ul
-              className="nav nav-justified mb-3 col-md-6"
+              className="nav nav-justified mb-3 col-xs-12 col-6"
               id="ex1"
               role="tablist"
             >

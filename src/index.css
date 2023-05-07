@@ -252,6 +252,7 @@ div.nav.flex-column {
 
 .text-about {
   text-shadow: 5px 5px #FA6C00;
+  font-size: 13rem;
 }
 
 button[id^="ex3-tab-"] {
@@ -281,7 +282,12 @@ button[id^="ex3-tab-"].active {
   .navbar-toggler {
     display: none;
   }
-
+  .text-about{
+    font-size: 5rem;
+  }
+  ul#ex1{
+    width: 100vw;
+  }
   div.blank-fix {
     height: 55rem;
   }
