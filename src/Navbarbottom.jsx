@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 import "./navbarbottom.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faBlog, faBurger, faCheckSquare, faCoffee, faHome, faPhone, faUtensils } from '@fortawesome/free-solid-svg-icons'
+import { faBlog, faBurger, faAddressCard, faCheckSquare, faCoffee, faHome, faPhone, faUtensils } from '@fortawesome/free-solid-svg-icons'
 import { useEffect } from "react";
 // Bootstrap CSS
 // import "bootstrap/dist/css/bootstrap.min.css";
@@ -53,6 +53,14 @@ function Navbarbottom() {
         </Link>      
       </li>
       <li>
+      <Link to="/menu" className="a-anchor">
+        <div className="icon">
+        <FontAwesomeIcon icon={faUtensils}/>
+        </div>
+        <div className="text">Menu</div>
+        </Link>      
+      </li>
+      <li>
       <Link to="/blogs" className="a-anchor">
         <div className="icon">
         <FontAwesomeIcon icon={faBlog} />
@@ -69,7 +77,7 @@ function Navbarbottom() {
       <li>
       <Link to="/about" className="a-anchor">
         <div className="icon">
-        <FontAwesomeIcon icon={faUtensils} />
+        <FontAwesomeIcon icon={faAddressCard} />
         </div>
         <div className="text">About</div>
         </Link></li>
