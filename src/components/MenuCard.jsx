@@ -2,7 +2,7 @@ import React from "react";
 
 function MenuCard({ name, category, price, image }) {
   return (
-    <div className="border rounded-1 border-1 border-dark shadow shadow-md my-4 mx-1 p-1 col-md-2">
+    <div className="border rounded-1 border-1 border-dark shadow shadow-md my-4 mx-md-1 p-1 col-11 col-md-2">
       <div className="product-grid">
         <div className="product-image">
           <a href="#" className="image">

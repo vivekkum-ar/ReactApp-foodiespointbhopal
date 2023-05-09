@@ -288,6 +288,9 @@ button[id^="ex3-tab-"].active {
   ul#ex1{
     width: 100vw;
   }
+  div.nav.flex-column {
+    top: 10%;
+  }
   div.blank-fix {
     height: 55rem;
   }

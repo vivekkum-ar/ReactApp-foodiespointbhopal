@@ -103,7 +103,7 @@ function Menu() {
         {/* Menu categories end here */}
 
         {/* Menu item grids start here */}
-        <div className="container-flex d-flex w-100 justify-content-center">
+        <div className="container d-flex w-100 justify-content-center">
           <div className="tab-content col-md-11" id="v-pills-tabContent">
             {categories.map((category) => (
               <div
