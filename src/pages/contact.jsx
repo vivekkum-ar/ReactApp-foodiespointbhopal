@@ -1,12 +1,13 @@
 import "./basicCss.css";
 import "animate.css";
-import React, { useEffect } from "react";
+import React, { useEffect,useRef,useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
-import { Link } from "react-router-dom";
+import { Form, Link } from "react-router-dom";
 import LinesEllipsis from "react-lines-ellipsis";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Footer from "../components/footer";
+import emailjs from '@emailjs/browser';
 import {
   faPaperPlane,
   faEnvelope,
@@ -15,7 +16,46 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import "./basicCss.css";
 
+
+
+
 function Contact() {
+
+const [showAlert, setShowAlert] = useState(false);
+
+
+/* ----------------------- Fetching secrets from .env ----------------------- */
+const serviceId = process.env.REACT_APP_YOUR_SERVICE_ID;
+const templateId = process.env.REACT_APP_YOUR_TEMPLATE_ID;
+const publicKey = process.env.REACT_APP_YOUR_PUBLIC_KEY;
+
+/* --------------------------- EmailJS starts here -------------------------- */
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm(serviceId, templateId, form.current, publicKey)
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      setShowAlert(true);
+
+      // Hide the alert after 10 seconds
+    setTimeout(() => {
+      setShowAlert(false);
+    }, 10000);
+
+      // Reset the form after submission
+    if (form.current) {
+      form.current.reset();
+    }
+  
+  };
+
+/* ----------------------- Form validation starts here ---------------------- */
   useEffect(() => {
     "use strict";
 
@@ -42,6 +82,7 @@ function Contact() {
   return (
     // <h1>this is the Contactpage</h1>
     <>
+
       {/* Hero Section starts here */}
       <div
         style={{
@@ -106,7 +147,7 @@ function Contact() {
           <h4 className="mb-3 fw-bolder display-6 font-poppins">
             Contact Form
           </h4>
-          <form className="needs-validation" noValidate>
+          <form className="needs-validation" ref={form} onSubmit={sendEmail} noValidate>
             <div className="row g-3">
               <div className="col-sm-6">
                 <label htmlFor="firstName" className="form-label">
@@ -116,7 +157,8 @@ function Contact() {
                   type="text"
                   className="form-control"
                   id="firstName"
-                  placeholder
+                  name="user_fname"
+                  placeholder="First Name"
                   required
                 />
                 <div className="invalid-feedback">
@@ -131,7 +173,8 @@ function Contact() {
                   type="text"
                   className="form-control"
                   id="lastName"
-                  placeholder
+                  name="user_lname"
+                  placeholder="Last Name"
                   required
                 />
                 <div className="invalid-feedback">
@@ -148,6 +191,7 @@ function Contact() {
                     type="tel"
                     className="form-control"
                     id="contact"
+                    name="user_contact"
                     placeholder="contact"
                     required
                   />
@@ -160,13 +204,13 @@ function Contact() {
                 <label htmlFor="country" className="form-label">
                   Query type
                 </label>
-                <select className="form-select" id="country" required>
-                  <option value>Feedback</option>
-                  <option>Enquiry</option>
-                  <option>Booking</option>
-                  <option>Reservation</option>
-                  <option>Events</option>
-                  <option>Others</option>
+                <select className="form-select" id="country" name="user_qtype" required>
+                <option value="Feedback">Feedback</option>
+                <option value="Enquiry">Enquiry</option>
+                <option value="Booking">Booking</option>
+                <option value="Reservation">Reservation</option>
+                <option value="Events">Events</option>
+                <option value="">Others</option>
                 </select>
                 <small className="text-muted">
                   Allow us to serve you better, provide a type.
@@ -183,6 +227,7 @@ function Contact() {
                   type="email"
                   className="form-control"
                   id="email"
+                  name="user_email"
                   placeholder="you@example.com"
                   required
                 />
@@ -198,6 +243,7 @@ function Contact() {
                   type="text"
                   className="form-control"
                   id="address2"
+                  name="user_address"
                   placeholder="Apartment or suite"
                 />
               </div>
@@ -209,6 +255,7 @@ function Contact() {
                   class="form-control"
                   id="message"
                   placeholder="Your enquiry, message, feedback goes here"
+                  name="user_message"
                   required
                   rows="3"
                 ></textarea>
@@ -250,6 +297,13 @@ function Contact() {
               </button>
             </div>
           </form>
+          {/* Display the alert if showAlert is true
+      {showAlert && (
+        <div className="alert alert-warning alert-dismissible fade show" role="alert">
+          <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+          <button type="button" className="btn-close" data-bs-dismiss="alert" aria-label="Close" onClick={() => setShowAlert(false)} />
+        </div>
+      )} */}
         </div>
       </div>
       {/* Form ends here */}
