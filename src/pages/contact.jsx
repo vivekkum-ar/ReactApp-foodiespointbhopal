@@ -113,12 +113,35 @@ const publicKey = process.env.REACT_APP_YOUR_PUBLIC_KEY;
         className="animate__animated animate__fadeInDown cover-container d-flex w-100 h-100 mx-auto flex-column"
       >
         <main className="px-3 py-lg-5 contact pt-sm-2">
+        <div class="p-3 m-5 blank-fix-2"></div>
+        </main>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          className="svg-wave p-0 m-0"
+          viewBox="0 0 1440 320"
+        >
+          <path
+            fill="#ffffff"
+            fill-opacity="1"
+            d="M0,160L40,176C80,192,160,224,240,202.7C320,181,400,107,480,112C560,117,640,203,720,240C800,277,880,267,960,229.3C1040,192,1120,128,1200,117.3C1280,107,1360,149,1400,170.7L1440,192L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+          ></path>
+        </svg>
+      </div>
+
+      {/* Hero section ends here */}
+
+      {/* Form starts here */}
+      <div
+        style={{ zIndex: "99" }}
+        className="container d-flex justify-content-end align-items-top position-absolute top-0 end-0 mt-5"
+      >
+        <main className="col-md-6 px-3 py-lg-5 contact pt-sm-2">
           <div className="d-flex ps-3 fw-bolder justify-content-start">
             <p className="text-prime-gradient fw-bolder display-5 lh-1 text-wrap fw-bolder font-poppins py-1 py-lg-2">
               Contact Us
             </p>
           </div>
-          <p className="lead px-3 width-100-sm">
+          <p className="lead px-3">
             Looking for a delicious dining experience? Look no further than
             FoodiesPoint Bhopal! Our diverse menu and cozy atmosphere make us
             the perfect destination for foodies. Come visit us today!
@@ -143,26 +166,6 @@ const publicKey = process.env.REACT_APP_YOUR_PUBLIC_KEY;
             </p>
           </div>
         </main>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          className="svg-wave p-0 m-0"
-          viewBox="0 0 1440 320"
-        >
-          <path
-            fill="#ffffff"
-            fill-opacity="1"
-            d="M0,160L40,176C80,192,160,224,240,202.7C320,181,400,107,480,112C560,117,640,203,720,240C800,277,880,267,960,229.3C1040,192,1120,128,1200,117.3C1280,107,1360,149,1400,170.7L1440,192L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
-          ></path>
-        </svg>
-      </div>
-
-      {/* Hero section ends here */}
-
-      {/* Form starts here */}
-      <div
-        style={{ zIndex: "99" }}
-        className="container d-flex justify-content-end align-items-center position-absolute top-0 end-0 mt-5"
-      >
         <div className="col-md-7 p-5 p-xs-2 me-2 col-lg-6 text-dark fw-bolder contact-fp-div my-5">
           <h4 className="mb-3 fw-bolder display-6 font-poppins">
             Contact Form

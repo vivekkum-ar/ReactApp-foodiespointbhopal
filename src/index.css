@@ -294,6 +294,9 @@ button[id^="ex3-tab-"].active {
   div.blank-fix {
     height: 55rem;
   }
+  div.blank-fix-2 {
+    height: 60rem;
+  }
 
   main.contact {
     display: none;
