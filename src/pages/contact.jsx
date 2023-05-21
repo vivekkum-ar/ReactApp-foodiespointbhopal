@@ -82,6 +82,26 @@ const publicKey = process.env.REACT_APP_YOUR_PUBLIC_KEY;
   return (
     // <h1>this is the Contactpage</h1>
     <>
+      {/* Display the alert if showAlert is true */}
+      {showAlert && (
+      <div className="d-flex justify-content-center">
+      <div className="alert-container">
+          <div className="alert alert-success alert-dismissible fade show" role="alert">
+            <strong>Submitted !</strong> We have received your input, and we'll get back to you. Please check your email.
+            <button
+              type="button"
+              className="btn-close text-dark fs-2 pe-2 pt-2"
+              data-bs-dismiss="alert"
+              aria-label="Close"
+              onClick={() => setShowAlert(false)}
+            >
+              X
+              </button>
+            
+          </div>
+        </div>
+        </div>
+       )} 
 
       {/* Hero Section starts here */}
       <div
